@@ -6,27 +6,31 @@ import { Drawer, ScrollArea, NavLink, Stack } from '@mantine/core';
 import { useState } from 'react';
 import { useDisclosure } from '@mantine/hooks';
 import { Header, Footer, SideNavbar } from '@/components'
+import { useTranslations } from 'next-intl';
 
 
-const links = [
-    { link: '/resources', label: 'Resources' },
-    { link: '/project', label: 'Project' },
-    { link: '/partners', label: 'Partners' },
-];
+
 
 export default function Shell({ children, locale }: { children: React.ReactNode, locale: string }) {
     const [active, setActive] = useState<string | null>(null);
     const [opened, { toggle }] = useDisclosure();
+    const t = useTranslations('Navigation');
+
+    const links = [
+        { link: '/resources', label: t('resources') },
+        { link: '/project', label: t('about') },
+        { link: '/partners', label: t('partners') },
+    ];
 
     const items = links.map((link) => (
         <NavLink
             key={link.label}
             label={link.label}
-            component="a"
+
             href={link.link}
             active={active === link.link}
             onClick={() => setActive(link.link)}
-            className='navlink'
+        // className='navlink'
         />
     ));
 
