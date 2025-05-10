@@ -2,5 +2,9 @@
     "HomePage": {
         "title": "Ciao gente!",
         "about": "Vai alla pagina principale"
+    },
+    "Header": {
+        "label": "Cambia lingua",
+        "locale": "{locale, select, it {Italiano} en {Inglese} other {Altro}}"
     }
 }
