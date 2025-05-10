@@ -3,8 +3,33 @@
     "title": "Hello world!",
     "about": "Go to the about page"
   },
-  "Header": {
+  "LanguageSwitch": {
     "label": "Change language",
-    "locale": "{locale, select, it {Italian} en {English} other {Other}}"
+    "locale": "{locale, select, it {Italiano} en {English} other {Other}}"
+  },
+  "Navigation": {
+    "resources": "Resources",
+    "about": "Project",
+    "partners": "Partners"
+  },
+  "Resources": {
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Here you can find the most common questions and answers about the project.",
+      "items": {
+        "First question": {
+          "question": "First question ?",
+          "answer": "Answer to the first question."
+        },
+        "Second question": {
+          "question": "Second question ?",
+          "answer": "Answer to the second question."
+        },
+        "Third question": {
+          "question": "Third question ?",
+          "answer": "Answer to the third question."
+        }
+      }
+    }
   }
 }
