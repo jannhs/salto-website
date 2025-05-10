@@ -1,39 +1,55 @@
 
 'use client'
 
-import { AppShell, Burger, Group, Skeleton } from "@mantine/core";
+import { AppShell, Burger, Container, Group, Skeleton, Title } from "@mantine/core";
+import { Drawer, ScrollArea, NavLink, Stack } from '@mantine/core';
+import { useState } from 'react';
 import { useDisclosure } from '@mantine/hooks';
+import { Header, Footer, SideNavbar } from '@/components'
 
 
+const links = [
+    { link: '/resources', label: 'Resources' },
+    { link: '/project', label: 'Project' },
+    { link: '/partners', label: 'Partners' },
+];
 
-export default function Shell({ children }: { children: React.ReactNode }) {
+export default function Shell({ children, locale }: { children: React.ReactNode, locale: string }) {
+    const [active, setActive] = useState<string | null>(null);
     const [opened, { toggle }] = useDisclosure();
+
+    const items = links.map((link) => (
+        <NavLink
+            key={link.label}
+            label={link.label}
+            component="a"
+            href={link.link}
+            active={active === link.link}
+            onClick={() => setActive(link.link)}
+            className='navlink'
+        />
+    ));
 
     return (
         <AppShell
             header={{ height: 60 }}
             footer={{ height: 60 }}
-            navbar={{ width: 300, breakpoint: 'sm', collapsed: { mobile: !opened } }}
-            aside={{ width: 300, breakpoint: 'md', collapsed: { desktop: false, mobile: true } }}
+            aside={{ width: 200, breakpoint: 'md', collapsed: { desktop: true, mobile: !opened } }}
             padding="md"
+            transitionDuration={500}
+            transitionTimingFunction="ease"
         >
-            <AppShell.Header>
-                <Group h="100%" px="md">
-                    <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
-                </Group>
-            </AppShell.Header>
-            <AppShell.Navbar p="md">
-                Navbar
-                {Array(15)
-                    .fill(0)
-                    .map((_, index) => (
-                        <Skeleton key={index} h={28} mt="sm" animate={false} />
-                    ))}
-            </AppShell.Navbar>
-            <AppShell.Main>
-                {children}
+            <Header links={links} opened={opened} toggle={toggle} locale={locale} />
+            <AppShell.Main >
+                <Container size="lg">
+                    {children}
+                </Container>
             </AppShell.Main>
-            <AppShell.Aside p="md">Aside</AppShell.Aside>
+            <AppShell.Aside>
+                <Stack h='100%' pt='lg' >
+                    {items}
+                </Stack>
+            </AppShell.Aside>
             <AppShell.Footer p="md">Footer</AppShell.Footer>
         </AppShell>
     );

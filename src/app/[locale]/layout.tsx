@@ -1,4 +1,5 @@
 import '@mantine/core/styles.css';
+
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from 'next/navigation';
 import { routing } from "@/i18n/routing";
@@ -6,7 +7,8 @@ import React from "react";
 import { Metadata } from 'next'
 import siteMetadata from "@/data/siteMetadata";
 import Shell from "@/components/shell";
-import { ColorSchemeScript, MantineProvider, mantineHtmlProps } from "@mantine/core";
+import { ColorSchemeScript, createTheme, MantineProvider, mantineHtmlProps } from "@mantine/core";
+
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteMetadata.siteUrl),
@@ -42,6 +44,12 @@ export const metadata: Metadata = {
   // },
 }
 
+const theme = createTheme({
+  fontFamily: 'Inter, sans-serif',
+  headings: { fontFamily: 'Inter, sans-serif' },
+  primaryColor: 'cyan'
+});
+
 export default async function LocaleLayout({
   children,
   params
@@ -61,8 +69,8 @@ export default async function LocaleLayout({
       </head>
       <body >
         <NextIntlClientProvider>
-          <MantineProvider>
-            <Shell>
+          <MantineProvider theme={theme}>
+            <Shell locale={locale}>
               {children}
             </Shell>
           </MantineProvider>
