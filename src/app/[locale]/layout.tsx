@@ -6,7 +6,7 @@ import { routing } from "@/i18n/routing";
 import React from "react";
 import { Metadata } from 'next'
 import siteMetadata from "@/data/siteMetadata";
-import Shell from "@/components/shell";
+import Shell from "@/components/shell/shell";
 import { ColorSchemeScript, createTheme, MantineProvider, mantineHtmlProps } from "@mantine/core";
 
 

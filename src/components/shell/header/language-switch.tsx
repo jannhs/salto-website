@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import { forwardRef, useTransition } from 'react';
 import { IconChevronDown, IconWorld } from '@tabler/icons-react';
 
-export default function LanguageSwitch({ locale }: { locale: string }) {
+export function LanguageSwitch({ locale }: { locale: string }) {
     const t = useTranslations('LanguageSwitch');
     const [isPending, startTransition] = useTransition();
     const router = useRouter();
@@ -23,10 +23,6 @@ export default function LanguageSwitch({ locale }: { locale: string }) {
                     ) : (
                         <IconWorld size={20} />
                     )}
-                    {/* <Title visibleFrom='md' order={5} pl='xs' pr='xs'>
-                        {t('locale', { locale: locale })}
-                    </Title> */}
-                    {/* smaller label */}
                     <Title visibleFrom='md' order={5} pl='xs' pr='xs'>
                         {locale}
                     </Title>
