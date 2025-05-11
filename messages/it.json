@@ -31,5 +31,23 @@
                 }
             }
         }
+    },
+    "SearchBar": {
+        "nothingFound": "Nessun risultato trovato",
+        "placeholder": "Cerca",
+        "actions": {
+            "resources": {
+                "label": "Materiale informativo",
+                "description": "Descrizione sui materiali informativi"
+            },
+            "about": {
+                "label": "Progetto",
+                "description": "Descrizione sul progetto"
+            },
+            "partners": {
+                "label": "Partners",
+                "description": "Descrizione sui partners"
+            }
+        }
     }
 }

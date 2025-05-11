@@ -31,5 +31,23 @@
         }
       }
     }
+  },
+  "SearchBar": {
+    "nothingFound": "No results found",
+    "placeholder": "Search",
+    "actions": {
+      "resources": {
+        "label": "Resources",
+        "description": "Some description about the resources"
+      },
+      "about": {
+        "label": "Project",
+        "description": "Some description about the project"
+      },
+      "partners": {
+        "label": "Partners",
+        "description": "Some description about the partners"
+      }
+    }
   }
 }
