@@ -1,41 +1,39 @@
 'use client';
 
-import { Drawer, ScrollArea, NavLink } from '@mantine/core';
-import { useState } from 'react';
+import { Stack, NavLink } from '@mantine/core';
+import { usePathname } from '@/i18n/navigation';
 import classes from './side-navbar.module.css';
 
 interface SideNavbarProps {
     links: { link: string; label: string }[];
-    opened: boolean;
-    toggle: () => void;
 }
 
-export function SideNavbar({ links, opened, toggle }: SideNavbarProps) {
-    const [active, setActive] = useState<string | null>(null);
+export function SideNavbar({ links }: SideNavbarProps) {
+    const pathname = usePathname();
 
     const items = links.map((link) => (
         <NavLink
             key={link.label}
             label={link.label}
-            href={link.link}
-            active={active === link.link}
-            onClick={() => setActive(link.link)}
-            className='navlink'
-        />
+            pl='xl'
+            h="20%"
+            variant='subtle'
+            styles={
+                (theme) => ({
+                    label: {
+                        fontSize: '20px',
+                        fontWeight: 500,
+                    },
+                })
+            }
+            active={pathname == link.link}
+            // className='link'
+            href={link.link} />
     ));
 
     return (
-        <Drawer
-            opened={opened}
-            onClose={toggle}
-            position="right"
-            padding="md"
-            size="md"
-            title="Menu"
-        >
-            <ScrollArea style={{ height: '100%' }}>
-                {items}
-            </ScrollArea>
-        </Drawer>
+        <Stack h={300} pt='xl' gap='0' justify='flex-start' align='stretch' >
+            {items}
+        </Stack>
     );
 }
