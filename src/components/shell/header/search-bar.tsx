@@ -1,12 +1,9 @@
-import '@mantine/spotlight/styles.css';
 
-import { Spotlight, SpotlightActionData, spotlight } from '@mantine/spotlight';
+
+import { Spotlight, spotlight } from '@mantine/spotlight';
 import { IconSearch } from '@tabler/icons-react';
 import { Button } from '@mantine/core';
 import { useTranslations, useMessages } from 'next-intl'
-import { useRouter } from 'next/navigation';
-
-
 
 export function SearchBar() {
     const t = useTranslations('SearchBar');
@@ -17,7 +14,7 @@ export function SearchBar() {
         const description = t(`actions.${key}.description`);
         return {
             id: key,
-            label: label, 
+            label: label,
             description: description,
             onClick: () => {
                 window.location.href = `./${key}`;
@@ -26,7 +23,7 @@ export function SearchBar() {
     });
 
     return (<>
-        <Button onClick={spotlight.open} variant="outline" color='dark' p='5px' style={{
+        <Button onClick={spotlight.open} variant="outline" color='dark' pl='7px' pr='7px' style={{
             borderColor: 'var(--mantine-color-default-border)',
             borderRadius: 'var(--mantine-radius-md)',
         }} >

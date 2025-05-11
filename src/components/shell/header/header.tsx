@@ -1,5 +1,3 @@
-import '@mantine/core/styles/VisuallyHidden.css';
-import '@mantine/core/styles/Burger.css';
 import classes from './header.module.css';
 import { AppShellHeader, Burger, Group, Container, Title } from '@mantine/core';
 import logo_salto from '@/public/logo_salto.png';

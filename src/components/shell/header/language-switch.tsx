@@ -32,6 +32,7 @@ export function LanguageSwitch({ locale }: { locale: string }) {
             </Button>
         </div>
     ));
+    LanguageSwitchTarget.displayName = 'LanguageSwitchTarget';
 
 
     const languageItems = routing.locales
