@@ -3,7 +3,7 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
     experimental: {
-        optimizePackageImports: ['@mantine/core', '@mantine/hooks'],
+        optimizePackageImports: ['@mantine/core', '@mantine/hooks', '@/components'],
     }
 };
 
