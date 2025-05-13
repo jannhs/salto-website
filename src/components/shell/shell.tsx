@@ -3,7 +3,7 @@
 
 import { AppShell, Container } from "@mantine/core";
 import { useDisclosure } from '@mantine/hooks';
-import { Header, SideNavbar } from '@/components'
+import { Header, SideNavbar, Footer } from '@/components'
 import { useTranslations } from 'next-intl';
 
 export default function Shell({ children, locale }: { children: React.ReactNode, locale: string }) {
@@ -35,7 +35,7 @@ export default function Shell({ children, locale }: { children: React.ReactNode,
             <AppShell.Aside>
                 <SideNavbar links={links} />
             </AppShell.Aside>
-            <AppShell.Footer p="md">Footer</AppShell.Footer>
+            <AppShell.Footer p="md" withBorder={false}><Footer/></AppShell.Footer>
         </AppShell>
     );
 }
