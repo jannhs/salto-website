@@ -4,6 +4,7 @@ import logo_salto from '@/public/logo_salto.png';
 import Image from 'next/image';
 import { LanguageSwitch, SearchBar } from '@/components';
 import { usePathname } from '@/i18n/navigation';
+import Link from 'next/link';
 
 
 interface HeaderProps {
@@ -16,13 +17,13 @@ interface HeaderProps {
 export function Header({ links, opened, toggle, locale }: HeaderProps) {
     const pathname = usePathname();
     const items = links.map((link) => (
-        <a
+        <Link
             key={link.label}
             href={link.link}
             className={`${classes.link} ${pathname == link.link ? classes.active : ''}`}
         >
             {link.label}
-        </a>
+        </Link>
     ));
 
     return (
