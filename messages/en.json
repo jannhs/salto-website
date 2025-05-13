@@ -40,7 +40,7 @@
         "label": "Resources",
         "description": "Some description about the resources"
       },
-      "about": {
+      "project": {
         "label": "Project",
         "description": "Some description about the project"
       },
@@ -49,5 +49,8 @@
         "description": "Some description about the partners"
       }
     }
+  },
+  "Partners": {
+    "title": "Partners"
   }
 }

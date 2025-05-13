@@ -1,53 +1,56 @@
 {
-    "HomePage": {
-        "title": "Ciao gente!",
-        "about": "Vai alla pagina principale"
-    },
-    "LanguageSwitch": {
-        "label": "Cambia lingua",
-        "locale": "{locale, select, it {Italiano} en {English} other {Altro}}"
-    },
-    "Navigation": {
-        "resources": "Materiale informativo",
-        "about": "Progetto",
-        "partners": "Partners"
-    },
-    "Resources": {
-        "faq": {
-            "title": "Domande frequenti",
-            "description": "Qui puoi trovare le domande e risposte più comuni sul progetto.",
-            "items": {
-                "First question": {
-                    "question": "Prima domanda ?",
-                    "answer": "Risposta alla prima domanda."
-                },
-                "Second question": {
-                    "question": "Seconda domanda ?",
-                    "answer": "Risposta alla seconda domanda."
-                },
-                "Third question": {
-                    "question": "Terza domanda ?",
-                    "answer": "Risposta alla terza domanda."
-                }
-            }
+  "HomePage": {
+    "title": "Ciao gente!",
+    "about": "Vai alla pagina principale"
+  },
+  "LanguageSwitch": {
+    "label": "Cambia lingua",
+    "locale": "{locale, select, it {Italiano} en {English} other {Altro}}"
+  },
+  "Navigation": {
+    "resources": "Materiale informativo",
+    "about": "Progetto",
+    "partners": "Partners"
+  },
+  "Resources": {
+    "faq": {
+      "title": "Domande frequenti",
+      "description": "Qui puoi trovare le domande e risposte più comuni sul progetto.",
+      "items": {
+        "First question": {
+          "question": "Prima domanda ?",
+          "answer": "Risposta alla prima domanda."
+        },
+        "Second question": {
+          "question": "Seconda domanda ?",
+          "answer": "Risposta alla seconda domanda."
+        },
+        "Third question": {
+          "question": "Terza domanda ?",
+          "answer": "Risposta alla terza domanda."
         }
-    },
-    "SearchBar": {
-        "nothingFound": "Nessun risultato trovato",
-        "placeholder": "Cerca",
-        "actions": {
-            "resources": {
-                "label": "Materiale informativo",
-                "description": "Descrizione sui materiali informativi"
-            },
-            "about": {
-                "label": "Progetto",
-                "description": "Descrizione sul progetto"
-            },
-            "partners": {
-                "label": "Partners",
-                "description": "Descrizione sui partners"
-            }
-        }
+      }
     }
+  },
+  "SearchBar": {
+    "nothingFound": "Nessun risultato trovato",
+    "placeholder": "Cerca",
+    "actions": {
+      "resources": {
+        "label": "Materiale informativo",
+        "description": "Descrizione sui materiali informativi"
+      },
+      "about": {
+        "label": "Progetto",
+        "description": "Descrizione sul progetto"
+      },
+      "partners": {
+        "label": "Partners",
+        "description": "Descrizione sui partners"
+      }
+    }
+  },
+  "Partners": {
+    "title": "Partners"
+  }
 }
