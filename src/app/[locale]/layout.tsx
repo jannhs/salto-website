@@ -1,15 +1,14 @@
-import '@mantine/core/styles.css';
-import '@mantine/spotlight/styles.css';
+import "@mantine/core/styles.css";
+import "@mantine/spotlight/styles.css";
 
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { notFound } from 'next/navigation';
+import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import React from "react";
-import { Metadata } from 'next'
+import { Metadata } from "next";
 import siteMetadata from "@/data/siteMetadata";
 import Shell from "@/components/shell/shell";
 import { ColorSchemeScript, createTheme, MantineProvider, mantineHtmlProps } from "@mantine/core";
-
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteMetadata.siteUrl),
@@ -21,10 +20,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: siteMetadata.title,
     description: siteMetadata.description,
-    url: './',
+    url: "./",
     siteName: siteMetadata.title,
     // images: [siteMetadata.socialBanner],
-    type: 'website',
+    type: "website",
   },
   // alternates: {
   //   canonical: './',
@@ -43,17 +42,17 @@ export const metadata: Metadata = {
   //     'max-snippet': -1,
   //   },
   // },
-}
+};
 
 const theme = createTheme({
-  fontFamily: 'Inter, sans-serif',
-  headings: { fontFamily: 'Inter, sans-serif' },
-  primaryColor: 'cyan'
+  fontFamily: "Inter, sans-serif",
+  headings: { fontFamily: "Inter, sans-serif" },
+  primaryColor: "cyan",
 });
 
 export default async function LocaleLayout({
   children,
-  params
+  params,
 }: {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
@@ -64,19 +63,17 @@ export default async function LocaleLayout({
   }
 
   return (
-    <html lang={locale}  {...mantineHtmlProps}>
+    <html lang={locale} {...mantineHtmlProps}>
       <head>
         <ColorSchemeScript />
       </head>
-      <body >
+      <body>
         <NextIntlClientProvider>
           <MantineProvider theme={theme}>
-            <Shell locale={locale}>
-              {children}
-            </Shell>
+            <Shell locale={locale}>{children}</Shell>
           </MantineProvider>
         </NextIntlClientProvider>
       </body>
     </html>
-  )
+  );
 }
