@@ -10,7 +10,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
+  background-color: white;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px #0003;
+  @media (max-width: $mantine-breakpoint-lg) {
+    height: 64px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
 }
 
 .link {
@@ -33,7 +45,6 @@
 .active {
   background-color: var(--mantine-color-gray-1);
   font-weight: 530;
-  /* background-color: var(--mantine-color-primary-light); */
 }
 
 .logo {

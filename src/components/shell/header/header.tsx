@@ -1,5 +1,5 @@
 import classes from "./header.module.css";
-import { AppShellHeader, Burger, Group, Container, Title } from "@mantine/core";
+import { Burger, Group, Container, Title } from "@mantine/core";
 import logo_salto from "@/public/logo_salto.png";
 import Image from "next/image";
 import { LanguageSwitch, SearchBar } from "@/components";
@@ -26,15 +26,25 @@ export function Header({ links, opened, toggle, locale }: HeaderProps) {
   ));
 
   return (
-    <Container size="lg" className={classes.inner} p="xs">
+    <Container size="75em" className={classes.inner} bg="white">
       <Group
         component={"a"}
         onClick={() => {
           window.location.href = "/";
         }}
       >
-        <Image src={logo_salto} alt="SALTO Logo" width={50} height={50} className={classes.logo} priority />
-        <Title order={2} visibleFrom="xs">
+        <Image
+          src={logo_salto}
+          alt="SALTO Logo"
+          width={60}
+          height={60}
+          className={classes.logo}
+          priority
+          style={{
+            marginTop: "2px",
+          }}
+        />
+        <Title order={2} visibleFrom="xs" className="text-[#005350]">
           SALTO
         </Title>
       </Group>
