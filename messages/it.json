@@ -1,7 +1,12 @@
 {
   "HomePage": {
     "title": "Ciao gente!",
-    "about": "Vai alla pagina principale"
+    "about": "Vai alla pagina principale",
+    "HeroSection": {
+      "firstLineTitle": "Benvenuto al progetto",
+      "secondLineTitle": "SALTO!",
+      "description": "SALTO è un'iniziativa dell'Università di Torino con l'obiettivo di avvicinare operatori sanitari e stranieri di modo da trovare una modalità di interazione positiva e efficace."
+    }
   },
   "LanguageSwitch": {
     "label": "Cambia lingua",
@@ -52,5 +57,8 @@
   },
   "Partners": {
     "title": "Partners"
+  },
+  "ScrollToTopAffix": {
+    "scrollToTop": "Torna su"
   }
 }

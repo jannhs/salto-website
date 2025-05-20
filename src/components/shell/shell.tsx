@@ -1,10 +1,11 @@
 "use client";
 
-import { AppShell } from "@mantine/core";
+import { AppShell} from "@mantine/core";
 import { useDisclosure, useHeadroom } from "@mantine/hooks";
 import { Header, SideNavbar, Footer } from "@/components";
 import { useTranslations } from "next-intl";
-import { basename } from "path";
+
+import ScrollToTopAffix from "./scroll-to-top-affix";
 
 export default function Shell({ children, locale }: { children: React.ReactNode; locale: string }) {
   const [opened, { toggle }] = useDisclosure();
@@ -54,6 +55,7 @@ export default function Shell({ children, locale }: { children: React.ReactNode;
       <AppShell.Footer p="md" withBorder={false} style={{ position: "static" }}>
         <Footer />
       </AppShell.Footer>
+      <ScrollToTopAffix />
     </AppShell>
   );
 }

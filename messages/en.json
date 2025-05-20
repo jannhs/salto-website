@@ -1,7 +1,10 @@
 {
   "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
+    "HeroSection": {
+      "firstLineTitle": "Welcome to the SALTO",
+      "secondLineTitle": "initiative!",
+      "description": "SALTO is a collaborative project by the University of Turin that aims to foster positive and effective interactions between healthcare professionals and foreign residents."
+    }
   },
   "LanguageSwitch": {
     "label": "Change language",
@@ -52,5 +55,8 @@
   },
   "Partners": {
     "title": "Partners"
+  },
+  "ScrollToTopAffix": {
+    "scrollToTop": "Back to top"
   }
 }
