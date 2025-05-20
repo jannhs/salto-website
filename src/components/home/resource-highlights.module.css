@@ -1,0 +1,25 @@
+.control {
+  color: darkslategrey;
+  &[data-inactive] {
+    opacity: 0;
+    cursor: default;
+  }
+}
+
+.slide {
+  max-width: 1000px;
+}
+
+.viewport {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.controls {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.card {
+  box-shadow: 1px 1px 12px #0000001a;
+}
