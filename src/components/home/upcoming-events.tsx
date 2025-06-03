@@ -47,14 +47,15 @@ const upcomingEvents = events.map((event) => (
 export default function UpcomingEvents() {
   const theme = useMantineTheme();
   const isMobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm})`);
+
   return (
-    <div className="bg-white pt-5 pb-5">
-      <div className="w-full max-w-7xl m-auto px-4">
+    <div className="bg-white pt-5 pb-15">
+      <div className="w-full max-w-7xl m-auto px-5">
         <Group justify="space-between">
-          <Title order={2} mt="lg" mb="lg">
+          <Title order={2} mt="lg" mb="lg" c="#2D5A51">
             Upcoming Events
           </Title>
-          <Button variant="outline" color="dark" size="md" mt="lg" mb="lg" rightSection={<IconArrowRight />}>
+          <Button variant="outline" color="#2D5A51" size="md" mt="lg" mb="lg" rightSection={<IconArrowRight />}>
             {isMobile ? "All " : "All Events"}
           </Button>
         </Group>

@@ -6,6 +6,12 @@
   }
 }
 
+.wrapper {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  background-color: var(--mantine-color-lightSlateGreen-1);
+}
+
 .slide {
   max-width: 1000px;
 }

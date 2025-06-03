@@ -10,7 +10,7 @@ import { Metadata } from "next";
 import siteMetadata from "@/data/siteMetadata";
 import Shell from "@/components/shell/shell";
 import { ColorSchemeScript, MantineProvider, mantineHtmlProps } from "@mantine/core";
-import {theme} from '../theme'
+import { theme } from "../theme";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteMetadata.siteUrl),

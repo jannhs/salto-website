@@ -1,0 +1,13 @@
+.divider {
+  display: initial;
+  @media (max-width: 300px) {
+    display: none;
+  }
+}
+
+.inner {
+  color: rgba(255, 255, 255, 153);
+  @media (max-width: $mantine-breakpoint-sm) {
+    text-align: center;
+  }
+}

@@ -40,12 +40,14 @@ export default function PartnersTabs() {
         <Tabs.Tab value="UniTo">
           <Grid>
             <Grid.Col span={isMobile ? 6 : 2} style={{ alignContent: "center" }}>
-              <div className="h-8 w-8 flex items-center justify-center ">
+              <div className="h-8 w-8 flex items-center justify-center mr-4">
                 <Image src="/logos/logo_unito.png" alt="Unito logo" width={25} height={25} />
               </div>
             </Grid.Col>
             <Grid.Col span={isMobile ? 7 : 10}>
-              <Title order={5}>{unitoTab}</Title>
+              <Title order={5} pl="3px">
+                {unitoTab}
+              </Title>
             </Grid.Col>
           </Grid>
         </Tabs.Tab>

@@ -26,7 +26,7 @@ export function Header({ links, opened, toggle, locale }: HeaderProps) {
   ));
 
   return (
-    <Container size="75em" className={classes.inner} bg="white">
+    <Container size="1152px" className={classes.inner} bg="#fff">
       <Group
         component={"a"}
         onClick={() => {
@@ -50,7 +50,7 @@ export function Header({ links, opened, toggle, locale }: HeaderProps) {
       </Group>
 
       <Group h="100%" m="0" p="0">
-        <Group ml={50} gap={5} visibleFrom="sm" h="100%">
+        <Group ml={50} gap={5} visibleFrom="sm" h="100%" pt="7px" pb="7px">
           {items}
         </Group>
         <LanguageSwitch locale={locale} />

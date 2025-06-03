@@ -1,9 +1,13 @@
-export default function ProjectPage() {
-    return (
-        <>
-            <h1>Project </h1>
-            <p>This is the project page.</p>
-            <p>It is currently under construction.</p>
-        </>
-    );
+import { notFound } from "next/navigation";
+
+export default async function ProjectPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+
+  try {
+    const Content = (await import(`./${locale}.mdx`)).default;
+    return <Content />;
+  } catch (error) {
+    console.error("Error loading content:", error);
+    notFound();
+  }
 }

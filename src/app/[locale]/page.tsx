@@ -8,6 +8,8 @@ export default function HomePage() {
       <HeroSection />
       <ResourceHighlights />
       <UpcomingEvents />
+      {/* <div className="bg-emerald-900 h-32"> </div> */}
+      {/* <div className="bg-[#2e6940] h-32"> </div> */}
     </>
   );
 }

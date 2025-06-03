@@ -22,7 +22,7 @@ export function PartnersPanel({ isMobile, type, grouped }: PartnersPanelProps) {
               >
                 <Image src={p.logo} alt={`${p.name}`} width={Number(p.logoWidth)} height={Number(p.logoHeight)} />
               </Grid.Col>
-              <Grid.Col span={isMobile ? 12 : 9} className="align-items-center">
+              <Grid.Col span={isMobile ? 12 : 9} className="align-items-center" ta={isMobile ? "center" : "left"}>
                 <Box key={p.key}>
                   <Title order={4}>{p.name}</Title>
                   {p.description && <Text size="sm">{p.description}</Text>}

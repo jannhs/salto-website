@@ -7,47 +7,88 @@ import { Carousel } from "@mantine/carousel";
 import { useMantineTheme } from "@mantine/core";
 import classes from "./resource-highlights.module.css";
 import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
+import { useTranslations } from "next-intl";
 
 export default function ResourceHighlights() {
   const theme = useMantineTheme();
   const mobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm})`);
+  const t = useTranslations("ResourceHighlights");
+
   const resources = [
     {
-      title: "Female reproductive health",
-      description: "Learn about female reproductive health.", //TODO: deal with overflow when this description is long
+      title: t("Female reproductive health.title"),
+      description: t("Female reproductive health.description"),
       image: "/icons/female-reproductive-health.png",
     },
     {
-      title: "Healthy diet",
-      description: "Discover the importance of a balanced diet.",
+      title: t("Healthy diet.title"),
+      description: t("Healthy diet.description"),
       image: "/icons/healthy-diet.png",
     },
     {
-      title: "Correct use of medicines",
-      description: "Understand how to use medicines safely.",
+      title: t("Correct use of medicines.title"),
+      description: t("Correct use of medicines.description"),
       image: "/icons/medicines.png",
     },
     {
-      title: "Pregnancy",
-      description: "Get information on pregnancy and childbirth.",
+      title: t("Pregnancy.title"),
+      description: t("Pregnancy.description"),
       image: "/icons/pregnancy.png",
     },
     {
-      title: "Pediatric care",
-      description: "Learn about pediatric care and child health.",
+      title: t("Pediatric care.title"),
+      description: t("Pediatric care.description"),
       image: "/icons/pediatric-care.png",
     },
     {
-      title: "Skin conditions",
-      description: "Explore common skin conditions and treatments.",
+      title: t("Skin conditions.title"),
+      description: t("Skin conditions.description"),
       image: "/icons/skin-conditions.png",
     },
     {
-      title: "Access to healthcare",
-      description: "Learn about healthcare access and services.",
+      title: t("Access to healthcare.title"),
+      description: t("Access to healthcare.description"),
       image: "/icons/access-to-healthcare.png",
     },
   ];
+
+  // const resources = [
+  //   {
+  //     title: "Female reproductive health",
+  //     description: "Learn about female reproductive health.",
+  //     image: "/icons/female-reproductive-health.png",
+  //   },
+  //   {
+  //     title: "Healthy diet",
+  //     description: "Discover the importance of a balanced diet.",
+  //     image: "/icons/healthy-diet.png",
+  //   },
+  //   {
+  //     title: "Correct use of medicines",
+  //     description: "Understand how to use medicines safely.",
+  //     image: "/icons/medicines.png",
+  //   },
+  //   {
+  //     title: "Pregnancy",
+  //     description: "Get information on pregnancy and childbirth.",
+  //     image: "/icons/pregnancy.png",
+  //   },
+  //   {
+  //     title: "Pediatric care",
+  //     description: "Learn about pediatric care and child health.",
+  //     image: "/icons/pediatric-care.png",
+  //   },
+  //   {
+  //     title: "Skin conditions",
+  //     description: "Explore common skin conditions and treatments.",
+  //     image: "/icons/skin-conditions.png",
+  //   },
+  //   {
+  //     title: "Access to healthcare",
+  //     description: "Learn about healthcare access and services.",
+  //     image: "/icons/access-to-healthcare.png",
+  //   },
+  // ];
 
   const slides = resources.map((resource) => (
     <Carousel.Slide key={resource.title}>
@@ -62,15 +103,15 @@ export default function ResourceHighlights() {
           {resource.description}
         </Text>
         <Button variant="filled" w="130px" m="auto" color="#2e6940">
-          Learn More
+          {t("learnMore")}
         </Button>
       </Card>
     </Carousel.Slide>
   ));
 
   return (
-    <div>
-      <Title order={2} ta="center" mt="xl" mb="md" c="#2D5A51">
+    <div className={classes.wrapper}>
+      <Title order={2} ta="center" mb="xs" c="#2D5A51">
         Resources
       </Title>
       <Carousel

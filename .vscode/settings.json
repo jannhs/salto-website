@@ -2,5 +2,5 @@
   "i18n-ally.localesPaths": ["./messages"],
   "i18n-ally.sourceLanguage": "it",
   "i18n-ally.keystyle": "nested",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

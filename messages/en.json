@@ -15,6 +15,37 @@
     "about": "Project",
     "partners": "Partners"
   },
+  "ResourceHighlights": {
+    "learnMore": "Learn more",
+    "Female reproductive health": {
+      "title": "Female reproductive health",
+      "description": "Learn about female reproductive health."
+    },
+    "Healthy diet": {
+      "title": "Healthy diet",
+      "description": "Discover the importance of a balanced diet."
+    },
+    "Correct use of medicines": {
+      "title": "Correct use of medicines",
+      "description": "Understand how to use medicines safely."
+    },
+    "Pregnancy": {
+      "title": "Pregnancy",
+      "description": "Get information on pregnancy and childbirth."
+    },
+    "Pediatric care": {
+      "title": "Pediatric care",
+      "description": "Learn about pediatric care and child health."
+    },
+    "Skin conditions": {
+      "title": "Skin conditions",
+      "description": "Explore common skin conditions and treatments."
+    },
+    "Access to healthcare": {
+      "title": "Access to healthcare",
+      "description": "Learn about healthcare access and services."
+    }
+  },
   "Resources": {
     "faq": {
       "title": "Frequently Asked Questions",
@@ -53,10 +84,183 @@
       }
     }
   },
-  "Partners": {
-    "title": "Partners"
+  "Footer": {
+    "fundingDescription": " SALTO - Salute senza confini was selected under the 2023 Call for the Funding of Public Engagement Projects (Rectoral Decree No. 5404/2023, Prot. No. 0564338, 10/10/2023)",
+    "coordinator": "Scientific Coordinator: Marta Giorgis",
+    "bottomText": "© 2025 SALTO. All rights reserved."
   },
   "ScrollToTopAffix": {
     "scrollToTop": "Back to top"
+  },
+  "PartnersPage": {
+    "title": "Partners",
+    "titleCard": "In collaboration with",
+    "titleContacts": "Contacts",
+    "tabUnito": "University of Turin",
+    "tabExternal": "External partners",
+    "partners": {
+      "Dipartimento di Scienza e Tecnologia del Farmaco": {
+        "partnerName": "Department of Drug Science and Technology",
+        "partnerType": "UniTo",
+        "description": "",
+        "contacts": "Marta Giorgis,Elena Ugazio,Francesca Baratta,Stefano Sainas,Valentina Boscaro,Mauro Marengo,Federico Fornaseri",
+        "logo": "/logos/logo_unito_dstf.gif",
+        "logoHeight": "80",
+        "logoWidth": "160"
+      },
+      "Dipartimento di Lingue e Letterature straniere e Culture moderne": {
+        "partnerName": "Department of Foreign Languages and Modern Cultures",
+        "partnerType": "UniTo",
+        "description": "",
+        "contacts": "Daniela Cacia,Maria Felisa Bermejo Calleja,Paola Capponi,Alex Borio",
+        "logo": "/logos/logo_unito_lett_straniere.png",
+        "logoHeight": "120",
+        "logoWidth": "190"
+      },
+      "Dipartimento di Scienze della Sanità Pubblica e Pediatriche": {
+        "partnerName": "Department of Public Health and Pediatric Sciences",
+        "partnerType": "UniTo",
+        "description": "",
+        "contacts": "Giacomo Scaioli",
+        "logo": "/logos/logo_unito_dsspp.png",
+        "logoHeight": "80",
+        "logoWidth": "150"
+      },
+      "Dipartimento di Informatica": {
+        "partnerName": "Department of Computer Science",
+        "partnerType": "UniTo",
+        "description": "",
+        "contacts": "Francesca Cordero,Daniela Volpatto,Janneth Estefania Hoyos Rea",
+        "logo": "/logos/logo_unito_info.png",
+        "logoHeight": "80",
+        "logoWidth": "150"
+      },
+      "Dipartimento di Scienze Mediche": {
+        "partnerName": "Department of Medical Sciences",
+        "partnerType": "UniTo",
+        "description": "",
+        "contacts": "Pietro Quaglino,Gabriele Rocuzzo,Silvia Giordano",
+        "logo": "/logos/logo_unito_dsm.png",
+        "logoHeight": "80",
+        "logoWidth": "80"
+      },
+      "Dipartimento di Culture Politica e Società": {
+        "partnerName": "Department of Cultures, Politics and Society",
+        "partnerType": "UniTo",
+        "description": "",
+        "contacts": "Valentina Moiso,Roberta Ricucci",
+        "logo": "/logos/logo_unito_cps.png",
+        "logoHeight": "80",
+        "logoWidth": "80"
+      },
+      "Dipartimento di Psicologia": {
+        "partnerName": "Department of Psychology",
+        "partnerType": "UniTo",
+        "description": "",
+        "contacts": "Anna Miglietta",
+        "logo": "/logos/logo_unito_psicologia.jpg",
+        "logoHeight": "80",
+        "logoWidth": "170"
+      },
+      "Dipartimento di Matematica": {
+        "partnerName": "Department of Mathematics",
+        "partnerType": "UniTo",
+        "description": "",
+        "contacts": "Roberta Sirovich",
+        "logo": "/logos/logo_unito_matematica.jpg",
+        "logoHeight": "80",
+        "logoWidth": "150"
+      },
+      "Centro Provinciale di Istruzione per Adulti (CPIA) 1 Paulo Freire": {
+        "partnerName": "Centro Provinciale di Istruzione per Adulti (CPIA) 1 Paulo Freire",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_cpia1.png",
+        "logoHeight": "100",
+        "logoWidth": "80"
+      },
+      "Centro Provinciale di Istruzione per Adulti (CPIA) 2 Torino": {
+        "partnerName": "Centro Provinciale di Istruzione per Adulti (CPIA) 2 Torino",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_cpia2.jpg",
+        "logoHeight": "100",
+        "logoWidth": "80"
+      },
+      "Centro interculturale della città di Torino": {
+        "partnerName": "Intercultural Center of the City of Turin",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_centro_interculturale.jpg",
+        "logoHeight": "100",
+        "logoWidth": "100"
+      },
+      "Associazione di Animazione Interculturale (ASAI)": {
+        "partnerName": "Association of Intercultural Animation (ASAI)",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_asai.jpg",
+        "logoHeight": "80",
+        "logoWidth": "80"
+      },
+      "Agenzia per lo Sviluppo Sociale di San Salvario": {
+        "partnerName": "Agency for Social Development of San Salvario E.T.S",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_agenzia_sansa.jpg",
+        "logoHeight": "120",
+        "logoWidth": "80"
+      },
+      "Medici con l’Africa CUAMM PIEMONTE": {
+        "partnerName": "Doctors with Africa CUAMM Piedmont",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_cuamm.png",
+        "logoHeight": "80",
+        "logoWidth": "160"
+      },
+      "CAMMINARE INSIEME ODV": {
+        "partnerName": "Camminare Insieme ODV",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_camminare_insieme.png",
+        "logoHeight": "80",
+        "logoWidth": "150"
+      },
+      "ASSOCIAZIONE AIA APS": {
+        "partnerName": "AIA Association APS",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_aia.png",
+        "logoHeight": "90",
+        "logoWidth": "90"
+      },
+      "GrIS Piemonte-Gruppo Immigrazione Salute": {
+        "partnerName": "GrIS Piedmont - Immigration and Health Group",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_gris_piemonte.jpg",
+        "logoHeight": "80",
+        "logoWidth": "80"
+      },
+      "IRES Piemonte": {
+        "partnerName": "IRES Piedmont",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_ires_piemonte.jpg",
+        "logoHeight": "100",
+        "logoWidth": "160"
+      }
+    }
   }
 }
