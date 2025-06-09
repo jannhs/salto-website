@@ -1,6 +1,7 @@
 # SALTO Website
-
-![SALTO Logo](https://raw.githubusercontent.com/jannhss/salto/main/public/logo.png)
+<p align="center">
+<img src="https://github.com/jannhs/salto-website/blob/88af7cc1120efabcf60d6a3d070c69f4cf3530f2/public/logo_salto.png" width="200"/>
+</p>
 
 # English Version
 
@@ -45,7 +46,7 @@ Per quanto riguarda i contenuti statici, il progetto utilizza file [MDX](https:/
 
 ## Come eseguire il sito in locale
 
-1. Installare [Docker] sul proprio computer::
+1. Installare [Docker](https://www.docker.com/) sul proprio computer:
 
    - Su Windows e macOS, puoi usare [Docker Desktop](https://www.docker.com/products/docker-desktop/).
    - Su Linux, puoi seguire la [guida ufficiale all’installazione](https://docs.docker.com/engine/install/).
