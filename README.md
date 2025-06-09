@@ -3,7 +3,7 @@
 <img src="https://github.com/jannhs/salto-website/blob/88af7cc1120efabcf60d6a3d070c69f4cf3530f2/public/logo_salto.png" width="200"/>
 </p>
 
-# English Version
+## English Version
 
 This repository contains the source code for the SALTO website, built using the [Next.js](https://nextjs.org) framework. It is designed to be multilingual, with internationalization (i18n) support provided by the [next-intl](https://next-intl.dev/).
 In the current version, the website supports Italian and English languages.
@@ -12,7 +12,7 @@ For UI components, it uses [Tailwind CSS](https://tailwindcss.com/) together wit
 
 To ease the writing of content in a structured and reusable way, the project uses [MDX](https://mdxjs.com/) files, which allow to render Markdown with React components.
 
-# How to run locally with Docker
+### How to run locally with Docker
 
 1. Install [Docker](https://www.docker.com/) on your machine:
 
@@ -34,7 +34,7 @@ To ease the writing of content in a structured and reusable way, the project use
    - Or from Docker Desktop, you can click on the "Run" button after selecting the `jannhss/salto` image. Make sure to map port 3000 of the container to port 3000 of your host machine.
 4. Now you can access the website from the browser at the address: `http://localhost:3000`.
 
-# Italian Version
+## Italian Version
 
 Questo repository contiene il codice sorgente del sito web **SALTO**, sviluppato utilizzando il framework [Next.js](https://nextjs.org).  
 Il sito è progettato per essere multilingue, con supporto all’internazionalizzazione (i18n) fornito dalla libreria [next-intl](https://next-intl.dev/).
@@ -44,7 +44,7 @@ Per le componenti grafiche dell'interfaccia utente, si è utilizzato [Tailwind C
 
 Per quanto riguarda i contenuti statici, il progetto utilizza file [MDX](https://mdxjs.com/), che permettono di combinare Markdown e componenti React.
 
-## Come eseguire il sito in locale
+### Come eseguire il sito in locale
 
 1. Installare [Docker](https://www.docker.com/) sul proprio computer:
 
