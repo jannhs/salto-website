@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
     optimizePackageImports: ["@mantine/core", "@mantine/hooks", "@/components"],
     mdxRs: true,
   },
+  output: "standalone",
 };
 
 const withMDX = createMDX({
