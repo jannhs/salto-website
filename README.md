@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SALTO Website
 
-## Getting Started
+![SALTO Logo](https://raw.githubusercontent.com/jannhss/salto/main/public/logo.png)
 
-First, run the development server:
+# English Version
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This repository contains the source code for the SALTO website, built using the [Next.js](https://nextjs.org) framework. It is designed to be multilingual, with internationalization (i18n) support provided by the [next-intl](https://next-intl.dev/).
+In the current version, the website supports Italian and English languages.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For UI components, it uses [Tailwind CSS](https://tailwindcss.com/) together with elements from the [Mantine](https://mantine.dev/) library.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To ease the writing of content in a structured and reusable way, the project uses [MDX](https://mdxjs.com/) files, which allow to render Markdown with React components.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# How to run locally with Docker
 
-## Learn More
+1. Install [Docker](https://www.docker.com/) on your machine:
 
-To learn more about Next.js, take a look at the following resources:
+- For Windows and macOS, you can use [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+- For Linux, you can follow the [official installation guide](https://docs.docker.com/engine/install/).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Download the image for the website:
+   - On terminal :
+   ```
+   docker pull jannhss/salto
+   ```
+   - Or, if you prefer from the Docker Desktop GUI, search for `jannhss/salto` in the Docker Hub section and click on "Pull".
+3. Run the Docker container:
+   - On terminal :
+   ```
+   docker build -t jannhss/salto .
+   docker run -p 3000:3000 jannhss/salto
+   ```
+   - Or from Docker Desktop, you can click on the "Run" button after selecting the `jannhss/salto` image. Make sure to map port 3000 of the container to port 3000 of your host machine.
+4. Now you can access the website from the browser at the address: `http://localhost:3000`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Italian Version
 
-## Deploy on Vercel
+Questo repository contiene il codice sorgente del sito web **SALTO**, sviluppato utilizzando il framework [Next.js](https://nextjs.org).  
+Il sito è progettato per essere multilingue, con supporto all’internazionalizzazione (i18n) fornito dalla libreria [next-intl](https://next-intl.dev/).
+Nella versione attuale, supporta le lingue **italiano** e **inglese**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Per le componenti grafiche dell'interfaccia utente, si è utilizzato [Tailwind CSS](https://tailwindcss.com/) assieme alla libreria [Mantine](https://mantine.dev/).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Per quanto riguarda i contenuti statici, il progetto utilizza file [MDX](https://mdxjs.com/), che permettono di combinare Markdown e componenti React.
+
+## Come eseguire il sito in locale
+
+1. Installare [Docker] sul proprio computer::
+
+   - Su Windows e macOS, puoi usare [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+   - Su Linux, puoi seguire la [guida ufficiale all’installazione](https://docs.docker.com/engine/install/).
+
+2. Scaricare l’immagine Docker del sito SALTO:
+
+   - Da terminale:
+
+   ```
+   docker pull jannhss/salto
+   ```
+
+   - Oppure, da Docker Desktop, cercare `jannhss/salto` nella sezione Docker Hub e cliccare su `Pull`.
+
+3. Aprire un terminale::
+
+   ```
+   docker build -t jannhss/salto .
+   docker run -p 3000:3000 jannhss/salto
+   ```
+
+4. Ora si può accedere al sito dal browser all’indirizzo: `http://localhost:3000`.
