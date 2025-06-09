@@ -16,6 +16,7 @@
     "partners": "Partners"
   },
   "ResourceHighlights": {
+    "title": "Resources",
     "learnMore": "Learn more",
     "Female reproductive health": {
       "title": "Female reproductive health",
@@ -44,6 +45,26 @@
     "Access to healthcare": {
       "title": "Access to healthcare",
       "description": "Learn about healthcare access and services."
+    }
+  },
+  "UpcomingEvents": {
+    "title": "Upcoming Events",
+    "description": "Stay updated with our latest events and activities.",
+    "allButton": "All",
+    "allButtonExtra": "All Events",
+    "events": {
+      "event1": {
+        "title": "Health Workshop",
+        "date": "2025-03-15",
+        "location": "University of Turin",
+        "description": "Join us for a workshop on health and wellness."
+      },
+      "event2": {
+        "title": "Community Meeting",
+        "date": "2025-04-10",
+        "location": "Intercultural Center, Turin",
+        "description": "A meeting to discuss community health initiatives."
+      }
     }
   },
   "Resources": {

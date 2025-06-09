@@ -5,6 +5,7 @@ import { Button, Divider, Title, Group, useMantineTheme } from "@mantine/core";
 import { IconArrowRight } from "@tabler/icons-react";
 import { useMediaQuery } from "@mantine/hooks";
 import React from "react";
+import { useTranslations } from "next-intl";
 
 type Event = {
   id: string;
@@ -47,16 +48,17 @@ const upcomingEvents = events.map((event) => (
 export default function UpcomingEvents() {
   const theme = useMantineTheme();
   const isMobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm})`);
+  const t = useTranslations("UpcomingEvents");
 
   return (
     <div className="bg-white pt-5 pb-15">
       <div className="w-full max-w-7xl m-auto px-5">
         <Group justify="space-between">
           <Title order={2} mt="lg" mb="lg" c="#2D5A51">
-            Upcoming Events
+            {t("title")}
           </Title>
           <Button variant="outline" color="#2D5A51" size="md" mt="lg" mb="lg" rightSection={<IconArrowRight />}>
-            {isMobile ? "All " : "All Events"}
+            {isMobile ? t("allButton") : t("allButtonExtra")}
           </Button>
         </Group>
         <div className="flex flex-col gap-4">{upcomingEvents}</div>

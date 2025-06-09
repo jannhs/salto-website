@@ -112,7 +112,7 @@ export default function ResourceHighlights() {
   return (
     <div className={classes.wrapper}>
       <Title order={2} ta="center" mb="xs" c="#2D5A51">
-        Resources
+        {t("title")}
       </Title>
       <Carousel
         withIndicators

@@ -1,7 +1,6 @@
 import { Text, Divider } from "@mantine/core";
 import Image from "next/image";
 import classes from "./footer.module.css";
-import { use } from "react";
 import { useTranslations } from "next-intl";
 
 export function Footer() {

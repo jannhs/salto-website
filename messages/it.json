@@ -18,6 +18,7 @@
     "partners": "Partners"
   },
   "ResourceHighlights": {
+    "title": "Materiale informativo",
     "learnMore": "Scopri di più",
     "Female reproductive health": {
       "title": "Salute riproduttiva femminile",
@@ -46,6 +47,26 @@
     "Access to healthcare": {
       "title": "Accesso alle cure sanitarie",
       "description": "Informati su come accedere ai servizi sanitari."
+    }
+  },
+  "UpcomingEvents": {
+    "title": "Prossimi eventi",
+    "description": "Resta aggiornato sui nostri ultimi eventi e attività.",
+    "allButton": "Tutti",
+    "allButtonExtra": "Vedi eventi",
+    "events": {
+      "event1": {
+        "title": "Workshop sulla salute",
+        "date": "2025-03-15",
+        "location": "Università di Torino",
+        "description": "Unisciti a noi per un workshop su salute e benessere."
+      },
+      "event2": {
+        "title": "Giornata della salute",
+        "date": "2025-04-20",
+        "location": "Centro Interculturale di Torino",
+        "description": "Partecipa alla nostra giornata dedicata alla salute e all'informazione."
+      }
     }
   },
   "Resources": {
