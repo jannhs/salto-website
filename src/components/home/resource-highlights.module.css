@@ -10,6 +10,7 @@
   padding-top: 2rem;
   padding-bottom: 1.5rem;
   background-color: var(--mantine-color-lightSlateGreen-1);
+  height: 600px;
 }
 
 .slide {
@@ -19,11 +20,18 @@
 .viewport {
   max-width: 1200px;
   margin: 0 auto;
+  height: 500px;
 }
 
 .controls {
   max-width: 1300px;
   margin: 0 auto;
+}
+
+.controlIcon {
+  padding: 4px;
+  height: 40px;
+  width: 40px;
 }
 
 .card {
