@@ -3,7 +3,7 @@
 import { Group, Text, Accordion, Grid, GridCol } from "@mantine/core";
 import classes from "./AccordionSDG.module.css";
 import Image from "next/image";
-import { useMessages, useTranslations } from "next-intl";
+import { Messages, useMessages, useTranslations } from "next-intl";
 import { Fragment } from "react";
 
 interface AccordionLabelProps {
@@ -26,8 +26,9 @@ function AccordionLabel({ label, image, description }: AccordionLabelProps) {
   );
 }
 
-function ColumnsObjectives(m: any, nGoal: Number) {
-  let t = nGoal == 3 ? useTranslations("ProjectPage.Goal3") : useTranslations("ProjectPage.Goal10");
+function ColumnsObjectives(m: Messages, nGoal: number) {
+  const goal = nGoal == 3 ? "Goal3" : "Goal10";
+  const t = useTranslations(`ProjectPage.${goal}`);
   const keys = nGoal == 3 ? Object.keys(m.ProjectPage.Goal3.objectives) : Object.keys(m.ProjectPage.Goal10.objectives);
 
   const objectives = [];
