@@ -1,9 +1,9 @@
 {
   "HomePage": {
     "HeroSection": {
-      "firstLineTitle": "Welcome to the SALTO",
-      "secondLineTitle": "initiative!",
-      "description": "SALTO is a collaborative project by the University of Turin that aims to foster positive and effective interactions between healthcare professionals and foreign residents."
+      "firstLineTitle": "Welcome to SALTO",
+      "secondLineTitle": "Health without borders",
+      "description": "SALTO is a project launched by the University of Turin with the goal of connecting foreign citizens and healthcare professionals by improving access to health information, fostering inclusion, and facilitating access to services."
     }
   },
   "LanguageSwitch": {
@@ -13,22 +13,28 @@
   "Navigation": {
     "resources": "Resources",
     "about": "Project",
-    "partners": "Partners"
+    "partners": "Partners",
+    "healthy-diet": "Healthy diet",
+    "lifestyle-and-prevention": "Lifestyle and prevention",
+    "womens-health": "Women's  health",
+    "childrens-health": "Children's health",
+    "correct-use-of-meds": "Proper use of medications",
+    "skin-issues": "Skin conditions"
   },
   "ResourceHighlights": {
     "title": "Resources",
     "learnMore": "Learn more",
     "Female reproductive health": {
-      "title": "Female reproductive health",
-      "description": "Learn about female reproductive health."
+      "title": "Women's health",
+      "description": "Learn about gynecological health."
     },
     "Healthy diet": {
       "title": "Healthy diet",
       "description": "Discover the importance of a balanced diet."
     },
     "Correct use of medicines": {
-      "title": "Correct use of medicines",
-      "description": "Understand how to use medicines safely."
+      "title": "Proper use of medications",
+      "description": "Understand how to use medications safely."
     },
     "Pregnancy": {
       "title": "Pregnancy",
@@ -45,6 +51,10 @@
     "Access to healthcare": {
       "title": "Access to healthcare",
       "description": "Learn about healthcare access and services."
+    },
+    "Prevention": {
+      "title": "Lifestyle and prevention",
+      "description": "Discover why prevention and healthy lifestyle are important."
     }
   },
   "UpcomingEvents": {
@@ -106,7 +116,7 @@
     }
   },
   "Footer": {
-    "fundingDescription": " SALTO - Salute senza confini was selected under the 2023 Call for the Funding of Public Engagement Projects (Rectoral Decree No. 5404/2023, Prot. No. 0564338, 10/10/2023)",
+    "fundingDescription": "SALTO received funding through the University of Turin’s 2023 Call for Public Engagement Projects (Rectoral Decree No. 5404/2023, Prot. No. 0564338, dated October 10, 2023).",
     "coordinator": "Scientific Coordinator: Marta Giorgis",
     "bottomText": "© 2025 SALTO. All rights reserved."
   },
@@ -124,7 +134,7 @@
         "partnerName": "Department of Drug Science and Technology",
         "partnerType": "UniTo",
         "description": "",
-        "contacts": "Marta Giorgis,Elena Ugazio,Francesca Baratta,Stefano Sainas,Valentina Boscaro,Mauro Marengo,Federico Fornaseri",
+        "contacts": "Marta Giorgis,Elena Ugazio,Francesca Baratta,Stefano Sainas,Valentina Boscaro,Mauro Marengo,Federico Fornaseri,Lucrezia Greta Armando",
         "logo": "/logos/logo_unito_dstf.gif",
         "logoHeight": "80",
         "logoWidth": "160"
@@ -142,7 +152,7 @@
         "partnerName": "Department of Public Health and Pediatric Sciences",
         "partnerType": "UniTo",
         "description": "",
-        "contacts": "Giacomo Scaioli",
+        "contacts": "Giacomo Scaioli,Giulia Squillacioti",
         "logo": "/logos/logo_unito_dsspp.png",
         "logoHeight": "80",
         "logoWidth": "150"
@@ -178,7 +188,7 @@
         "partnerName": "Department of Psychology",
         "partnerType": "UniTo",
         "description": "",
-        "contacts": "Anna Miglietta",
+        "contacts": "Anna Miglietta,Maria Giulia Porro",
         "logo": "/logos/logo_unito_psicologia.jpg",
         "logoHeight": "80",
         "logoWidth": "170"
@@ -229,7 +239,7 @@
         "logoWidth": "80"
       },
       "Agenzia per lo Sviluppo Sociale di San Salvario": {
-        "partnerName": "Agency for Social Development of San Salvario E.T.S",
+        "partnerName": "Agency for Social Development of San Salvario",
         "partnerType": "external",
         "description": "",
         "contacts": "",
@@ -247,7 +257,7 @@
         "logoWidth": "160"
       },
       "CAMMINARE INSIEME ODV": {
-        "partnerName": "Camminare Insieme ODV",
+        "partnerName": "Camminare Insieme - Volunteer Organization",
         "partnerType": "external",
         "description": "",
         "contacts": "",
@@ -256,7 +266,7 @@
         "logoWidth": "150"
       },
       "ASSOCIAZIONE AIA APS": {
-        "partnerName": "AIA Association APS",
+        "partnerName": "Alps Islamic Association (AIA) Aps",
         "partnerType": "external",
         "description": "",
         "contacts": "",
@@ -265,7 +275,7 @@
         "logoWidth": "90"
       },
       "GrIS Piemonte-Gruppo Immigrazione Salute": {
-        "partnerName": "GrIS Piedmont - Immigration and Health Group",
+        "partnerName": "Gruppo Immigrazione Salute (GrIS) Piemonte",
         "partnerType": "external",
         "description": "",
         "contacts": "",
@@ -274,13 +284,128 @@
         "logoWidth": "80"
       },
       "IRES Piemonte": {
-        "partnerName": "IRES Piedmont",
+        "partnerName": "Istituto di Ricerche Socioeconomiche (IRES) Piemonte",
         "partnerType": "external",
         "description": "",
         "contacts": "",
         "logo": "/logos/logo_ires_piemonte.jpg",
         "logoHeight": "100",
         "logoWidth": "160"
+      },
+      "Bagni Pubblici di Via Aglié": {
+        "partnerName": "Bagni Pubblici di Via Aglié",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_bagni_pubblici.jpg",
+        "logoHeight": "150",
+        "logoWidth": "190"
+      }
+    }
+  },
+  "ProjectPage": {
+    "Goal3": {
+      "label": "Health",
+      "description": "Ensure healthy lives and promote well-being for all at all ages",
+      "objectives": {
+        "objective1": {
+          "title": "3.1",
+          "description": "By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births."
+        },
+        "objective2": {
+          "title": "3.2",
+          "description": "By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under-5 mortality to at least as low as 25 per 1,000 live births."
+        },
+        "objective3": {
+          "title": "3.3",
+          "description": "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases."
+        },
+        "objective4": {
+          "title": "3.4",
+          "description": "By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being."
+        },
+        "objective5": {
+          "title": "3.5",
+          "description": "Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol."
+        },
+        "objective6": {
+          "title": "3.6",
+          "description": "By 2020, halve the number of global deaths and injuries from road traffic accidents."
+        },
+        "objective7": {
+          "title": "3.7",
+          "description": "By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes."
+        },
+        "objective8": {
+          "title": "3.8",
+          "description": "Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all."
+        },
+        "objective9": {
+          "title": "3.9",
+          "description": "By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination."
+        },
+        "objectiveA": {
+          "title": "3.a",
+          "description": "Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate."
+        },
+        "objectiveB": {
+          "title": "3.b",
+          "description": "Support the research and development of vaccines and medicines for the communicable and noncommunicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all."
+        },
+        "objectiveC": {
+          "title": "3.c",
+          "description": "Substantially increase health financing and the recruitment, development, training and retention of the health workforce in developing countries, especially in least developed countries and small island developing States."
+        },
+        "objectiveD": {
+          "title": "3.d",
+          "description": "Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks."
+        }
+      }
+    },
+    "Goal10": {
+      "label": "Inequality",
+      "description": "Reduce inequality within and among countries",
+      "objectives": {
+        "objective1": {
+          "title": "10.1",
+          "description": "By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average."
+        },
+        "objective2": {
+          "title": "10.2",
+          "description": "By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status."
+        },
+        "objective3": {
+          "title": "10.3",
+          "description": "Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard."
+        },
+        "objective4": {
+          "title": "10.4",
+          "description": "Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality."
+        },
+        "objective5": {
+          "title": "10.5",
+          "description": "Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations."
+        },
+        "objective6": {
+          "title": "10.6",
+          "description": "Ensure enhanced representation and voice for developing countries in decision-making in global international economic and financial institutions in order to deliver more effective, credible, accountable and legitimate institutions."
+        },
+        "objective7": {
+          "title": "10.7",
+          "description": "Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies."
+        },
+        "objectiveA": {
+          "title": "10.a",
+          "description": "Implement the principle of special and differential treatment for developing countries, in particular least developed countries, in accordance with World Trade Organization agreements."
+        },
+        "objectiveB": {
+          "title": "10.b",
+          "description": "Encourage official development assistance and financial flows, including foreign direct investment, to States where the need is greatest, in particular least developed countries, African countries, small island developing States and landlocked developing countries, in accordance with their national plans and programmes."
+        },
+        "objectiveC": {
+          "title": "10.c",
+          "description": "By 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 per cent."
+        }
       }
     }
   }
