@@ -1,29 +1,55 @@
 import classes from "./header.module.css";
-import { Burger, Group, Container, Title } from "@mantine/core";
+import { Menu, Container, Group, Title, Burger } from "@mantine/core";
 import logo_salto from "@/public/logo_salto.png";
 import Image from "next/image";
-import { LanguageSwitch, SearchBar } from "@/components";
-import { usePathname } from "@/i18n/navigation";
+import { LanguageSwitch } from "./language-switch";
+import { SearchBar } from "./search-bar";
 import Link from "next/link";
 
 interface HeaderProps {
-  links: { link: string; label: string }[];
+  links: { link: string; label: string; dropdown: { link: string; label: string }[] }[];
   opened: boolean;
   toggle: () => void;
   locale: string;
+  pathname: string;
 }
 
-export function Header({ links, opened, toggle, locale }: HeaderProps) {
-  const pathname = usePathname();
-  const items = links.map((link) => (
-    <Link
-      key={link.label}
-      href={link.link}
-      className={`${classes.link} ${pathname == link.link ? classes.active : ""}`}
-    >
-      {link.label}
-    </Link>
-  ));
+export function Header({ links, opened, toggle, locale, pathname }: HeaderProps) {
+  const items = links.map((link) =>
+    link.dropdown.length > 0 ? (
+      <Menu key={link.label} trigger="hover" withinPortal>
+        <Menu.Target>
+          <Link
+            key={link.label}
+            href={link.link}
+            className={`${classes.link} ${pathname == link.link ? classes.active : ""}`}
+          >
+            {link.label}
+          </Link>
+        </Menu.Target>
+        <Menu.Dropdown>
+          {link.dropdown.map((sublink) => (
+            <Menu.Item
+              key={sublink.link}
+              component={Link}
+              href={sublink.link}
+              className={`${classes.sublink} ${pathname == sublink.link ? classes.active : ""}`}
+            >
+              {sublink.label}
+            </Menu.Item>
+          ))}
+        </Menu.Dropdown>
+      </Menu>
+    ) : (
+      <Link
+        key={link.label}
+        href={link.link}
+        className={`${classes.link} ${pathname == link.link ? classes.active : ""}`}
+      >
+        {link.label}
+      </Link>
+    ),
+  );
 
   return (
     <Container size="1152px" className={classes.inner} bg="#fff">
