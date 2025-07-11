@@ -16,6 +16,7 @@ export default function Shell({ children, locale }: { children: React.ReactNode;
   const pathname = usePathname();
 
   const links = [
+    // { link: "/operator-resources", label: t("operator-resources"), dropdown: []   },
     {
       link: "/resources",
       label: t("resources"),
