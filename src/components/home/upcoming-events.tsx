@@ -54,7 +54,7 @@ export default function UpcomingEvents() {
     <div className="bg-white pt-5 pb-15">
       <div className="w-full max-w-7xl m-auto px-5">
         <Group justify="space-between">
-          <Title order={2} mt="lg" mb="lg" c="#2D5A51">
+          <Title size={35} c="#2D5A51">
             {t("title")}
           </Title>
           <Button variant="outline" color="#2D5A51" size="md" mt="lg" mb="lg" rightSection={<IconArrowRight />}>

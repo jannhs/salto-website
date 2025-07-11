@@ -1,8 +1,8 @@
 .wrapper {
   position: relative;
   padding-top: 300px;
-  padding-bottom: 130px;
-  background-image: url("/images/hero-section-vector-art-emergency.jpg");
+  padding-bottom: 345px;
+  background-image: url("/images/hero-section-diy.png");
   background-size: cover;
   background-position: center;
 
@@ -19,7 +19,7 @@
 
 .title {
   font-weight: 800;
-  font-size: 40px;
+  font-size: 60px;
   letter-spacing: -1px;
   padding-left: var(--mantine-spacing-md);
   padding-right: var(--mantine-spacing-md);
