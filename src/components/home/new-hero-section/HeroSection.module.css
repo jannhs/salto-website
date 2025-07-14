@@ -1,0 +1,98 @@
+.root {
+  /* background-color: #11284b; */
+  background-color: #9f9b9a;
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image:
+    linear-gradient(250deg, rgba(130, 201, 30, 0) 0%, #bf9f9a 62%), url("/images/hs-muslim-woman-and-child.jpg");
+  padding-top: calc(var(--mantine-spacing-xl) * 5);
+  padding-bottom: calc(var(--mantine-spacing-xl) * 5);
+  @media (max-width: $mantine-breakpoint-md) {
+    background-size: cover;
+    background-image:
+      linear-gradient(250deg, rgba(130, 201, 30, 0) 0%, #9f9b9a 90%), url("/images/hs-muslim-woman-and-child.jpg");
+  }
+  @media (max-width: $mantine-breakpoint-sm) {
+    text-align: center;
+    background-image:
+      linear-gradient(0deg, rgba(130, 201, 30, 0) 0%, #bf9f9a 50%), url("/images/hs-muslim-woman-and-child.jpg");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: calc(var(--mantine-spacing-xl) * 1);
+    padding-bottom: calc(var(--mantine-spacing-xl) * 14);
+  }
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image:
+      linear-gradient(0deg, rgba(130, 201, 30, 0) 0%, #bf9f9a 39%), url("/images/hs-muslim-woman-and-child.jpg");
+
+    padding-bottom: calc(var(--mantine-spacing-xl) * 9);
+  }
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $mantine-breakpoint-md) {
+    flex-direction: column;
+  }
+}
+
+.image {
+  @media (max-width: $mantine-breakpoint-md) {
+    display: none;
+  }
+}
+
+.content {
+  padding-top: calc(var(--mantine-spacing-xl) * 2);
+  padding-bottom: calc(var(--mantine-spacing-xl) * 2);
+  margin-right: calc(var(--mantine-spacing-xl) * 3);
+
+  @media (max-width: $mantine-breakpoint-md) {
+    margin-right: 0;
+  }
+}
+
+.title {
+  color: var(--mantine-color-black);
+  /* font-family: Outfit, var(--mantine-font-family); */
+  font-weight: 600;
+  line-height: 1.05;
+  max-width: 500px;
+  font-size: 60px;
+
+  @media (max-width: $mantine-breakpoint-md) {
+    max-width: 100%;
+    font-size: 34px;
+    line-height: 1.15;
+  }
+}
+
+.description {
+  color: var(--mantine-color-black);
+  opacity: 0.75;
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 500px;
+
+  @media (max-width: $mantine-breakpoint-md) {
+    max-width: 100%;
+  }
+}
+
+.control {
+  padding-left: 50px;
+  padding-right: 50px;
+  /* font-family: Outfit, var(--mantine-font-family); */
+  font-size: 22px;
+
+  @media (max-width: $mantine-breakpoint-md) {
+    width: 100%;
+  }
+}
