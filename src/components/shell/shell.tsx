@@ -16,7 +16,6 @@ export default function Shell({ children, locale }: { children: React.ReactNode;
   const pathname = usePathname();
 
   const links = [
-    // { link: "/operator-resources", label: t("operator-resources"), dropdown: []   },
     {
       link: "/resources",
       label: t("resources"),
@@ -29,8 +28,10 @@ export default function Shell({ children, locale }: { children: React.ReactNode;
         { link: "/resources/skin-conditions", label: t("skin-issues") },
       ],
     },
-    { link: "/project", label: t("about"), dropdown: [] },
-    { link: "/partners", label: t("partners"), dropdown: [] },
+    { link: "/resources-for-professionals", label: t("resources-for-professionals"), dropdown: [] },
+
+    { link: "/project", label: t("about"), dropdown: [{ link: "/partners", label: t("partners") }] },
+    // { link: "/partners", label: t("partners"), dropdown: [] },
   ];
 
   return (
