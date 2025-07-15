@@ -1,4 +1,5 @@
 import "@mantine/core/styles.css";
+import "@mantine/notifications/styles.css";
 import "@mantine/spotlight/styles.css";
 import "@mantine/carousel/styles.css";
 
@@ -10,6 +11,7 @@ import { Metadata } from "next";
 import siteMetadata from "@/data/siteMetadata";
 import Shell from "@/components/shell/shell";
 import { ColorSchemeScript, MantineProvider, mantineHtmlProps } from "@mantine/core";
+import { Notifications } from "@mantine/notifications";
 import { theme } from "../theme";
 
 export const metadata: Metadata = {
@@ -66,6 +68,7 @@ export default async function LocaleLayout({
       <body>
         <NextIntlClientProvider>
           <MantineProvider theme={theme}>
+            <Notifications />
             <Shell locale={locale}>{children}</Shell>
           </MantineProvider>
         </NextIntlClientProvider>
