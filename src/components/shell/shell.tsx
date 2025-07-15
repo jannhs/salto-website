@@ -25,7 +25,7 @@ export default function Shell({ children, locale }: { children: React.ReactNode;
         { link: "/resources/womens-health", label: t("womens-health") },
         { link: "/resources/childrens-health", label: t("childrens-health") },
         { link: "/resources/correct-use-of-meds", label: t("correct-use-of-meds") },
-        { link: "/resources/skin-conditions", label: t("skin-issues") },
+        { link: "/resources/skin-conditions", label: t("skin-conditions") },
       ],
     },
     { link: "/resources-for-professionals", label: t("resources-for-professionals"), dropdown: [] },
