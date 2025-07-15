@@ -1,6 +1,11 @@
-import TitleResourcePage from "@/components/resources/TitleResourcePage";
+import { Text } from "@mantine/core";
 
-export default function ResourcesLayout({ children }: { children: React.ReactNode }) {
+import TitleResourcePage from "@/components/resources/TitleResourcePage";
+import { useTranslations } from "next-intl";
+
+export default function IndexResourcesLayout({ children }: { children: React.ReactNode }) {
+  const t = useTranslations("Resources");
+
   return (
     <div className="m-auto w-full">
       <TitleResourcePage />
