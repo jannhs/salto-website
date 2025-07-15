@@ -52,7 +52,8 @@ export function Header({ links, opened, toggle, locale, pathname }: HeaderProps)
   );
 
   return (
-    <Container size="1152px" className={classes.inner} bg="#fff">
+    //size="1152px"
+    <Container size="62em" className={classes.inner} bg="#fff">
       <Group
         component={"a"}
         onClick={() => {
