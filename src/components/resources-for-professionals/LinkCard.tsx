@@ -7,14 +7,14 @@ import { useClipboard } from "@mantine/hooks";
 interface LinkCardProps {
   type: string;
   title: string;
-  link: string;
+  url: string;
   source: string;
   sourceHref: string;
   imagePreview: string;
   altPreview: string;
 }
 
-export function LinkCard({ type, title, link, source, sourceHref, imagePreview, altPreview }: LinkCardProps) {
+export function LinkCard({ type, title, url, source, sourceHref, imagePreview, altPreview }: LinkCardProps) {
   const clipboard = useClipboard({ timeout: 500 });
 
   return (
@@ -25,7 +25,7 @@ export function LinkCard({ type, title, link, source, sourceHref, imagePreview, 
             <Group mt="2px">
               {type == "pdf" && <IconFileTypePdf size={22} color="gray" />}
               {type == "website" && <IconLink size={22} color="gray" />}
-              <Text fw={500} component="a" href={link} target="_blank">
+              <Text fw={500} component="a" href={url} target="_blank">
                 {title}
               </Text>
             </Group>
@@ -42,7 +42,7 @@ export function LinkCard({ type, title, link, source, sourceHref, imagePreview, 
                 <Menu.Item
                   leftSection={<IconCopy size={14} />}
                   onClick={() => {
-                    clipboard.copy(`${link}`);
+                    clipboard.copy(`${url}`);
                     notifications.show({
                       position: "bottom-center",
                       title: "Copiato!",
@@ -58,7 +58,7 @@ export function LinkCard({ type, title, link, source, sourceHref, imagePreview, 
         </Grid>
       </Card.Section>
 
-      <Card.Section component="a" href={link} target="_blank">
+      <Card.Section component="a" href={url} target="_blank">
         <Center>
           <Image src={imagePreview} width="515" height="350" alt={altPreview} />
         </Center>
