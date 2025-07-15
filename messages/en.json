@@ -96,7 +96,10 @@
           "answer": "Answer to the third question."
         }
       }
-    }
+    },
+    "premiseThirdPartyResources": "In this section, you’ll find helpful materials created outside the SALTO project to support people of non-Italian origin in staying healthy.",
+    "titleBrochures": "Brochures",
+    "titleVideos": "Videos"
   },
   "SearchBar": {
     "nothingFound": "No results found",

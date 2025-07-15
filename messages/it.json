@@ -98,7 +98,10 @@
           "answer": "Risposta alla terza domanda."
         }
       }
-    }
+    },
+    "premiseThirdPartyResources": "In questa sezione è possibile visionare materiali creati al di fuori del progetto SALTO per aiutare i cittadini di origine non italiana a vivere in salute.",
+    "titleVideos": "Video",
+    "titleBrochures": "Opuscoli"
   },
   "SearchBar": {
     "nothingFound": "Nessun risultato trovato",
