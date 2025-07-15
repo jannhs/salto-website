@@ -19,7 +19,7 @@
     "healthy-diet": "Alimentazione sana",
     "correct-use-of-meds": "Uso corretto dei farmaci",
     "childrens-health": "Salute dei bambini",
-    "skin-issues": "Problemi della pelle",
+    "skin-conditions": "Problemi della pelle",
     "lifestyle-and-prevention": "Stili di vita e prevenzione",
     "womens-health": "Salute femminile",
     "resources-for-professionals": "Link utili per operatori"
@@ -101,7 +101,33 @@
     },
     "premiseThirdPartyResources": "In questa sezione è possibile visionare materiali creati al di fuori del progetto SALTO per aiutare i cittadini di origine non italiana a vivere in salute.",
     "titleVideos": "Video",
-    "titleBrochures": "Opuscoli"
+    "titleBrochures": "Opuscoli",
+    "titlePosters": "Poster",
+    "sectionLifestyle": {
+      "behaviour": "COMPORTAMENTI PER UNO STILE DI VITA SANO",
+      "antiSmoking": "CAMPAGNE ANTIFUMO",
+      "vaccine": "VACCINAZIONI",
+      "teeth": "SALUTE DEI DENTI"
+    },
+    "sectionWomensHealth": {
+      "contraception": "CONTRACCEZIONE",
+      "pregnancy": "GRAVIDANZA E CURA DEL NEONATO",
+      "breastfeeding": "ALLATTAMENTO"
+    },
+    "childrensHealth": {
+      "LIFESTYLE": "ALIMENTAZIONE E STILE DI VITA SANO NEI BAMBINI",
+      "SLEEP": "SONNO NEI BAMBINI",
+      "COMING_SOON": "Materiale in arrivo"
+    },
+    "correctUseOfMeds": {
+      "CORRECT_USE": "USO CORRETTO DEI MEDICINALI",
+      "ANTIBIOTICS": "ANTIBIOTICI",
+      "COMING_SOON": "Materiale in arrivo"
+    },
+    "skinConditions": {
+      "SCABIES": "Scabbia",
+      "COMING_SOON": "Materiale in arrivo"
+    }
   },
   "SearchBar": {
     "nothingFound": "Nessun risultato trovato",

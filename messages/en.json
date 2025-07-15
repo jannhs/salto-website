@@ -19,7 +19,7 @@
     "womens-health": "Women's  health",
     "childrens-health": "Children's health",
     "correct-use-of-meds": "Proper use of medications",
-    "skin-issues": "Skin conditions",
+    "skin-conditions": "Skin conditions",
     "resources-for-professionals": "Useful links for operators"
   },
   "ResourceHighlights": {
@@ -99,7 +99,33 @@
     },
     "premiseThirdPartyResources": "In this section, you’ll find helpful materials created outside the SALTO project to support people of non-Italian origin in staying healthy.",
     "titleBrochures": "Brochures",
-    "titleVideos": "Videos"
+    "titleVideos": "Videos",
+    "titlePosters": "Posters",
+    "sectionLifestyle": {
+      "behaviour": "Healthy lifestyle habits",
+      "antiSmoking": "Anti-smoking campaigns",
+      "vaccine": "Vaccinations",
+      "teeth": "Dental health"
+    },
+    "sectionWomensHealth": {
+      "contraception": "CONTRACEPTION",
+      "pregnancy": "PREGNANCY AND NEWBORN CARE",
+      "breastfeeding": "BREASTFEEDING"
+    },
+    "childrensHealth": {
+      "LIFESTYLE": "HEALTHY DIET AND LIFESTYLE IN CHILDREN",
+      "SLEEP": "SLEEP IN CHILDREN",
+      "COMING_SOON": "Coming soon"
+    },
+    "correctUseOfMeds": {
+      "CORRECT_USE": "CORRECT USE OF MEDICINES",
+      "ANTIBIOTICS": "ANTIBIOTICS",
+      "COMING_SOON": "Coming soon"
+    },
+    "skinConditions": {
+      "SCABIES": "Scabies",
+      "COMING_SOON": "Coming soon"
+    }
   },
   "SearchBar": {
     "nothingFound": "No results found",

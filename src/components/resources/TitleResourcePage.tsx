@@ -14,8 +14,8 @@ export default function TitleResourcePage() {
   const t = useTranslations("Navigation");
   return (
     <div className="m-auto w-full pb-4 bg-[#11630a] ">
-      <Space h="100px" />
-      <Title ta="center" c="white">
+      <Space h="150px" />
+      <Title size="40px" ta="center" c="white">
         {t(`${topic}`)}
       </Title>
     </div>
