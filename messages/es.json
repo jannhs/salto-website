@@ -1,0 +1,443 @@
+{
+  "HomePage": {
+    "about": "Ir a la página principal",
+    "HeroSection": {
+      "firstLineTitle": "SALTO",
+      "secondLineTitle": "Salud sin fronteras",
+      "description": "SALTO es una iniciativa de la Universidad de Turín que tiene como objetivo acercar a los ciudadanos extranjeros y a los profesionales de la salud, facilitando información sobre la salud y promoviendo la inclusión y el acceso a los servicios."
+    }
+  },
+  "LanguageSwitch": {
+    "label": "Cambiar idioma",
+    "locale": "{locale, select, it {Italiano} en {English} fr {Français} es {Español}  other {Otro}}"
+  },
+  "Navigation": {
+    "resources": "Material informativo",
+    "about": "Proyecto",
+    "partners": "Socios",
+    "healthy-diet": "Alimentación saludable",
+    "correct-use-of-meds": "Uso correcto de los medicamentos",
+    "childrens-health": "Salud infantil",
+    "skin-conditions": "Problemas de la piel",
+    "lifestyle-and-prevention": "Estilos de vida y prevención",
+    "womens-health": "Salud femenina",
+    "resources-for-professionals": "Enlaces útiles para profesionales"
+  },
+  "ResourceHighlights": {
+    "title": "Material informativo",
+    "learnMore": "Saber más",
+    "Female reproductive health": {
+      "title": "Salud femenina",
+      "description": "Obtén información sobre la salud ginecológica."
+    },
+    "Healthy diet": {
+      "title": "Alimentación saludable",
+      "description": "Descubre la importancia de una dieta equilibrada."
+    },
+    "Correct use of medicines": {
+      "title": "Uso correcto de los medicamentos",
+      "description": "Aprende cómo usar los medicamentos correctamente."
+    },
+    "Pregnancy": {
+      "title": "Embarazo",
+      "description": "Obtén información sobre el embarazo y el parto."
+    },
+    "Pediatric care": {
+      "title": "Salud infantil",
+      "description": "Infórmate sobre los cuidados pediátricos y la salud de los niños."
+    },
+    "Skin conditions": {
+      "title": "Problemas de la piel",
+      "description": "Aprende cómo resolver problemas grandes y pequeños de la piel."
+    },
+    "Access to healthcare": {
+      "title": "Acceso a la atención sanitaria",
+      "description": "Infórmate sobre cómo acceder a los servicios de salud."
+    },
+    "Prevention": {
+      "title": "Estilos de vida y prevención",
+      "description": "Descubre la importancia de la prevención y los estilos de vida saludables."
+    }
+  },
+  "UpcomingEvents": {
+    "title": "Próximos eventos",
+    "description": "Mantente al día con nuestros últimos eventos y actividades.",
+    "allButton": "Todos",
+    "allButtonExtra": "Ver eventos",
+    "events": {
+      "event1": {
+        "title": "Taller sobre salud",
+        "date": "2025-03-15",
+        "location": "Universidad de Turín",
+        "description": "Únete a nosotros para un taller sobre salud y bienestar."
+      },
+      "event2": {
+        "title": "Jornada de la salud",
+        "date": "2025-04-20",
+        "location": "Centro Intercultural de Turín",
+        "description": "Participa en nuestra jornada dedicada a la salud y la información."
+      }
+    }
+  },
+  "Resources": {
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Aquí puedes encontrar las preguntas y respuestas más comunes sobre el proyecto.",
+      "items": {
+        "First question": {
+          "question": "¿Primera pregunta?",
+          "answer": "Respuesta a la primera pregunta."
+        },
+        "Second question": {
+          "question": "¿Segunda pregunta?",
+          "answer": "Respuesta a la segunda pregunta."
+        },
+        "Third question": {
+          "question": "¿Tercera pregunta?",
+          "answer": "Respuesta a la tercera pregunta."
+        }
+      }
+    },
+    "premiseThirdPartyResources": "En esta sección se pueden consultar materiales creados fuera del proyecto SALTO para ayudar a los ciudadanos de origen no italiano a vivir con buena salud.",
+    "titleVideos": "Vídeos",
+    "titleBrochures": "Folletos",
+    "titlePosters": "Carteles",
+    "sectionLifestyle": {
+      "behaviour": "COMPORTAMIENTOS PARA UN ESTILO DE VIDA SALUDABLE",
+      "antiSmoking": "CAMPAÑAS ANTITABACO",
+      "vaccine": "VACUNAS",
+      "teeth": "SALUD DENTAL"
+    },
+    "sectionWomensHealth": {
+      "contraception": "CONTRACEPCIÓN",
+      "pregnancy": "EMBARAZO Y CUIDADO DEL RECIÉN NACIDO",
+      "breastfeeding": "LACTANCIA"
+    },
+    "childrensHealth": {
+      "LIFESTYLE": "ALIMENTACIÓN Y ESTILO DE VIDA SALUDABLE EN LOS NIÑOS",
+      "SLEEP": "SUEÑO EN LOS NIÑOS",
+      "COMING_SOON": "Material disponible próximamente"
+    },
+    "correctUseOfMeds": {
+      "CORRECT_USE": "USO CORRECTO DE LOS MEDICAMENTOS",
+      "ANTIBIOTICS": "ANTIBIÓTICOS",
+      "COMING_SOON": "Material disponible próximamente"
+    },
+    "skinConditions": {
+      "SCABIES": "Sarna",
+      "COMING_SOON": "Material disponible próximamente"
+    }
+  },
+  "SearchBar": {
+    "nothingFound": "No se encontraron resultados",
+    "placeholder": "Buscar",
+    "actions": {
+      "resources": {
+        "label": "Material informativo",
+        "description": "Descripción del material informativo"
+      },
+      "about": {
+        "label": "Proyecto",
+        "description": "Descripción del proyecto"
+      },
+      "partners": {
+        "label": "Socios",
+        "description": "Descripción de los socios"
+      }
+    }
+  },
+  "Footer": {
+    "fundingDescription": "SALTO ha sido financiado por la Convocatoria 2023 para proyectos de Participación Pública de la Universidad de Turín (Decreto rectoral n.º 5404/2023 Prot. n.º 0564338 del 10/10/2023).",
+    "coordinator": "Responsable científica: Marta Giorgis",
+    "bottomText": "© 2025 SALTO. \nTodos los derechos reservados."
+  },
+  "PartnersPage": {
+    "title": "Socios",
+    "titleCard": "En colaboración con",
+    "titleContacts": "Contactos",
+    "tabUnito": "Universidad de Estudios de Turín",
+    "tabExternal": "Socios externos",
+    "partners": {
+      "Dipartimento di Scienza e Tecnologia del Farmaco": {
+        "partnerName": "Departamento de Ciencia y Tecnología del Medicamento",
+        "partnerType": "UniTo",
+        "description": "",
+        "contacts": "Marta Giorgis,Elena Ugazio,Francesca Baratta,Stefano Sainas,Valentina Boscaro,Mauro Marengo,Federico Fornaseri,Lucrezia Greta Armando",
+        "logo": "/logos/logo_unito_dstf.gif",
+        "logoHeight": "80",
+        "logoWidth": "160"
+      },
+      "Dipartimento di Lingue e Letterature straniere e Culture moderne": {
+        "partnerName": "Departamento de Lenguas y Literaturas Extranjeras y Culturas Modernas",
+        "partnerType": "UniTo",
+        "description": "",
+        "contacts": "Daniela Cacia,Maria Felisa Bermejo Calleja,Paola Capponi,Alex Borio",
+        "logo": "/logos/logo_unito_lett_straniere.png",
+        "logoHeight": "120",
+        "logoWidth": "190"
+      },
+      "Dipartimento di Scienze della Sanità Pubblica e Pediatriche": {
+        "partnerName": "Departamento de Ciencias de la Salud Pública y Pediátrica",
+        "partnerType": "UniTo",
+        "description": "",
+        "contacts": "Giacomo Scaioli,Giulia Squillacioti",
+        "logo": "/logos/logo_unito_dsspp.png",
+        "logoHeight": "80",
+        "logoWidth": "150"
+      },
+      "Dipartimento di Informatica": {
+        "partnerName": "Departamento de Informática",
+        "partnerType": "UniTo",
+        "description": "",
+        "contacts": "Francesca Cordero,Daniela Volpatto,Janneth Estefania Hoyos Rea",
+        "logo": "/logos/logo_unito_info.png",
+        "logoHeight": "80",
+        "logoWidth": "150"
+      },
+      "Dipartimento di Scienze Mediche": {
+        "partnerName": "Departamento de Ciencias Médicas",
+        "partnerType": "UniTo",
+        "description": "",
+        "contacts": "Pietro Quaglino,Gabriele Rocuzzo,Silvia Giordano",
+        "logo": "/logos/logo_unito_dsm.png",
+        "logoHeight": "80",
+        "logoWidth": "80"
+      },
+      "Dipartimento di Culture Politica e Società": {
+        "partnerName": "Departamento de Culturas, Política y Sociedad",
+        "partnerType": "UniTo",
+        "description": "",
+        "contacts": "Valentina Moiso,Roberta Ricucci",
+        "logo": "/logos/logo_unito_cps.png",
+        "logoHeight": "80",
+        "logoWidth": "80"
+      },
+      "Dipartimento di Psicologia": {
+        "partnerName": "Departamento de Psicología",
+        "partnerType": "UniTo",
+        "description": "",
+        "contacts": "Anna Miglietta,Maria Giulia Porro",
+        "logo": "/logos/logo_unito_psicologia.jpg",
+        "logoHeight": "80",
+        "logoWidth": "170"
+      },
+      "Dipartimento di Matematica": {
+        "partnerName": "Departamento de Matemáticas",
+        "partnerType": "UniTo",
+        "description": "",
+        "contacts": "Roberta Sirovich",
+        "logo": "/logos/logo_unito_matematica.jpg",
+        "logoHeight": "80",
+        "logoWidth": "150"
+      },
+      "Centro Provinciale di Istruzione per Adulti (CPIA) 1 Paulo Freire": {
+        "partnerName": "Centro Provinciale per l'Istruzione degli Adulti (CPIA) 1 'Paulo Freire'",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_cpia1.png",
+        "logoHeight": "100",
+        "logoWidth": "80"
+      },
+      "CPIA 2 Torino": {
+        "partnerName": "Centro Provinciale per l'Istruzione degli Adulti (CPIA) 2 'Piero Angela'",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_cpia2.jpg",
+        "logoHeight": "100",
+        "logoWidth": "80"
+      },
+      "Centro interculturale della città di Torino": {
+        "partnerName": "Centro Interculturale della Città di Torino",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_centro_interculturale.jpg",
+        "logoHeight": "100",
+        "logoWidth": "100"
+      },
+      "Associazione di Animazione Interculturale (ASAI)": {
+        "partnerName": "Associazione di Animazione Interculturale (ASAI)",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_asai.jpg",
+        "logoHeight": "80",
+        "logoWidth": "80"
+      },
+      "Agenzia per lo Sviluppo Sociale di San Salvario": {
+        "partnerName": "Agenzia per lo Sviluppo Sociale di San Salvario",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_agenzia_sansa.jpg",
+        "logoHeight": "120",
+        "logoWidth": "80"
+      },
+      "Medici con l’Africa CUAMM PIEMONTE": {
+        "partnerName": "Medici con l’Africa CUAMM Gruppo Piemonte ETS",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_cuamm.png",
+        "logoHeight": "80",
+        "logoWidth": "160"
+      },
+      "CAMMINARE INSIEME ODV": {
+        "partnerName": "Camminare Insieme - Organizzazione Di Volontariato (ODV)",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_camminare_insieme.png",
+        "logoHeight": "80",
+        "logoWidth": "150"
+      },
+      "ASSOCIAZIONE AIA APS": {
+        "partnerName": "Associazione Islamica delle Alpi (AIA) Aps",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_aia.png",
+        "logoHeight": "90",
+        "logoWidth": "90"
+      },
+      "GrIS Piemonte-Gruppo Immigrazione Salute": {
+        "partnerName": "Gruppo Immigrazione Salute (GrIS) Piemonte",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_gris_piemonte.jpg",
+        "logoHeight": "80",
+        "logoWidth": "80"
+      },
+      "IRES Piemonte": {
+        "partnerName": "Istituto di Ricerche Socioeconomiche (IRES) Piemonte",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_ires_piemonte.jpg",
+        "logoHeight": "100",
+        "logoWidth": "160"
+      },
+      "Bagni Pubblici di Via Aglié": {
+        "partnerName": "Bagni Pubblici di Via Aglié",
+        "partnerType": "external",
+        "description": "",
+        "contacts": "",
+        "logo": "/logos/logo_bagni_pubblici.jpg",
+        "logoHeight": "150",
+        "logoWidth": "190"
+      }
+    }
+  },
+  "ScrollToTopAffix": {
+    "scrollToTop": "Volver arriba"
+  },
+  "ProjectPage": {
+    "Goal3": {
+      "label": "Salud y bienestar",
+      "description": "Garantizar una vida sana y promover el bienestar para todos en todas las edades",
+      "objectives": {
+        "objective1": {
+          "title": "3.1",
+          "description": "Para 2030, reducir la tasa de mortalidad materna mundial a menos de 70 por cada 100.000 nacidos vivos."
+        },
+        "objective2": {
+          "title": "3.2",
+          "description": "Para 2030, poner fin a las muertes evitables de recién nacidos y niños menores de 5 años, con el objetivo de reducir la mortalidad neonatal a no más de 12 por cada 1.000 nacidos vivos y la mortalidad infantil a no más de 25 por cada 1.000 nacidos vivos en todos los países."
+        },
+        "objective3": {
+          "title": "3.3",
+          "description": "Para 2030, poner fin a las epidemias de VIH/SIDA, tuberculosis, malaria y enfermedades tropicales desatendidas, y combatir la hepatitis, las enfermedades transmitidas por el agua y otras enfermedades transmisibles."
+        },
+        "objective4": {
+          "title": "3.4",
+          "description": "Para 2030, reducir en un tercio la mortalidad prematura por enfermedades no transmisibles mediante la prevención y el tratamiento, y promover la salud mental y el bienestar."
+        },
+        "objective5": {
+          "title": "3.5",
+          "description": "Reforzar la prevención y el tratamiento del abuso de sustancias, incluido el uso indebido de drogas y el consumo nocivo de alcohol."
+        },
+        "objective6": {
+          "title": "3.6",
+          "description": "Para 2020, reducir a la mitad el número de muertes y lesiones causadas por accidentes de tráfico a nivel mundial."
+        },
+        "objective7": {
+          "title": "3.7",
+          "description": "Para 2030, garantizar el acceso universal a servicios de salud sexual y reproductiva, incluidos los de planificación familiar, información y educación, e integrar la salud reproductiva en las estrategias y programas nacionales."
+        },
+        "objective8": {
+          "title": "3.8",
+          "description": "Lograr la cobertura sanitaria universal, incluida la protección contra riesgos financieros, el acceso a servicios de salud esenciales de calidad y el acceso a medicamentos y vacunas esenciales seguros, eficaces, de calidad y asequibles para todos."
+        },
+        "objective9": {
+          "title": "3.9",
+          "description": "Para 2030, reducir significativamente el número de muertes y enfermedades causadas por productos químicos peligrosos y la contaminación del aire, el agua y el suelo."
+        },
+        "objectiveA": {
+          "title": "3.a",
+          "description": "Fortalecer la aplicación del Convenio Marco de la Organización Mundial de la Salud para el Control del Tabaco en todos los países, según proceda."
+        },
+        "objectiveB": {
+          "title": "3.b",
+          "description": "Apoyar la investigación y el desarrollo de vacunas y medicamentos para enfermedades transmisibles y no transmisibles que afectan principalmente a los países en desarrollo, y proporcionar acceso a medicamentos y vacunas esenciales asequibles, de conformidad con la Declaración de Doha sobre el Acuerdo sobre los ADPIC y la Salud Pública, que afirma el derecho de los países en desarrollo a utilizar plenamente las disposiciones del acuerdo para proteger la salud pública y, en particular, facilitar el acceso a medicamentos para todos."
+        },
+        "objectiveC": {
+          "title": "3.c",
+          "description": "Aumentar sustancialmente la financiación sanitaria y la contratación, el desarrollo, la formación y la retención del personal sanitario en los países en desarrollo, especialmente en los países menos adelantados y en los pequeños Estados insulares en desarrollo."
+        },
+        "objectiveD": {
+          "title": "3.d",
+          "description": "Reforzar la capacidad de todos los países, en particular los países en desarrollo, para la prevención, reducción y gestión de los riesgos sanitarios nacionales y mundiales."
+        }
+      }
+    },
+    "Goal10": {
+      "label": "Reducción de las desigualdades",
+      "description": "Reducir la desigualdad en y entre los países",
+      "objectives": {
+        "objective1": {
+          "title": "10.1",
+          "description": "Para 2030, lograr un crecimiento de los ingresos del 40% más pobre de la población a un ritmo superior al promedio nacional."
+        },
+        "objective2": {
+          "title": "10.2",
+          "description": "Promover el desarrollo social, económico y político de todos, independientemente de su edad, género, discapacidad, raza, etnia, origen, religión o situación económica u otra condición."
+        },
+        "objective3": {
+          "title": "10.3",
+          "description": "Garantizar la igualdad de oportunidades y reducir las desigualdades de resultados, prestando especial atención a las necesidades de los más desfavorecidos."
+        },
+        "objective4": {
+          "title": "10.4",
+          "description": "Adoptar políticas fiscales, salariales y de protección social progresivas y lograr una mayor igualdad en la distribución del ingreso."
+        },
+        "objective5": {
+          "title": "10.5",
+          "description": "Mejorar la regulación y supervisión de las instituciones financieras y los mercados."
+        },
+        "objective6": {
+          "title": "10.6",
+          "description": "Facilitar una migración ordenada, segura, regular y responsable mediante políticas bien gestionadas."
+        },
+        "objective7": {
+          "title": "10.7",
+          "description": "Adoptar medidas para eliminar las prácticas discriminatorias y promover una mayor inclusión social, económica y política de todos."
+        },
+        "objectiveA": {
+          "title": "10.a",
+          "description": "Aplicar el principio de trato especial y diferenciado para los países en desarrollo, en particular para los países menos adelantados, de conformidad con los acuerdos de la Organización Mundial del Comercio."
+        },
+        "objectiveB": {
+          "title": "10.b",
+          "description": "Promover la asistencia oficial para el desarrollo y los flujos financieros relacionados, incluidos los flujos de inversión extranjera directa, hacia los Estados donde más se necesiten, en particular los países menos adelantados, los países africanos, los pequeños Estados insulares en desarrollo y los países en desarrollo sin litoral, de acuerdo con sus planes y programas nacionales."
+        },
+        "objectiveC": {
+          "title": "10.c",
+          "description": "Para 2030, reducir a menos del 3 por ciento los costos de transacción de las remesas de los migrantes y eliminar los corredores de remesas con costos superiores al 5 por ciento."
+        }
+      }
+    }
+  }
+}
