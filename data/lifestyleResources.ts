@@ -51,6 +51,63 @@ export const lifestyleResourcesByLocale: Record<
       brochures: [],
     },
   },
+  fr: {
+    behaviour: {
+      brochures: [],
+      videos: [
+        {
+          type: "video",
+          title: "Projet G-Start",
+          url: "https://youtube.com/embed/am3kJ5yHscM",
+          source: "Projet G-Start",
+          sourceHref: "https://www.epicentro.iss.it/migranti/g-start",
+          imagePreview: "/previews/default.png",
+        },
+      ],
+    },
+    antiSmoking: {
+      brochures: [],
+    },
+    vaccine: {
+      brochures: [
+        {
+          type: "pdf",
+          title: "Vaccinations recommandées pour les adultes",
+          url: "https://www.progettoicare.it/flex/Extensions/AppModules/AppIcareDoc/pages/serveFileIcare.php?P=248&ID=b8df6e9f40fef5fa0fe35ec76a3774c9&LNG=FR",
+          source: "Projet ICARE",
+          sourceHref: "https://www.progettoicare.it/",
+          imagePreview: "/previews/default.png",
+        },
+      ],
+    },
+    teeth: {
+      brochures: [],
+    },
+  },
+  es: {
+    behaviour: {
+      brochures: [],
+      videos: [],
+    },
+    antiSmoking: {
+      brochures: [],
+    },
+    vaccine: {
+      brochures: [
+        {
+          type: "pdf",
+          title: "Vacunas recomendadas para adultos",
+          url: "https://www.progettoicare.it/flex/Extensions/AppModules/AppIcareDoc/pages/serveFileIcare.php?P=248&ID=b8df6e9f40fef5fa0fe35ec76a3774c9&LNG=ES",
+          source: "Proyecto ICARE",
+          sourceHref: "https://www.progettoicare.it/",
+          imagePreview: "/previews/default.png",
+        },
+      ],
+    },
+    teeth: {
+      brochures: [],
+    },
+  },
 
   it: {
     behaviour: {
@@ -107,7 +164,7 @@ export const lifestyleResourcesByLocale: Record<
         },
         {
           type: "pdf",
-          title: "Vaccinazioni raccomandate agli adulti",
+          title: "Vaccinazioni raccomandate negli adulti",
           url: "https://www.progettoicare.it/flex/Extensions/AppModules/AppIcareDoc/pages/serveFileIcare.php?P=248&ID=b8df6e9f40fef5fa0fe35ec76a3774c9&LNG=IT",
           source: "Progetto ICARE",
           sourceHref: "https://www.progettoicare.it/",

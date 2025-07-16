@@ -13,6 +13,18 @@ export const healthyDietExtraResourcesByLocale: Record<string, { videos: Resourc
     ],
     brochures: [],
   },
+  fr: {
+    videos: [
+      {
+        type: "video",
+        title: "Projet 'G-Start",
+        url: "https://youtube.com/embed/8_yHC0jg7_s",
+        source: "Projet G-Start",
+        sourceHref: "https://www.epicentro.iss.it/migranti/g-start",
+      },
+    ],
+    brochures: [],
+  },
   it: {
     videos: [
       {

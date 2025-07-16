@@ -124,7 +124,7 @@
       "COMING_SOON": "Material disponible próximamente"
     },
     "skinConditions": {
-      "SCABIES": "Sarna",
+      "SCABIES": "SARNA",
       "COMING_SOON": "Material disponible próximamente"
     }
   },
@@ -155,7 +155,7 @@
     "title": "Socios",
     "titleCard": "En colaboración con",
     "titleContacts": "Contactos",
-    "tabUnito": "Universidad de Estudios de Turín",
+    "tabUnito": "Universidad de Turín",
     "tabExternal": "Socios externos",
     "partners": {
       "Dipartimento di Scienza e Tecnologia del Farmaco": {

@@ -18,6 +18,30 @@ export const skinConditionsResourcesByLocale: Record<
       },
     ],
   },
+  fr: {
+    brochures: [
+      {
+        type: "pdf",
+        title: "Qu'est-ce que la gale?",
+        url: "https://www.progettoicare.it/flex/Extensions/AppModules/AppIcareDoc/pages/serveFileIcare.php?P=248&ID=de42664cf7bb96c94f6f4feb841c22bf&LNG=FR",
+        source: "Projet ICARE",
+        sourceHref: "https://www.progettoicare.it/",
+        imagePreview: "/previews/default.png",
+      },
+    ],
+  },
+  es: {
+    brochures: [
+      {
+        type: "pdf",
+        title: "¿Qué es la sarna?",
+        url: "https://www.progettoicare.it/flex/Extensions/AppModules/AppIcareDoc/pages/serveFileIcare.php?P=248&ID=de42664cf7bb96c94f6f4feb841c22bf&LNG=ES",
+        source: "Proyecto ICARE",
+        sourceHref: "https://www.progettoicare.it/",
+        imagePreview: "/previews/default.png",
+      },
+    ],
+  },
   it: {
     brochures: [
       {

@@ -102,10 +102,10 @@
     "titleVideos": "Videos",
     "titlePosters": "Posters",
     "sectionLifestyle": {
-      "behaviour": "Healthy lifestyle habits",
-      "antiSmoking": "Anti-smoking campaigns",
-      "vaccine": "Vaccinations",
-      "teeth": "Dental health"
+      "behaviour": "HEALTHY HABITS",
+      "antiSmoking": "ANTI-SMSOKING CAMPAIGNS",
+      "vaccine": "VACCINATIONS",
+      "teeth": "DENTAL HEALTH"
     },
     "sectionWomensHealth": {
       "contraception": "CONTRACEPTION",
@@ -123,7 +123,7 @@
       "COMING_SOON": "Coming soon"
     },
     "skinConditions": {
-      "SCABIES": "Scabies",
+      "SCABIES": "SCABIES",
       "COMING_SOON": "Coming soon"
     }
   },
