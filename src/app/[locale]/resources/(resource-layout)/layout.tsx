@@ -8,7 +8,7 @@ export default function ResourcesLayout({ children }: { children: React.ReactNod
 
   return (
     <div className="m-auto max-w-285 px-7 pt-5 pb-10">
-      <Text>{t("premiseThirdPartyResources")}</Text>
+      <Text pb="md">{t("premiseThirdPartyResources")}</Text>
       {children}
     </div>
   );
