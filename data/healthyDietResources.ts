@@ -62,7 +62,7 @@ export const healthyDietExtraResourcesByLocale: Record<string, { videos: Resourc
         url: "https://www.informazionisuifarmaci.it/allegati/sale_160921043718.pdf",
         source: "Informazioni sui Farmaci (IsF)",
         sourceHref: "https://www.informazionisuifarmaci.it/",
-        imagePreview: "/previews/abbasso-sale.png",
+        imagePreview: "/previews/default.png",
         altPreview: "Preview dell'opuscolo 'Abbasso il sale!'",
       },
     ],
