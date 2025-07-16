@@ -15,12 +15,16 @@ export default function LifestylePage() {
 
   return (
     <>
-      <Text pt="xl" size="18px" fw="bolder" c="#4a4a49">
-        {t("sectionLifestyle.behaviour")}
-      </Text>
-      <div className="p-5">
-        <ThirdPartyResourcesSection brochures={resources.behaviour.brochures} videos={resources.behaviour.videos} />
-      </div>
+      {resources.behaviour.brochures.length > 0 && (
+        <>
+          <Text pt="xs" size="18px" fw="bolder" c="#4a4a49">
+            {t("sectionLifestyle.behaviour")}
+          </Text>
+          <div className="p-5">
+            <ThirdPartyResourcesSection brochures={resources.behaviour.brochures} videos={resources.behaviour.videos} />
+          </div>
+        </>
+      )}
 
       {resources.antiSmoking.brochures.length > 0 && (
         <>
