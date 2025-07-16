@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useTranslations } from "next-intl";
-import { Box, Text, List } from "@mantine/core";
+import { List } from "@mantine/core";
 
 export default function ResourcesPage() {
   const t = useTranslations("Navigation");
@@ -18,10 +18,10 @@ export default function ResourcesPage() {
 
   return (
     <div className="py-20 m-auto max-w-100">
-      <Text pt="xl" pb="sm" size="18px" fw="bolder" c="#4a4a49">
+      {/* <Text pt="xl" pb="sm" size="18px" fw="bolder" c="#4a4a49">
         RISORSE ESTERNE A SALTO:
-      </Text>
-      <List spacing="md" size="lg" withPadding>
+      </Text> */}
+      <List pt="xl" spacing="md" size="lg" withPadding>
         {sublinks.map((item) => (
           <List.Item key={item.link}>
             <Link

@@ -1,4 +1,4 @@
-import { Card, Group, Text, Menu, Grid, GridCol, Center, ActionIcon } from "@mantine/core";
+import { Card, Text, Menu, Grid, GridCol, Center, ActionIcon } from "@mantine/core";
 import { IconCopy, IconDotsVertical, IconFileTypePdf, IconLink } from "@tabler/icons-react";
 import { notifications } from "@mantine/notifications";
 import Image from "next/image";

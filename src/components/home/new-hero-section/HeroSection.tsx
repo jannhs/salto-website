@@ -5,7 +5,6 @@ import { IconArrowRight } from "@tabler/icons-react";
 
 export default function NewHeroSection() {
   const t = useTranslations("HomePage.HeroSection");
-  const title = t("firstLineTitle") + " -\n" + t("secondLineTitle");
 
   return (
     <div className={classes.root}>

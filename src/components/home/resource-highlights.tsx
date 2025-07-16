@@ -8,7 +8,6 @@ import { useMantineTheme } from "@mantine/core";
 import classes from "./resource-highlights.module.css";
 import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
-import { url } from "inspector";
 
 export default function ResourceHighlights() {
   const theme = useMantineTheme();
