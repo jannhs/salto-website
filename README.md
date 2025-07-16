@@ -1,4 +1,4 @@
-# SALTO Website
+# SALTO - Salute senza confini [Website] 
 <p align="center">
 <img src="https://github.com/jannhs/salto-website/blob/88af7cc1120efabcf60d6a3d070c69f4cf3530f2/public/logo_salto.png" width="200"/>
 </p>
