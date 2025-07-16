@@ -53,7 +53,7 @@ export function Header({ links, opened, toggle, locale, pathname }: HeaderProps)
 
   return (
     //size="1152px"
-    <Container size="62em" className={classes.inner} bg="#fff">
+    <Container size="75em" className={classes.inner} bg="#fff">
       <Group
         component={"a"}
         onClick={() => {
@@ -71,13 +71,13 @@ export function Header({ links, opened, toggle, locale, pathname }: HeaderProps)
             marginTop: "2px",
           }}
         />
-        <Title order={2} visibleFrom="xs" className="text-[#005350]">
+        <Title order={2} visibleFrom="md" className="text-[#005350]">
           SALTO
         </Title>
       </Group>
 
       <Group h="100%" m="0" p="0">
-        <Group ml={50} gap={5} visibleFrom="sm" h="100%" pt="7px" pb="7px">
+        <Group ml={0} gap={5} visibleFrom="sm" h="100%" pt="7px" pb="7px">
           {items}
         </Group>
         <LanguageSwitch locale={locale} />
