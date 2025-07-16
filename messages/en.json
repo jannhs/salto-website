@@ -1,14 +1,14 @@
 {
   "HomePage": {
     "HeroSection": {
-      "firstLineTitle": "Welcome to SALTO",
+      "firstLineTitle": "SALTO",
       "secondLineTitle": "Health without borders",
       "description": "SALTO is a project launched by the University of Turin with the goal of connecting foreign citizens and healthcare professionals by improving access to health information, fostering inclusion, and facilitating access to services."
     }
   },
   "LanguageSwitch": {
     "label": "Change language",
-    "locale": "{locale, select, it {Italiano} en {English} other {Other}}"
+    "locale": "{locale, select, it {Italiano} en {English} fr {Français} es {Español} other {Other}}"
   },
   "Navigation": {
     "resources": "Resources",

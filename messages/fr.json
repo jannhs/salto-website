@@ -9,7 +9,7 @@
   },
   "LanguageSwitch": {
     "label": "Changer de langue",
-    "locale": "{locale, select, it {Italiano} en {English} fr {Français} other {Altro}}"
+    "locale": "{locale, select, it {Italiano} en {English} fr {Français} es {Español} other {Altro}}"
   },
   "Navigation": {
     "resources": "Matériel d'information",
@@ -337,106 +337,106 @@
   },
   "ProjectPage": {
     "Goal3": {
-      "label": "Salute e benessere",
-      "description": "Assicurare la salute e il benessere per tutti e per tutte le età",
+      "label": "Bonne santé et bien-être",
+      "description": "Permettre à tous de vivre en bonne santé et promouvoir le bien-être de tous à tout âge",
       "objectives": {
         "objective1": {
           "title": "3.1",
-          "description": "Entro il 2030, ridurre il tasso di mortalità materna globale a meno di 70 per 100.000 nati vivi."
+          "description": "D'ici 2030, réduire le taux de mortalité maternelle mondial à moins de 70 pour 100 000 naissances vivantes."
         },
         "objective2": {
           "title": "3.2",
-          "description": "Entro il 2030, mettere fine alle morti evitabili di neonati e bambini sotto i 5 anni di età, con l'obiettivo per tutti i paesi di ridurre la mortalità neonatale a non più di 12 su 1.000 nati vivi e, per i bambini al di sotto dei 5 anni, ridurre la mortalità a non più di 25 su 1.000 nati vivi."
+          "description": "D'ici 2030, mettre fin aux décès évitables de nouveau-nés et d'enfants de moins de 5 ans, avec pour objectif, dans tous les pays, de réduire la mortalité néonatale à un maximum de 12 pour 1 000 naissances vivantes, et la mortalité des enfants de moins de 5 ans à un maximum de 25 pour 1 000 naissances vivantes."
         },
         "objective3": {
           "title": "3.3",
-          "description": "Entro il 2030, porre fine alle epidemie di AIDS, tubercolosi, malaria e malattie tropicali trascurate e combattere l'epatite, le malattie legate all’uso dell’acqua e altre malattie trasmissibili."
+          "description": "D'ici 2030, mettre fin aux épidémies de VIH/sida, de tuberculose, de paludisme et de maladies tropicales négligées, et combattre l'hépatite, les maladies liées à l'eau et autres maladies transmissibles."
         },
         "objective4": {
           "title": "3.4",
-          "description": "Entro il 2030, ridurre di un terzo la mortalità prematura da malattie non trasmissibili attraverso la prevenzione e la cura e promuovere la salute mentale e il benessere."
+          "description": "D'ici 2030, réduire d’un tiers la mortalité prématurée due à des maladies non transmissibles, au moyen de la prévention, du traitement, et promouvoir la santé mentale et le bien-être."
         },
         "objective5": {
           "title": "3.5",
-          "description": "Rafforzare la prevenzione e il trattamento di abuso di sostanze, tra cui abuso di stupefacenti e l'uso nocivo di alcool."
+          "description": "Renforcer la prévention et le traitement de l'abus de substances, y compris la consommation de drogues et l'usage nocif de l’alcool."
         },
         "objective6": {
           "title": "3.6",
-          "description": "Entro il 2020, dimezzare il numero di decessi a livello mondiale e le lesioni da incidenti stradali."
+          "description": "D'ici 2020, réduire de moitié le nombre de décès et de traumatismes dus aux accidents de la route dans le monde."
         },
         "objective7": {
           "title": "3.7",
-          "description": "Entro il 2030, garantire l'accesso universale ai servizi di assistenza sanitaria sessuale e riproduttiva, compresi quelli per la pianificazione familiare, l'informazione e l'educazione, e l'integrazione della salute riproduttiva nelle strategie e nei programmi nazionali."
+          "description": "D'ici 2030, garantir l'accès universel aux services de santé sexuelle et reproductive, y compris la planification familiale, l'information et l'éducation, et intégrer la santé reproductive dans les stratégies et programmes nationaux."
         },
         "objective8": {
           "title": "3.8",
-          "description": "Conseguire una copertura sanitaria universale, compresa la protezione dai rischi finanziari, l'accesso a servizi essenziali di assistenza sanitaria di qualità e l'accesso a farmaci essenziali sicuri, efficaci, di qualità e a prezzi accessibili e vaccini per tutti."
+          "description": "Parvenir à une couverture sanitaire universelle, incluant la protection contre les risques financiers, l'accès à des services de santé essentiels de qualité, ainsi qu’à des médicaments et vaccins essentiels sûrs, efficaces, de qualité et à prix abordable pour tous."
         },
         "objective9": {
           "title": "3.9",
-          "description": "Entro il 2030, ridurre sostanzialmente il numero di decessi e malattie da sostanze chimiche pericolose e da inquinamento e contaminazione di aria, acqua e suolo."
+          "description": "D'ici 2030, réduire de manière significative le nombre de décès et de maladies causés par des produits chimiques dangereux, la pollution et la contamination de l'air, de l'eau et des sols."
         },
         "objectiveA": {
           "title": "3.a",
-          "description": "Rafforzare l'attuazione della “Convenzione quadro dell’Organizzazione Mondiale della Sanità” sul controllo del tabacco in tutti i paesi, a seconda dei casi."
+          "description": "Renforcer la mise en œuvre de la Convention-cadre de l’Organisation mondiale de la Santé pour la lutte antitabac dans tous les pays, selon les besoins."
         },
         "objectiveB": {
           "title": "3.b",
-          "description": "Sostenere la ricerca e lo sviluppo di vaccini e farmaci per le malattie trasmissibili e non trasmissibili che colpiscono soprattutto i paesi in via di sviluppo, fornire l'accesso ai farmaci essenziali e ai vaccini a prezzi accessibili, in conformità con la Dichiarazione di Doha sull'Accordo TRIPS e la salute pubblica, che afferma il diritto dei paesi in via di sviluppo ad utilizzare appieno le disposizioni dell'accordo sugli aspetti commerciali dei diritti di proprietà intellettuale in materia di flessibilità per proteggere la salute pubblica e, in particolare, di fornire l'accesso ai farmaci per tutti."
+          "description": "Soutenir la recherche et le développement de vaccins et de médicaments pour les maladies transmissibles et non transmissibles touchant principalement les pays en développement, et assurer l’accès à des médicaments et vaccins essentiels à prix abordable, conformément à la Déclaration de Doha sur l’accord sur les ADPIC et la santé publique, qui affirme le droit des pays en développement à utiliser pleinement les dispositions de l'accord en matière de flexibilité pour protéger la santé publique, notamment en fournissant un accès à des médicaments pour tous."
         },
         "objectiveC": {
           "title": "3.c",
-          "description": "Aumentare sostanzialmente il finanziamento della sanità e il reclutamento, lo sviluppo, la formazione e il mantenimento del personale sanitario nei paesi in via di sviluppo, soprattutto nei paesi meno sviluppati e nei piccoli Stati insulari in via di sviluppo."
+          "description": "Augmenter considérablement le financement de la santé, ainsi que le recrutement, la formation, le développement et le maintien en poste du personnel de santé dans les pays en développement, en particulier dans les pays les moins avancés et les petits États insulaires en développement."
         },
         "objectiveD": {
           "title": "3.d",
-          "description": "Rafforzare la capacità di tutti i paesi, in particolare i paesi in via di sviluppo, per la prevenzione, la riduzione e la gestione dei rischi per la salute nazionale e globale."
+          "description": "Renforcer la capacité de tous les pays, en particulier les pays en développement, en matière de prévention, de réduction et de gestion des risques sanitaires nationaux et mondiaux."
         }
       }
     },
     "Goal10": {
-      "label": "Ridurre le disuguaglianze",
-      "description": "Ridurre l'ineguaglianza all'interno di e fra le Nazioni",
+      "label": "Inégalités réduites",
+      "description": "Réduire les inégalités au sein des pays et entre eux",
       "objectives": {
         "objective1": {
           "title": "10.1",
-          "description": "Entro il 2030, raggiungere e sostenere progressivamente la crescita del reddito del 40 per cento più povero della popolazione ad un tasso superiore rispetto alla media nazionale."
+          "description": "D’ici 2030, faire en sorte que les revenus des 40 % les plus pauvres de la population augmentent à un rythme supérieur à la moyenne nationale, et maintenir cette progression."
         },
         "objective2": {
           "title": "10.2",
-          "description": "Entro il 2030, potenziare e promuovere l'inclusione sociale, economica e politica di tutti, a prescindere da età, sesso, disabilità, razza, etnia, origine, religione, status economico o altro."
+          "description": "D’ici 2030, autonomiser et promouvoir l’inclusion sociale, économique et politique de tous, indépendamment de l’âge, du sexe, du handicap, de la race, de l’origine ethnique, de l’origine nationale, de la religion, de la situation économique ou d’autres caractéristiques."
         },
         "objective3": {
           "title": "10.3",
-          "description": "Garantire a tutti pari opportunità e ridurre le disuguaglianze di risultato, anche attraverso l’eliminazione di leggi, di politiche e di pratiche discriminatorie, e la promozione di adeguate leggi, politiche e azioni in questo senso."
+          "description": "Assurer l’égalité des chances et réduire les inégalités de résultats, notamment en éliminant les lois, politiques et pratiques discriminatoires, et en promouvant des lois, politiques et actions appropriées en ce sens."
         },
         "objective4": {
           "title": "10.4",
-          "description": "Adottare politiche, in particolare fiscali, e politiche salariali e di protezione sociale, e raggiungere progressivamente una maggiore uguaglianza."
+          "description": "Adopter des politiques, notamment fiscales, salariales et de protection sociale, et parvenir progressivement à une plus grande égalité."
         },
         "objective5": {
           "title": "10.5",
-          "description": "Migliorare la regolamentazione e il controllo dei mercati e delle istituzioni finanziarie globali e rafforzarne l'applicazione."
+          "description": "Améliorer la régulation et le contrôle des marchés et institutions financières mondiales et renforcer leur application."
         },
         "objective6": {
           "title": "10.6",
-          "description": "Assicurare maggiore rappresentanza e voce per i paesi in via di sviluppo nel processo decisionale delle istituzioni economiche e finanziarie internazionali a livello mondiale al fine di fornire istituzioni più efficaci, credibili, responsabili e legittime."
+          "description": "Assurer une représentation et une voix accrues des pays en développement dans les processus décisionnels des institutions économiques et financières internationales afin d’accroître leur efficacité, leur crédibilité, leur responsabilité et leur légitimité."
         },
         "objective7": {
           "title": "10.7",
-          "description": "Facilitare la migrazione ordinata, sicura, regolare e responsabile e la mobilità delle persone, anche attraverso l'attuazione di politiche migratorie programmate e ben gestite."
+          "description": "Faciliter la migration ordonnée, sûre, régulière et responsable ainsi que la mobilité des personnes, notamment par la mise en œuvre de politiques migratoires bien gérées et planifiées."
         },
         "objectiveA": {
           "title": "10.a",
-          "description": "Attuare il principio del trattamento speciale e differenziato per i paesi in via di sviluppo, in particolare per i paesi meno sviluppati, in conformità con gli accordi dell'Organizzazione Mondiale del Commercio."
+          "description": "Mettre en œuvre le principe de traitement spécial et différencié pour les pays en développement, en particulier les pays les moins avancés, conformément aux accords de l’Organisation mondiale du commerce."
         },
         "objectiveB": {
           "title": "10.b",
-          "description": "Promuovere l’aiuto pubblico allo sviluppo e i relativi flussi finanziari, compresi gli investimenti esteri diretti, agli Stati dove il bisogno è maggiore, in particolare i paesi meno sviluppati, i paesi africani, i piccoli Stati insulari in via di sviluppo e i paesi senza sbocco sul mare in via di sviluppo, in accordo con i loro piani e programmi nazionali."
+          "description": "Encourager l’aide publique au développement et les flux financiers associés, y compris les investissements directs étrangers, vers les États ayant le plus besoin, notamment les pays les moins avancés, les pays africains, les petits États insulaires en développement et les pays en développement sans littoral, conformément à leurs plans et programmes nationaux."
         },
         "objectiveC": {
           "title": "10.c",
-          "description": "Entro il 2030, ridurre a meno del 3 per cento i costi di transazione delle rimesse dei migranti ed eliminare i corridoi di rimesse con costi più alti del 5 per cento."
+          "description": "D’ici 2030, faire passer les frais de transaction des envois de fonds des migrants à moins de 3% et éliminer les couloirs d’envoi de fonds dont les frais dépassent 5%."
         }
       }
     }
