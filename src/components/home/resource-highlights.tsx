@@ -8,6 +8,7 @@ import { useMantineTheme } from "@mantine/core";
 import classes from "./resource-highlights.module.css";
 import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
+import { url } from "inspector";
 
 export default function ResourceHighlights() {
   const theme = useMantineTheme();
@@ -19,6 +20,7 @@ export default function ResourceHighlights() {
       title: t("Female reproductive health.title"),
       description: t("Female reproductive health.description"),
       image: "/icons/female-reproductive-health.png",
+      url: "/resources/womens-health",
       width: 140,
       height: 140,
     },
@@ -26,6 +28,7 @@ export default function ResourceHighlights() {
       title: t("Healthy diet.title"),
       description: t("Healthy diet.description"),
       image: "/icons/healthy-plate3.jpg",
+      url: "/resources/healthy-diet",
       width: 100,
       height: 100,
     },
@@ -33,6 +36,7 @@ export default function ResourceHighlights() {
       title: t("Correct use of medicines.title"),
       description: t("Correct use of medicines.description"),
       image: "/icons/medicines.png",
+      url: "/resources/correct-use-of-meds",
       width: 100,
       height: 100,
     },
@@ -46,6 +50,7 @@ export default function ResourceHighlights() {
     {
       title: t("Pediatric care.title"),
       description: t("Pediatric care.description"),
+      url: "/resources/childrens-health",
       image: "/icons/pediatric-care.png",
       width: 100,
       height: 100,
@@ -53,6 +58,7 @@ export default function ResourceHighlights() {
     {
       title: t("Skin conditions.title"),
       description: t("Skin conditions.description"),
+      url: "/resources/skin-conditions",
       image: "/icons/skin-conditions.png",
       width: 100,
       height: 100,
@@ -60,6 +66,7 @@ export default function ResourceHighlights() {
     {
       title: t("Access to healthcare.title"),
       description: t("Access to healthcare.description"),
+      url: "/resources",
       image: "/icons/access-to-healthcare.png",
       width: 100,
       height: 100,
@@ -67,6 +74,7 @@ export default function ResourceHighlights() {
     {
       title: t("Prevention.title"),
       description: t("Prevention.description"),
+      url: "/resources/lifestyle-and-prevention",
       image: "/icons/prevention.png",
       width: 170,
       height: 170,
@@ -95,7 +103,7 @@ export default function ResourceHighlights() {
         <Text size="lg" mb="xs" ta="center">
           {resource.description}
         </Text>
-        <Button variant="filled" w="130px" m="auto" color="#2e6940">
+        <Button variant="filled" w="130px" m="auto" color="#2e6940" component="a" href={resource.url}>
           {t("learnMore")}
         </Button>
       </Card>
