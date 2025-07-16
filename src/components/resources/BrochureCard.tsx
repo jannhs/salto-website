@@ -18,7 +18,7 @@ export function BrochureCard({ type, title, url, source, sourceHref, imagePrevie
   const clipboard = useClipboard({ timeout: 500 });
 
   return (
-    <Card withBorder shadow="sm" radius="md" h="362px">
+    <Card withBorder shadow="sm" radius="md" h="fit">
       <Card.Section withBorder inheritPadding py="xs">
         <Grid justify="space-between" overflow="">
           <GridCol span={2}>
