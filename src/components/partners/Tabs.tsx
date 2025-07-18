@@ -3,9 +3,10 @@
 import { Grid, Tabs, Title } from "@mantine/core";
 import { useMessages, useTranslations } from "next-intl";
 import { useMediaQuery } from "@mantine/hooks";
-import { PartnersPanel } from "./panel";
+import { PartnersPanel } from "./Panel";
 import Image from "next/image";
 import { IconAffiliate } from "@tabler/icons-react";
+import { url } from "inspector";
 
 export default function PartnersTabs() {
   const t = useTranslations("PartnersPage");
@@ -21,6 +22,7 @@ export default function PartnersTabs() {
       key,
       name: t(`partners.${key}.partnerName`),
       type: t(`partners.${key}.partnerType`),
+      url: t(`partners.${key}.url`),
       description: t(`partners.${key}.description`),
       contacts: t(`partners.${key}.contacts`).split(","),
       logo: t(`partners.${key}.logo`),

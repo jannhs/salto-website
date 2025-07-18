@@ -17,21 +17,9 @@ type Event = {
 const events: Event[] = [
   {
     id: "1",
-    date: "2025-10-01",
-    title: "Event 1",
-    description: "Description for event 1",
-  },
-  {
-    id: "2",
-    date: "2025-10-02",
-    title: "Event 2",
-    description: "Description for event 2",
-  },
-  {
-    id: "3",
-    date: "2025-10-03",
-    title: "Event 3",
-    description: "Description for event 3",
+    date: "2025-09-26",
+    title: "Notte Europea dei Ricercatori",
+    description: "",
   },
 ];
 const upcomingEvents = events.map((event) => (
@@ -61,7 +49,11 @@ export default function UpcomingEvents() {
             {isMobile ? t("allButton") : t("allButtonExtra")}
           </Button>
         </Group>
-        <div className="flex flex-col gap-4">{upcomingEvents}</div>
+        {events.length > 0 ? (
+          <div className="flex flex-col gap-4">{upcomingEvents}</div>
+        ) : (
+          <div className="text-gray-500 text-center mt-10">{t("noEvents")}</div>
+        )}
       </div>
     </div>
   );
