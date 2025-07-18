@@ -23,7 +23,7 @@ export default function NewHeroSection() {
               </Text>
             </Title>
 
-            <Text className={classes.description} mt={30} size="lg">
+            <Text className={classes.description} mt={30}>
               {t("description")}
             </Text>
 

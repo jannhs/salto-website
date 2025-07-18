@@ -1,4 +1,4 @@
-import PartnersTabs from "@/components/partners/tabs";
+import PartnersTabs from "@/components/partners/Tabs";
 import { Title } from "@mantine/core";
 import { useTranslations } from "next-intl";
 
