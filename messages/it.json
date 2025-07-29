@@ -9,7 +9,7 @@
   },
   "LanguageSwitch": {
     "label": "Cambia lingua",
-    "locale": "{locale, select, it {Italiano} en {English} fr {Français} es {Español} other {Altro}}"
+    "locale": "{locale, select, it {Italiano} en {English} fr {Français} es {Español} ar {العربية} other {Altro}}"
   },
   "Navigation": {
     "resources": "Materiale informativo",

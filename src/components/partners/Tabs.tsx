@@ -6,7 +6,6 @@ import { useMediaQuery } from "@mantine/hooks";
 import { PartnersPanel } from "./Panel";
 import Image from "next/image";
 import { IconAffiliate } from "@tabler/icons-react";
-import { url } from "inspector";
 
 export default function PartnersTabs() {
   const t = useTranslations("PartnersPage");

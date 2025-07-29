@@ -8,7 +8,7 @@
   },
   "LanguageSwitch": {
     "label": "Change language",
-    "locale": "{locale, select, it {Italiano} en {English} fr {Français} es {Español} other {Other}}"
+    "locale": "{locale, select, it {Italiano} en {English} fr {Français} es {Español} ar {العربية} other {Other}}"
   },
   "Navigation": {
     "resources": "Resources",

@@ -7,12 +7,15 @@ import { Carousel } from "@mantine/carousel";
 import { useMantineTheme } from "@mantine/core";
 import classes from "./resource-highlights.module.css";
 import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import { getLangDir } from "rtl-detect";
 
 export default function ResourceHighlights() {
   const theme = useMantineTheme();
   const mobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm})`);
   const t = useTranslations("ResourceHighlights");
+  const locale = useLocale();
+  const direction = getLangDir(locale);
 
   const resources = [
     {
@@ -121,20 +124,18 @@ export default function ResourceHighlights() {
         controlsOffset="xs"
         controlSize={50}
         nextControlIcon={
-          <IconChevronRight
-            size={40}
-            color={theme.colors.darkSlateGreen[8]}
-            stroke={1.5}
-            className={classes.controlIcon}
-          />
+          direction === "ltr" ? (
+            <IconChevronRight color={theme.colors.darkSlateGreen[8]} className={classes.controlIcon} />
+          ) : (
+            <IconChevronLeft color={theme.colors.darkSlateGreen[8]} className={classes.controlIcon} />
+          )
         }
         previousControlIcon={
-          <IconChevronLeft
-            size={40}
-            color={theme.colors.darkSlateGreen[8]}
-            stroke={1.5}
-            className={classes.controlIcon}
-          />
+          direction === "rtl" ? (
+            <IconChevronRight color={theme.colors.darkSlateGreen[8]} className={classes.controlIcon} />
+          ) : (
+            <IconChevronLeft color={theme.colors.darkSlateGreen[8]} className={classes.controlIcon} />
+          )
         }
         slideSize={{ base: "100%", xs: "50%", sm: "50%", md: "33%", lg: "33%" }}
         slideGap={{ base: "md", sm: "md", md: "md", lg: "md", xl: "md" }}

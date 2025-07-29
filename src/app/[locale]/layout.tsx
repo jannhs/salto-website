@@ -4,6 +4,7 @@ import "@mantine/spotlight/styles.css";
 import "@mantine/carousel/styles.css";
 
 import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { getLangDir } from "rtl-detect";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import React from "react";
@@ -56,12 +57,13 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const direction = getLangDir(locale);
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
   return (
-    <html lang={locale} {...mantineHtmlProps}>
+    <html lang={locale} dir={direction} {...mantineHtmlProps}>
       <head>
         <ColorSchemeScript />
       </head>

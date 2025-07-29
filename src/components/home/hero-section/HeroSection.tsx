@@ -1,16 +1,18 @@
-import { Button, Container, Text, Title } from "@mantine/core";
+import { Container, Text, Title } from "@mantine/core";
 import classes from "./HeroSection.module.css";
-import { useTranslations } from "next-intl";
-import { IconArrowRight } from "@tabler/icons-react";
+import { useLocale, useTranslations } from "next-intl";
+import { getLangDir } from "rtl-detect";
 
 export default function NewHeroSection() {
   const t = useTranslations("HomePage.HeroSection");
+  const locale = useLocale();
+  const direction = getLangDir(locale);
 
   return (
-    <div className={classes.root}>
+    <div className={`${direction === "rtl" ? classes.rtl : ""} ${classes.root}`}>
       <Container size="xl">
         <div className={classes.inner}>
-          <div className={classes.content}>
+          <div className={`${classes.content} ${direction === "rtl" ? classes.rtl : ""}`}>
             <Title className={classes.title}>
               {t("firstLineTitle")}
               <Text
@@ -26,8 +28,7 @@ export default function NewHeroSection() {
             <Text className={classes.description} mt={30}>
               {t("description")}
             </Text>
-
-            <Button
+            {/* <Button
               variant="light"
               color="white"
               size="xl"
@@ -36,7 +37,7 @@ export default function NewHeroSection() {
               mt={40}
             >
               Esplora
-            </Button>
+            </Button> */}
           </div>
         </div>
       </Container>

@@ -1,0 +1,463 @@
+{
+  "HomePage": {
+    "about": "اذهب إلى الصفحة الرئيسية",
+    "HeroSection": {
+      "firstLineTitle": "SALTO",
+      "secondLineTitle": "الصحة بلا حدود",
+      "description": "SALTO هي مبادرة من جامعة تورينو تهدف إلى تقريب المواطنين الأجانب من العاملين في مجال الصحة من خلال تسهيل الوصول إلى المعلومات الصحية وتعزيز الشمولية والوصول إلى الخدمات."
+    }
+  },
+  "LanguageSwitch": {
+    "label": "تغيير اللغة",
+    "locale": "{locale, select, it {Italiano} en {English} fr {Français} es {Español} ar {العربية} other {أخرى}}"
+  },
+  "Navigation": {
+    "resources": "مواد معلوماتية",
+    "about": "المشروع",
+    "partners": "الشركاء",
+    "healthy-diet": "نظام غذائي صحي",
+    "correct-use-of-meds": "الاستخدام الصحيح للأدوية",
+    "childrens-health": "صحة الأطفال",
+    "skin-conditions": "مشاكل الجلد",
+    "lifestyle-and-prevention": "أنماط الحياة والوقاية",
+    "womens-health": "صحة المرأة",
+    "resources-for-professionals": "روابط مفيدة للمهنيين"
+  },
+  "ResourceHighlights": {
+    "title": "مواد معلوماتية",
+    "learnMore": "اعرف المزيد",
+    "Female reproductive health": {
+      "title": "صحة المرأة",
+      "description": "احصل على معلومات حول الصحة النسائية."
+    },
+    "Healthy diet": {
+      "title": "نظام غذائي صحي",
+      "description": "اكتشف أهمية النظام الغذائي المتوازن."
+    },
+    "Correct use of medicines": {
+      "title": "الاستخدام الصحيح للأدوية",
+      "description": "تعلّم كيفية استخدام الأدوية بشكل صحيح."
+    },
+    "Pregnancy": {
+      "title": "الحمل",
+      "description": "احصل على معلومات حول الحمل والولادة."
+    },
+    "Pediatric care": {
+      "title": "صحة الأطفال",
+      "description": "تعرّف على الرعاية الصحية للأطفال وصحتهم."
+    },
+    "Skin conditions": {
+      "title": "مشاكل الجلد",
+      "description": "تعلّم كيفية التعامل مع مشاكل الجلد الكبيرة والصغيرة."
+    },
+    "Access to healthcare": {
+      "title": "الوصول إلى الرعاية الصحية",
+      "description": "تعرّف على كيفية الوصول إلى خدمات الرعاية الصحية."
+    },
+    "Prevention": {
+      "title": "الوقاية وأنماط الحياة",
+      "description": "اكتشف أهمية الوقاية وأنماط الحياة الصحية."
+    }
+  },
+  "UpcomingEvents": {
+    "title": "الفعاليات القادمة",
+    "description": "ابقَ على اطلاع بأحدث فعالياتنا وأنشطتنا.",
+    "allButton": "الكل",
+    "allButtonExtra": "عرض الفعاليات",
+    "events": {
+      "event1": {
+        "title": "ورشة عمل حول الصحة",
+        "date": "2025-03-15",
+        "location": "جامعة تورينو",
+        "description": "انضم إلينا في ورشة عمل حول الصحة والرفاهية."
+      },
+      "event2": {
+        "title": "يوم الصحة",
+        "date": "2025-04-20",
+        "location": "المركز الثقافي المتعدد الثقافات في تورينو",
+        "description": "شارك في يومنا المخصص للصحة والمعلومات."
+      }
+    },
+    "noEvents": "لا توجد فعاليات مجدولة حاليًا"
+  },
+  "Resources": {
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "description": "هنا يمكنك العثور على أكثر الأسئلة والأجوبة شيوعًا حول المشروع.",
+      "items": {
+        "First question": {
+          "question": "السؤال الأول؟",
+          "answer": "الإجابة على السؤال الأول."
+        },
+        "Second question": {
+          "question": "السؤال الثاني؟",
+          "answer": "الإجابة على السؤال الثاني."
+        },
+        "Third question": {
+          "question": "السؤال الثالث؟",
+          "answer": "الإجابة على السؤال الثالث."
+        }
+      }
+    },
+    "premiseThirdPartyResources": "في هذا القسم يمكنك مشاهدة مواد تم إنشاؤها خارج مشروع SALTO لمساعدة المواطنين من أصل غير إيطالي على العيش بصحة جيدة.",
+    "titleVideos": "فيديوهات",
+    "titleBrochures": "كتيبات",
+    "titlePosters": "ملصقات",
+    "sectionLifestyle": {
+      "behaviour": "سلوكيات لنمط حياة صحي",
+      "antiSmoking": "حملات ضد التدخين",
+      "vaccine": "التطعيمات",
+      "teeth": "صحة الأسنان"
+    },
+    "sectionWomensHealth": {
+      "contraception": "منع الحمل",
+      "pregnancy": "الحمل ورعاية المولود",
+      "breastfeeding": "الرضاعة الطبيعية"
+    },
+    "childrensHealth": {
+      "LIFESTYLE": "التغذية ونمط الحياة الصحي للأطفال",
+      "SLEEP": "النوم لدى الأطفال",
+      "COMING_SOON": "المحتوى قادم قريبًا"
+    },
+    "correctUseOfMeds": {
+      "CORRECT_USE": "الاستخدام الصحيح للأدوية",
+      "ANTIBIOTICS": "المضادات الحيوية",
+      "COMING_SOON": "المحتوى قادم قريبًا"
+    },
+    "skinConditions": {
+      "SCABIES": "الجرب",
+      "COMING_SOON": "المحتوى قادم قريبًا"
+    }
+  },
+  "SearchBar": {
+    "nothingFound": "لم يتم العثور على نتائج",
+    "placeholder": "ابحث",
+    "actions": {
+      "resources": {
+        "label": "مواد إعلامية",
+        "description": "وصف حول المواد الإعلامية"
+      },
+      "about": {
+        "label": "المشروع",
+        "description": "وصف حول المشروع"
+      },
+      "partners": {
+        "label": "الشركاء",
+        "description": "وصف حول الشركاء"
+      }
+    }
+  },
+  "Footer": {
+    "fundingDescription": "تم تمويل SALTO من خلال إعلان 2023 لمشاريع المشاركة المجتمعية لجامعة تورينو (المرسوم الإداري رقم 5404/2023، بروتوكول رقم 0564338 بتاريخ 10/10/2023).",
+    "coordinator": "المسؤول العلمي: مارتا جيورجيس",
+    "bottomText": "© 2025 SALTO.\nجميع الحقوق محفوظة."
+  },
+  "PartnersPage": {
+    "title": "الشركاء",
+    "titleCard": "بالتعاون مع",
+    "titleContacts": "جهات الاتصال",
+    "tabUnito": "جامعة تورينو",
+    "tabExternal": "شركاء خارجيون",
+    "partners": {
+      "Dipartimento di Scienza e Tecnologia del Farmaco": {
+        "partnerName": "قسم علوم وتكنولوجيا الأدوية",
+        "partnerType": "UniTo",
+        "description": "",
+        "url": "https://www.dstf.unito.it/do/home.pl",
+        "contacts": "Marta Giorgis,Elena Ugazio,Francesca Baratta,Stefano Sainas,Valentina Boscaro,Mauro Marengo,Federico Fornaseri,Lucrezia Greta Armando",
+        "logo": "/logos/logo_unito_dstf.gif",
+        "logoHeight": "80",
+        "logoWidth": "160"
+      },
+      "Dipartimento di Lingue e Letterature straniere e Culture moderne": {
+        "partnerName": "قسم اللغات والآداب الأجنبية والثقافات الحديثة",
+        "partnerType": "UniTo",
+        "description": "",
+        "url": "https://www.dipartimentolingue.unito.it",
+        "contacts": "Daniela Cacia,Maria Felisa Bermejo Calleja,Paola Capponi,Alex Borio",
+        "logo": "/logos/logo_unito_lett_straniere.png",
+        "logoHeight": "120",
+        "logoWidth": "190"
+      },
+      "Dipartimento di Scienze della Sanità Pubblica e Pediatriche": {
+        "partnerName": "قسم علوم الصحة العامة وطب الأطفال",
+        "partnerType": "UniTo",
+        "description": "",
+        "url": "https://www.dsspp.unito.it",
+        "contacts": "Giacomo Scaioli,Giulia Squillacioti",
+        "logo": "/logos/logo_unito_dsspp.png",
+        "logoHeight": "80",
+        "logoWidth": "150"
+      },
+      "Dipartimento di Informatica": {
+        "partnerName": "قسم علوم الحاسوب",
+        "partnerType": "UniTo",
+        "description": "",
+        "url": "https://informatica.unito.it",
+        "contacts": "Francesca Cordero,Daniela Volpatto,Janneth Estefania Hoyos Rea",
+        "logo": "/logos/logo_unito_info.png",
+        "logoHeight": "80",
+        "logoWidth": "150"
+      },
+      "Dipartimento di Scienze Mediche": {
+        "partnerName": "قسم العلوم الطبية",
+        "partnerType": "UniTo",
+        "description": "",
+        "url": "https://www.dsm.unito.it",
+        "contacts": "Pietro Quaglino,Gabriele Rocuzzo,Silvia Giordano",
+        "logo": "/logos/logo_unito_dsm.png",
+        "logoHeight": "80",
+        "logoWidth": "80"
+      },
+      "Dipartimento di Culture Politica e Società": {
+        "partnerName": "قسم الثقافة والسياسة والمجتمع",
+        "partnerType": "UniTo",
+        "description": "",
+        "url": "https://www.dcps.unito.it",
+        "contacts": "Valentina Moiso,Roberta Ricucci",
+        "logo": "/logos/logo_unito_cps.png",
+        "logoHeight": "80",
+        "logoWidth": "80"
+      },
+      "Dipartimento di Psicologia": {
+        "partnerName": "قسم علم النفس",
+        "partnerType": "UniTo",
+        "description": "",
+        "url": "https://www.dippsicologia.unito.it",
+        "contacts": "Anna Miglietta,Maria Giulia Porro",
+        "logo": "/logos/logo_unito_psicologia.jpg",
+        "logoHeight": "80",
+        "logoWidth": "170"
+      },
+      "Dipartimento di Matematica": {
+        "partnerName": "قسم الرياضيات",
+        "partnerType": "UniTo",
+        "description": "",
+        "url": "https://www.dipmatematica.unito.it",
+        "contacts": "Roberta Sirovich",
+        "logo": "/logos/logo_unito_matematica.jpg",
+        "logoHeight": "80",
+        "logoWidth": "150"
+      },
+      "Centro Provinciale di Istruzione per Adulti (CPIA) 1 Paulo Freire": {
+        "partnerName": "المركز الإقليمي لتعليم الكبار (CPIA) 1 'باولو فريري'",
+        "partnerType": "external",
+        "description": "",
+        "url": "https://www.cpia1-torino.edu.it",
+        "contacts": "",
+        "logo": "/logos/logo_cpia1.png",
+        "logoHeight": "100",
+        "logoWidth": "80"
+      },
+      "CPIA 2 Torino": {
+        "partnerName": "المركز الإقليمي لتعليم الكبار (CPIA) 2 'بييرو أنجيلا'",
+        "partnerType": "external",
+        "description": "",
+        "url": "https://www.cpia2-torino.edu.it",
+        "contacts": "",
+        "logo": "/logos/logo_cpia2.jpg",
+        "logoHeight": "100",
+        "logoWidth": "80"
+      },
+      "Centro interculturale della città di Torino": {
+        "partnerName": "المركز الثقافي المتعدد لمدينة تورينو",
+        "partnerType": "external",
+        "description": "",
+        "url": "http://www.interculturatorino.it",
+        "contacts": "",
+        "logo": "/logos/logo_centro_interculturale.jpg",
+        "logoHeight": "100",
+        "logoWidth": "100"
+      },
+      "Associazione di Animazione Interculturale (ASAI)": {
+        "partnerName": "جمعية الأنشطة التفاعلية الثقافية (ASAI)",
+        "partnerType": "external",
+        "description": "",
+        "url": "https://asai-terremondo.it/asai",
+        "contacts": "",
+        "logo": "/logos/logo_asai.jpg",
+        "logoHeight": "80",
+        "logoWidth": "80"
+      },
+      "Agenzia per lo Sviluppo Sociale di San Salvario": {
+        "partnerName": "وكالة التنمية الاجتماعية في سان سالفارو",
+        "partnerType": "external",
+        "description": "",
+        "url": "https://sansalvario.org/",
+        "contacts": "",
+        "logo": "/logos/logo_agenzia_sansa.jpg",
+        "logoHeight": "120",
+        "logoWidth": "80"
+      },
+      "Medici con l’Africa CUAMM PIEMONTE": {
+        "partnerName": "أطباء مع أفريقيا CUAMM - مجموعة بيدمونت",
+        "partnerType": "external",
+        "description": "",
+        "url": "https://www.mediciconlafrica.org/gruppo-piemonte/",
+        "contacts": "",
+        "logo": "/logos/logo_cuamm.png",
+        "logoHeight": "80",
+        "logoWidth": "160"
+      },
+      "CAMMINARE INSIEME ODV": {
+        "partnerName": "المنظمة التطوعية 'السير معًا' (ODV)",
+        "partnerType": "external",
+        "description": "",
+        "url": "https://www.camminare-insieme.it/",
+        "contacts": "",
+        "logo": "/logos/logo_camminare_insieme.png",
+        "logoHeight": "80",
+        "logoWidth": "150"
+      },
+      "ASSOCIAZIONE AIA APS": {
+        "partnerName": "الجمعية الإسلامية للجبال الألبية (AIA) Aps",
+        "partnerType": "external",
+        "description": "",
+        "url": "https://www.facebook.com/Aiaapstorino/",
+        "contacts": "",
+        "logo": "/logos/logo_aia.png",
+        "logoHeight": "90",
+        "logoWidth": "90"
+      },
+      "GrIS Piemonte-Gruppo Immigrazione Salute": {
+        "partnerName": "مجموعة الهجرة والصحة (GrIS) بيدمونت",
+        "partnerType": "external",
+        "description": "",
+        "url": "https://old.simmweb.it/gris-piemonte",
+        "contacts": "",
+        "logo": "/logos/logo_gris_piemonte.jpg",
+        "logoHeight": "80",
+        "logoWidth": "80"
+      },
+      "IRES Piemonte": {
+        "partnerName": "معهد البحوث الاجتماعية والاقتصادية (IRES) بيدمونت",
+        "partnerType": "external",
+        "description": "",
+        "url": "https://www.ires.piemonte.it/",
+        "contacts": "",
+        "logo": "/logos/logo_ires_piemonte.jpg",
+        "logoHeight": "100",
+        "logoWidth": "160"
+      },
+      "Bagni Pubblici di Via Aglié": {
+        "partnerName": "الحمامات العامة في شارع ألييه",
+        "partnerType": "external",
+        "description": "",
+        "url": "https://bagnipubblici.wordpress.com/",
+        "contacts": "",
+        "logo": "/logos/logo_bagni_pubblici.jpg",
+        "logoHeight": "150",
+        "logoWidth": "190"
+      }
+    }
+  },
+  "ScrollToTopAffix": {
+    "scrollToTop": "العودة إلى الأعلى"
+  },
+  "ProjectPage": {
+    "Goal3": {
+      "label": "الصحة والرفاه",
+      "description": "ضمان تمتّع الجميع بأنماط عيش صحية وبالرفاهية في جميع الأعمار",
+      "objectives": {
+        "objective1": {
+          "title": "3.1",
+          "description": "بحلول عام 2030، خفض معدل وفيات الأمهات العالمي إلى أقل من 70 لكل 100,000 مولود حي."
+        },
+        "objective2": {
+          "title": "3.2",
+          "description": "بحلول عام 2030، القضاء على الوفيات التي يمكن تفاديها بين المواليد الجدد والأطفال دون سن الخامسة، مع تقليص معدل وفيات المواليد إلى 12 أو أقل لكل 1,000 مولود حي، وتقليص وفيات الأطفال دون الخامسة إلى 25 أو أقل لكل 1,000 مولود حي في جميع البلدان."
+        },
+        "objective3": {
+          "title": "3.3",
+          "description": "بحلول عام 2030، القضاء على أوبئة الإيدز والسل والملاريا والأمراض المدارية المهملة، ومكافحة التهاب الكبد والأمراض المنقولة عن طريق المياه وغيرها من الأمراض المعدية."
+        },
+        "objective4": {
+          "title": "3.4",
+          "description": "بحلول عام 2030، تقليص الوفيات المبكرة الناجمة عن الأمراض غير المعدية بمقدار الثلث، من خلال الوقاية والعلاج، وتعزيز الصحة النفسية والرفاه."
+        },
+        "objective5": {
+          "title": "3.5",
+          "description": "تعزيز الوقاية والعلاج من تعاطي المواد، بما في ذلك تعاطي المخدرات الضارة والاستخدام الضار للكحول."
+        },
+        "objective6": {
+          "title": "3.6",
+          "description": "بحلول عام 2020، خفض عدد الوفيات والإصابات العالمية الناجمة عن حوادث المرور إلى النصف."
+        },
+        "objective7": {
+          "title": "3.7",
+          "description": "بحلول عام 2030، ضمان الوصول الشامل إلى خدمات الصحة الجنسية والإنجابية، بما في ذلك تخطيط الأسرة والمعلومات والتعليم، ودمج الصحة الإنجابية في الاستراتيجيات والبرامج الوطنية."
+        },
+        "objective8": {
+          "title": "3.8",
+          "description": "تحقيق التغطية الصحية الشاملة، بما في ذلك الحماية من المخاطر المالية، والحصول على خدمات الرعاية الصحية الأساسية الجيدة، والحصول على الأدوية واللقاحات الأساسية والفعالة والآمنة وبأسعار معقولة للجميع."
+        },
+        "objective9": {
+          "title": "3.9",
+          "description": "بحلول عام 2030، تقليص عدد الوفيات والأمراض الناتجة عن المواد الكيميائية الخطرة وتلوث الهواء والماء والتربة بشكل كبير."
+        },
+        "objectiveA": {
+          "title": "3.a",
+          "description": "تعزيز تنفيذ الاتفاقية الإطارية لمنظمة الصحة العالمية بشأن مكافحة التبغ في جميع البلدان حسب الاقتضاء."
+        },
+        "objectiveB": {
+          "title": "3.b",
+          "description": "دعم البحث وتطوير اللقاحات والأدوية للأمراض المعدية وغير المعدية التي تؤثر بشكل خاص على البلدان النامية، وضمان الوصول إلى الأدوية الأساسية واللقاحات بأسعار معقولة، وفقًا لإعلان الدوحة بشأن اتفاق تريبس والصحة العامة، والذي يقر بحق البلدان النامية في استخدام الأحكام المتعلقة بالمرونة لحماية الصحة العامة وضمان الوصول إلى الأدوية للجميع."
+        },
+        "objectiveC": {
+          "title": "3.c",
+          "description": "زيادة تمويل الصحة بشكل كبير، وتوظيف وتطوير وتدريب والاحتفاظ بالكوادر الصحية في البلدان النامية، وخاصة في أقل البلدان نمواً والدول الجزرية الصغيرة النامية."
+        },
+        "objectiveD": {
+          "title": "3.d",
+          "description": "تعزيز قدرات جميع البلدان، وخاصة البلدان النامية، على الوقاية من المخاطر الصحية الوطنية والعالمية والحد منها وإدارتها."
+        }
+      }
+    },
+    "Goal10": {
+      "label": "الحد من أوجه عدم المساواة",
+      "description": "الحد من أوجه عدم المساواة داخل البلدان وفيما بينها",
+      "objectives": {
+        "objective1": {
+          "title": "10.1",
+          "description": "بحلول عام 2030، تحقيق نمو الدخل المستدام لشريحة الـ40٪ الأكثر فقراً من السكان بمعدل أعلى من المتوسط الوطني."
+        },
+        "objective2": {
+          "title": "10.2",
+          "description": "بحلول عام 2030، تمكين وتعزيز الإدماج الاجتماعي والاقتصادي والسياسي للجميع، بغض النظر عن العمر أو الجنس أو الإعاقة أو العرق أو الأصل أو الدين أو الوضع الاقتصادي أو غيره."
+        },
+        "objective3": {
+          "title": "10.3",
+          "description": "ضمان تكافؤ الفرص للجميع والحد من أوجه عدم المساواة في النتائج، بما في ذلك من خلال إزالة القوانين والسياسات والممارسات التمييزية، وتعزيز القوانين والسياسات والإجراءات المناسبة في هذا الشأن."
+        },
+        "objective4": {
+          "title": "10.4",
+          "description": "اعتماد سياسات، وخاصة السياسات المالية وسياسات الأجور والحماية الاجتماعية، وتحقيق قدر أكبر من المساواة تدريجياً."
+        },
+        "objective5": {
+          "title": "10.5",
+          "description": "تحسين تنظيم ورقابة الأسواق والمؤسسات المالية العالمية وتعزيز تنفيذها."
+        },
+        "objective6": {
+          "title": "10.6",
+          "description": "ضمان تمثيل أكبر وصوت أقوى للبلدان النامية في عملية اتخاذ القرار في المؤسسات الاقتصادية والمالية الدولية من أجل مؤسسات أكثر فعالية ومصداقية ومساءلة وشرعية."
+        },
+        "objective7": {
+          "title": "10.7",
+          "description": "تيسير الهجرة الآمنة والمنظمة والمنتظمة والمسؤولة وتنقل الأفراد، بما في ذلك من خلال تنفيذ سياسات هجرة مخططة وجيدة الإدارة."
+        },
+        "objectiveA": {
+          "title": "10.a",
+          "description": "تنفيذ مبدأ المعاملة الخاصة والتفضيلية للبلدان النامية، ولا سيما أقل البلدان نمواً، وفقاً لاتفاقات منظمة التجارة العالمية."
+        },
+        "objectiveB": {
+          "title": "10.b",
+          "description": "تشجيع المساعدة الإنمائية الرسمية وتدفقات التمويل ذات الصلة، بما في ذلك الاستثمارات الأجنبية المباشرة، إلى الدول التي تكون فيها الحاجة أشد، ولا سيما أقل البلدان نمواً، والبلدان الأفريقية، والدول الجزرية الصغيرة النامية، والبلدان النامية غير الساحلية، بما يتماشى مع خططها وبرامجها الوطنية."
+        },
+        "objectiveC": {
+          "title": "10.c",
+          "description": "بحلول عام 2030، خفض تكاليف تحويلات المهاجرين إلى أقل من 3٪ وإلغاء ممرات التحويل التي تتجاوز تكاليفها 5٪."
+        }
+      }
+    }
+  }
+}

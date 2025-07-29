@@ -1,5 +1,6 @@
 .root {
   /* background-color: #11284b; */
+  min-height: 100vh;
   background-color: #9f9b9a;
   background-position: right;
   background-size: contain;
@@ -8,12 +9,13 @@
     linear-gradient(250deg, rgba(130, 201, 30, 0) 0%, #bf9f9a 62%), url("/images/hs-muslim-woman-and-child.jpg");
   padding-top: calc(var(--mantine-spacing-xl) * 5);
   padding-bottom: calc(var(--mantine-spacing-xl) * 5);
-  /* @media (max-width: $mantine-breakpoint-md) {
-    background-size: cover;
+  &.rtl {
+    /* transform: scaleX(-1); */
     background-image:
-      linear-gradient(250deg, rgba(130, 201, 30, 0) 0%, #bf9f9a 90%), url("/images/hs-muslim-woman-and-child.jpg");
-    padding-top: calc(var(--mantine-spacing-xl) * 5);
-  } */
+      linear-gradient(85deg, rgba(130, 201, 30, 0) 0%, #bf9f9a 75%), url("/images/hs-muslim-woman-and-child.jpg");
+    background-position: left;
+  }
+
   @media (max-width: $mantine-breakpoint-md) {
     text-align: center;
     background-image:
@@ -51,12 +53,18 @@
 }
 
 .content {
-  padding-top: calc(var(--mantine-spacing-xl) * 2);
-  padding-bottom: calc(var(--mantine-spacing-xl) * 2);
-  margin-right: calc(var(--mantine-spacing-xl) * 3);
+  position: relative;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 15vh;
+  padding-bottom: 10vh;
+  margin-right: calc(var(--mantine-spacing-xl) * 2);
 
   @media (max-width: $mantine-breakpoint-md) {
     margin-right: 0;
+  }
+  &.rtl {
+    margin-right: calc(var(--mantine-spacing-xl) * 1);
   }
 }
 
