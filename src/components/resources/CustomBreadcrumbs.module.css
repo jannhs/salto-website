@@ -1,0 +1,4 @@
+.separator {
+  font-weight: 600;
+  color: var(--mantine-color-gray-6);
+}
