@@ -26,26 +26,45 @@
 }
 
 .link {
-  display: flex;
-  height: 100%;
+  display: inline-block;
+  position: relative;
   align-items: center;
-  padding-left: var(--mantine-spacing-md);
-  padding-right: var(--mantine-spacing-md);
+  margin-left: var(--mantine-spacing-md);
+  margin-right: var(--mantine-spacing-md);
   border-radius: var(--mantine-radius-sm);
   text-decoration: none;
   color: var(--mantine-color-black);
   font-size: 17px;
   font-weight: 550;
 
-  @mixin hover {
-    background-color: var(--mantine-color-gray-0);
-  }
+  /* @mixin hover {
+    /* background-color: var(--mantine-color-gray-0);
+    transition: transform 0.2s ease-out;
+    transform-origin: bottom-right;
+  } */
 }
 & .active {
   text-decoration: underline;
   text-underline-offset: 8px;
   text-decoration-thickness: 3px;
   text-decoration-color: var(--mantine-color-darkSlateGreen-7);
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--mantine-color-darkSlateGreen-7);
+  transition: transform 0.25s ease-out;
+}
+
+.link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
 }
 
 .sublink {

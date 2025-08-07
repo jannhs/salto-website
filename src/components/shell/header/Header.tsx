@@ -1,4 +1,4 @@
-import classes from "./header.module.css";
+import classes from "./Header.module.css";
 import { Menu, Container, Group, Title, Burger } from "@mantine/core";
 import logo_salto from "@/public/logo_salto.png";
 import Image from "next/image";
@@ -19,15 +19,15 @@ export function Header({ links, opened, toggle, locale, pathname }: HeaderProps)
     link.dropdown.length > 0 ? (
       <Menu key={link.label} trigger="hover" withinPortal>
         <Menu.Target>
-          <Link
+          <a
             key={link.label}
             href={link.link}
             className={`${classes.link} ${pathname == link.link ? classes.active : ""}`}
           >
             {link.label}
-          </Link>
+          </a>
         </Menu.Target>
-        <Menu.Dropdown>
+        <Menu.Dropdown mt="11px">
           {link.dropdown.map((sublink) => (
             <Menu.Item
               key={sublink.link}
@@ -52,7 +52,6 @@ export function Header({ links, opened, toggle, locale, pathname }: HeaderProps)
   );
 
   return (
-    //size="1152px"
     <Container size="75em" className={classes.inner} bg="#fff">
       <Group
         component={"a"}
