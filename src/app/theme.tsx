@@ -1,5 +1,4 @@
-import {  createTheme, MantineColorsTuple } from "@mantine/core";
-
+import { createTheme, MantineColorsTuple } from "@mantine/core";
 
 const darkSlateGreen: MantineColorsTuple = [
   "#f1f9f7",
@@ -28,7 +27,6 @@ const lightSlateGreen: MantineColorsTuple = [
   "#3e6b53",
 ];
 
-
 // const palette = [
 //   "#F7BA2C",
 //   "#DCAF30",
@@ -42,23 +40,22 @@ const lightSlateGreen: MantineColorsTuple = [
 //   "#005350",
 // ];
 
-
 const myYellow: MantineColorsTuple = [
-  '#fff8e0',
-  '#fff0cc',
-  '#fce09c',
-  '#face69',
-  '#f8c03d',
-  '#f7ba2c',
-  '#f6b10d',
-  '#db9b00',
-  '#c38a00',
-  '#a97600'
+  "#fff8e0",
+  "#fff0cc",
+  "#fce09c",
+  "#face69",
+  "#f8c03d",
+  "#f7ba2c",
+  "#f6b10d",
+  "#db9b00",
+  "#c38a00",
+  "#a97600",
 ];
 
 export const theme = createTheme({
   fontFamily: "Inter, sans-serif",
-  headings: { fontFamily: "Inter, sans-serif" },
+  headings: { fontFamily: "Montserrat, sans-serif" },
   colors: { darkSlateGreen: darkSlateGreen, lightSlateGreen: lightSlateGreen, myYellow: myYellow },
   primaryColor: "darkSlateGreen",
   primaryShade: 6,
