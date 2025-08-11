@@ -1,4 +1,10 @@
 import { createTheme, MantineColorsTuple } from "@mantine/core";
+import { Montserrat } from "next/font/google";
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
 
 const darkSlateGreen: MantineColorsTuple = [
   "#f1f9f7",
@@ -55,7 +61,7 @@ const myYellow: MantineColorsTuple = [
 
 export const theme = createTheme({
   fontFamily: "Inter, sans-serif",
-  headings: { fontFamily: "Montserrat, sans-serif" },
+  headings: { fontFamily: montserrat.style.fontFamily },
   colors: { darkSlateGreen: darkSlateGreen, lightSlateGreen: lightSlateGreen, myYellow: myYellow },
   primaryColor: "darkSlateGreen",
   primaryShade: 6,
