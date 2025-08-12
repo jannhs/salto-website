@@ -139,7 +139,7 @@ export default function ResourceHighlights() {
         }
         slideSize={{ base: "100%", xs: "50%", sm: "50%", md: "33%", lg: "33%" }}
         slideGap={{ base: "md", sm: "md", md: "md", lg: "md", xl: "md" }}
-        emblaOptions={{ dragFree: true, align: "center" }}
+        emblaOptions={{ dragFree: true, align: "center", direction: direction }}
         classNames={classes}
       >
         {slides}
