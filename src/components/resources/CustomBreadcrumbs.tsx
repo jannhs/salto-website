@@ -10,10 +10,13 @@ export default function CustomBreadcrumbs() {
   const pathName = usePathname();
   const pageTitle = pathName.split("/").pop() || "";
 
+  const parentPath = pathName.split("/").slice(0, -1).join("/");
+  const parentTitle = t(`${parentPath.split("/").pop() || ""}`);
+
   const items = [
     {
-      title: t("resources"),
-      href: "/resources",
+      title: parentTitle,
+      href: parentPath,
     },
     {
       title: t(`${pageTitle}`),
@@ -24,5 +27,9 @@ export default function CustomBreadcrumbs() {
       {item.title}
     </Anchor>
   ));
-  return <Breadcrumbs classNames={classes}>{items}</Breadcrumbs>;
+  return (
+    <Breadcrumbs classNames={classes} separator=">">
+      {items}
+    </Breadcrumbs>
+  );
 }
