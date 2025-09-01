@@ -1,0 +1,23 @@
+.tab {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 50px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  background-color: none;
+
+  &[data-active] {
+    z-index: 1;
+    background-color: #ffaa00;
+    border-color: var(--mantine-color-gray-2);
+    color: white;
+  }
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
