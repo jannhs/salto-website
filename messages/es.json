@@ -4,7 +4,8 @@
     "HeroSection": {
       "firstLineTitle": "SALTO",
       "secondLineTitle": "Salud sin fronteras",
-      "description": "SALTO es una iniciativa de la Universidad de Turín que tiene como objetivo acercar a los ciudadanos extranjeros y a los profesionales de la salud, facilitando información sobre la salud y promoviendo la inclusión y el acceso a los servicios."
+      "description": "SALTO es una iniciativa de la Universidad de Turín que tiene como objetivo acercar a los ciudadanos extranjeros y a los profesionales de la salud, facilitando información sobre la salud y promoviendo la inclusión y el acceso a los servicios.",
+      "exploreButton": "Explora"
     }
   },
   "LanguageSwitch": {
@@ -21,7 +22,8 @@
     "skin-conditions": "Problemas de la piel",
     "lifestyle-and-prevention": "Estilos de vida y prevención",
     "womens-health": "Salud femenina",
-    "resources-for-professionals": "Enlaces útiles para profesionales"
+    "resources-for-professionals": "Enlaces útiles para profesionales",
+    "About": "Quiénes somos"
   },
   "ResourceHighlights": {
     "title": "Material informativo",
@@ -64,6 +66,8 @@
     "description": "Mantente al día con nuestros últimos eventos y actividades.",
     "allButton": "Todos",
     "allButtonExtra": "Ver eventos",
+    "September": "Septiembre",
+    "Friday": "Viernes",
     "events": {
       "event1": {
         "title": "Taller sobre salud",
@@ -78,7 +82,8 @@
         "description": "Participa en nuestra jornada dedicada a la salud y la información."
       }
     },
-    "noEvents": "No hay eventos previstos"
+    "noEvents": "No hay eventos previstos",
+    "DiscoverMore": "Para más información"
   },
   "Resources": {
     "faq": {
@@ -99,15 +104,16 @@
         }
       }
     },
+    "comingSoon": "Material disponible próximamente",
     "premiseThirdPartyResources": "En esta sección se pueden consultar materiales creados fuera del proyecto SALTO para ayudar a los ciudadanos de origen no italiano a vivir con buena salud.",
     "titleVideos": "Vídeos",
     "titleBrochures": "Folletos",
     "titlePosters": "Carteles",
     "sectionLifestyle": {
-      "behaviour": "COMPORTAMIENTOS PARA UN ESTILO DE VIDA SALUDABLE",
-      "antiSmoking": "CAMPAÑAS ANTITABACO",
-      "vaccine": "VACUNAS",
-      "teeth": "SALUD DENTAL"
+      "behaviour": "Comportamientos para un estilo de vida saludable",
+      "antiSmoking": "Campañas antitabaco",
+      "vaccine": "Vacunas",
+      "teeth": "Salud dental"
     },
     "sectionWomensHealth": {
       "contraception": "CONTRACEPCIÓN",
@@ -120,37 +126,86 @@
       "COMING_SOON": "Material disponible próximamente"
     },
     "correctUseOfMeds": {
-      "CORRECT_USE": "USO CORRECTO DE LOS MEDICAMENTOS",
+      "CORRECT_USE": "Uso correcto de los medicamentos",
       "ANTIBIOTICS": "ANTIBIÓTICOS",
       "COMING_SOON": "Material disponible próximamente"
     },
     "skinConditions": {
-      "SCABIES": "SARNA",
+      "SCABIES": "Sarna",
       "COMING_SOON": "Material disponible próximamente"
     }
   },
   "SearchBar": {
     "nothingFound": "No se encontraron resultados",
     "placeholder": "Buscar",
-    "actions": {
+    "results": {
+      "project": {
+        "group": "Quiénes somos",
+        "actions": {
+          "project": {
+            "label": "Proyecto",
+            "description": "",
+            "href": "project"
+          },
+          "partners": {
+            "label": "Socios",
+            "description": "",
+            "href": "partners"
+          }
+        }
+      },
       "resources": {
-        "label": "Material informativo",
-        "description": "Descripción del material informativo"
+        "group": "Material informativo",
+        "actions": {
+          "childrens-health": {
+            "label": "Salud infantil",
+            "description": "",
+            "href": "resources/childrens-health"
+          },
+          "correct-use-of-meds": {
+            "label": "Uso correcto de los medicamentos",
+            "description": "",
+            "href": "resources/correct-use-of-meds"
+          },
+          "healthy-diet": {
+            "label": "Alimentación saludable",
+            "description": "",
+            "href": "resources/healthy-diet"
+          },
+          "lifestyle-and-prevention": {
+            "label": "Estilos de vida y prevención",
+            "description": "",
+            "href": "resources/lifestyle-and-prevention"
+          },
+          "skin-conditions": {
+            "label": "Problemas de la piel",
+            "description": "",
+            "href": "resources/skin-conditions"
+          },
+          "womens-health": {
+            "label": "Salud feminina",
+            "description": "",
+            "href": "resources/womens-health"
+          }
+        }
       },
-      "about": {
-        "label": "Proyecto",
-        "description": "Descripción del proyecto"
-      },
-      "partners": {
-        "label": "Socios",
-        "description": "Descripción de los socios"
+      "resources-for-professionals": {
+        "group": "Para personal sanitario",
+        "actions": {
+          "resources-for-professionals": {
+            "label": "Enlaces útiles para profesionales",
+            "description": "",
+            "href": "resources-for-professionals"
+          }
+        }
       }
-    }
+    },
+    "searchPlaceholder": "Busca"
   },
   "Footer": {
     "fundingDescription": "SALTO ha sido financiado por la Convocatoria 2023 para proyectos de Participación Pública de la Universidad de Turín (Decreto rectoral n.º 5404/2023 Prot. n.º 0564338 del 10/10/2023).",
     "coordinator": "Responsable científica: Marta Giorgis",
-    "bottomText": "© 2025 SALTO. \nTodos los derechos reservados."
+    "bottomText": "© 2025 SALTO"
   },
   "PartnersPage": {
     "title": "Socios",

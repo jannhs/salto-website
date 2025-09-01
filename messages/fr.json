@@ -4,7 +4,8 @@
     "HeroSection": {
       "firstLineTitle": "SALTO",
       "secondLineTitle": "Santé sans frontières",
-      "description": "SALTO est une initiative de l’Université de Turin qui vise à rapprocher les citoyens étrangers et les professionnels de santé en facilitant l’accès à l’information sur la santé et en favorisant l’inclusion et l’accès aux services."
+      "description": "SALTO est une initiative de l’Université de Turin qui vise à rapprocher les citoyens étrangers et les professionnels de santé en facilitant l’accès à l’information sur la santé et en favorisant l’inclusion et l’accès aux services.",
+      "exploreButton": "Explorer"
     }
   },
   "LanguageSwitch": {
@@ -14,14 +15,15 @@
   "Navigation": {
     "resources": "Matériel d'information",
     "about": "Projet",
-    "partners": "Partners",
+    "partners": "Partenaires",
     "healthy-diet": "Alimentation saine",
     "correct-use-of-meds": "Utilisation correcte des médicaments",
     "childrens-health": "Santé des enfants",
     "skin-conditions": "Problèmes de peau",
     "lifestyle-and-prevention": "Modes de vie et prévention",
     "womens-health": "Santé des femmes",
-    "resources-for-professionals": "Liens utiles aux opérateurs"
+    "resources-for-professionals": "Liens utiles aux opérateurs",
+    "About": "À propos"
   },
   "ResourceHighlights": {
     "title": "Matériel d'information",
@@ -51,7 +53,7 @@
       "description": "Apprenez à résoudre les petits et grands problèmes de peau."
     },
     "Access to healthcare": {
-      "title": "Accesso alle cure sanitarie",
+      "title": "Accès aux soins de santé",
       "description": "Informez-vous sur l'accès aux services de santé."
     },
     "Prevention": {
@@ -64,6 +66,8 @@
     "description": "Restez informé de nos derniers événements et activités.",
     "allButton": "Tous",
     "allButtonExtra": "Voir les événements",
+    "September": "Septembre",
+    "Friday": "Vendredi",
     "events": {
       "event1": {
         "title": "Atelier sur la santé",
@@ -78,7 +82,8 @@
         "description": "Participez à notre journée dédiée à la santé et à l'information."
       }
     },
-    "noEvents": "Aucun événement prévu"
+    "noEvents": "Aucun événement prévu",
+    "DiscoverMore": " En savoir plus"
   },
   "Resources": {
     "faq": {
@@ -99,6 +104,7 @@
         }
       }
     },
+    "comingSoon": "Matériel à venir",
     "premiseThirdPartyResources": "Dans cette section, vous pouvez consulter des documents créés en dehors du projet SALTO pour aider les citoyens d'origine non italienne à vivre en bonne santé.",
     "titleVideos": "Vidéos",
     "titleBrochures": "Brochures",
@@ -132,25 +138,74 @@
   "SearchBar": {
     "nothingFound": "Aucun résultat trouvé",
     "placeholder": "Rechercher",
-    "actions": {
+    "results": {
+      "project": {
+        "group": "Qui sommes-nous",
+        "actions": {
+          "project": {
+            "label": "Projet",
+            "description": "",
+            "href": "project"
+          },
+          "partners": {
+            "label": "Partenaires",
+            "description": "",
+            "href": "partners"
+          }
+        }
+      },
       "resources": {
-        "label": "Matériel d'information",
-        "description": "Description du matériel d'information"
+        "group": "Matériel d\"information",
+        "actions": {
+          "childrens-health": {
+            "label": "Santé des enfants",
+            "description": "",
+            "href": "resources/childrens-health"
+          },
+          "correct-use-of-meds": {
+            "label": "Utilisation correcte des médicaments",
+            "description": "",
+            "href": "resources/correct-use-of-meds"
+          },
+          "healthy-diet": {
+            "label": "Alimentation saine",
+            "description": "",
+            "href": "resources/healthy-diet"
+          },
+          "lifestyle-and-prevention": {
+            "label": "Modes de vie et prévention",
+            "description": "",
+            "href": "resources/lifestyle-and-prevention"
+          },
+          "skin-conditions": {
+            "label": "Problèmes de peau",
+            "description": "",
+            "href": "resources/skin-conditions"
+          },
+          "womens-health": {
+            "label": "Santé des femmes",
+            "description": "",
+            "href": "resources/womens-health"
+          }
+        }
       },
-      "about": {
-        "label": "Projet",
-        "description": "Description du projet"
-      },
-      "partners": {
-        "label": "Partenaires",
-        "description": "Description des partenaires"
+      "resources-for-professionals": {
+        "group": "Pour les professionnels de santé",
+        "actions": {
+          "resources-for-professionals": {
+            "label": "Liens utiles aux opérateurs",
+            "description": "",
+            "href": "resources-for-professionals"
+          }
+        }
       }
-    }
+    },
+    "searchPlaceholder": "Recherche"
   },
   "Footer": {
     "fundingDescription": "SALTO a été financé par l’Appel 2023 pour des projets de participation publique de l’Université de Turin (Décret rectoral n° 5404/2023 Prot. n° 0564338 du 10/10/2023).",
     "coordinator": "Référente scientifique : Marta Giorgis",
-    "bottomText": "© 2025 SALTO. \nTous droits réservés."
+    "bottomText": "© 2025 SALTO"
   },
   "PartnersPage": {
     "title": "Partenaires",

@@ -4,7 +4,8 @@
     "HeroSection": {
       "firstLineTitle": "SALTO",
       "secondLineTitle": "الصحة بلا حدود",
-      "description": "SALTO هي مبادرة من جامعة تورينو تهدف إلى تقريب المواطنين الأجانب من العاملين في مجال الصحة من خلال تسهيل الوصول إلى المعلومات الصحية وتعزيز الشمولية والوصول إلى الخدمات."
+      "description": "SALTO هي مبادرة من جامعة تورينو تهدف إلى تقريب المواطنين الأجانب من العاملين في مجال الصحة من خلال تسهيل الوصول إلى المعلومات الصحية وتعزيز الشمولية والوصول إلى الخدمات.",
+      "exploreButton": "استكشاف"
     }
   },
   "LanguageSwitch": {
@@ -21,7 +22,8 @@
     "skin-conditions": "مشاكل الجلد",
     "lifestyle-and-prevention": "أنماط الحياة والوقاية",
     "womens-health": "صحة المرأة",
-    "resources-for-professionals": "روابط مفيدة للمهنيين"
+    "resources-for-professionals": "روابط مفيدة للمهنيين",
+    "About": "من نحن"
   },
   "ResourceHighlights": {
     "title": "مواد معلوماتية",
@@ -64,6 +66,8 @@
     "description": "ابقَ على اطلاع بأحدث فعالياتنا وأنشطتنا.",
     "allButton": "الكل",
     "allButtonExtra": "عرض الفعاليات",
+    "September": "سبتمبر",
+    "Friday": "جمعة",
     "events": {
       "event1": {
         "title": "ورشة عمل حول الصحة",
@@ -78,7 +82,8 @@
         "description": "شارك في يومنا المخصص للصحة والمعلومات."
       }
     },
-    "noEvents": "لا توجد فعاليات مجدولة حاليًا"
+    "noEvents": "لا توجد فعاليات مجدولة حاليًا",
+    "DiscoverMore": "yataealam 'akthar"
   },
   "Resources": {
     "faq": {
@@ -99,6 +104,7 @@
         }
       }
     },
+    "comingSoon": "المحتوى قادم قريبًا",
     "premiseThirdPartyResources": "في هذا القسم يمكنك مشاهدة مواد تم إنشاؤها خارج مشروع SALTO لمساعدة المواطنين من أصل غير إيطالي على العيش بصحة جيدة.",
     "titleVideos": "فيديوهات",
     "titleBrochures": "كتيبات",
@@ -132,25 +138,74 @@
   "SearchBar": {
     "nothingFound": "لم يتم العثور على نتائج",
     "placeholder": "ابحث",
-    "actions": {
+    "results": {
+      "project": {
+        "group": "من نحن",
+        "actions": {
+          "project": {
+            "label": "المشروع",
+            "description": "",
+            "href": "project"
+          },
+          "partners": {
+            "label": "الشركاء",
+            "description": "",
+            "href": "partners"
+          }
+        }
+      },
       "resources": {
-        "label": "مواد إعلامية",
-        "description": "وصف حول المواد الإعلامية"
+        "group": "مواد معلوماتية",
+        "actions": {
+          "childrens-health": {
+            "label": "صحة الأطفال",
+            "description": "",
+            "href": "resources/childrens-health"
+          },
+          "correct-use-of-meds": {
+            "label": "الاستخدام الصحيح للأدوية",
+            "description": "",
+            "href": "resources/correct-use-of-meds"
+          },
+          "healthy-diet": {
+            "label": "نظام غذائي صحي",
+            "description": "",
+            "href": "resources/healthy-diet"
+          },
+          "lifestyle-and-prevention": {
+            "label": "أنماط الحياة والوقاية",
+            "description": "",
+            "href": "resources/lifestyle-and-prevention"
+          },
+          "skin-conditions": {
+            "label": "مشاكل الجلد",
+            "description": "",
+            "href": "resources/skin-conditions"
+          },
+          "womens-health": {
+            "label": "صحة المرأة",
+            "description": "",
+            "href": "resources/womens-health"
+          }
+        }
       },
-      "about": {
-        "label": "المشروع",
-        "description": "وصف حول المشروع"
-      },
-      "partners": {
-        "label": "الشركاء",
-        "description": "وصف حول الشركاء"
+      "resources-for-professionals": {
+        "group": "للمهنيين الصحيين",
+        "actions": {
+          "resources-for-professionals": {
+            "label": "روابط مفيدة للمهنيين",
+            "description": "",
+            "href": "resources-for-professionals"
+          }
+        }
       }
-    }
+    },
+    "searchPlaceholder": "بحث"
   },
   "Footer": {
     "fundingDescription": "تم تمويل SALTO من خلال إعلان 2023 لمشاريع المشاركة المجتمعية لجامعة تورينو (المرسوم الإداري رقم 5404/2023، بروتوكول رقم 0564338 بتاريخ 10/10/2023).",
     "coordinator": "المسؤول العلمي: مارتا جيورجيس",
-    "bottomText": "© 2025 SALTO.\nجميع الحقوق محفوظة."
+    "bottomText": "© 2025 SALTO"
   },
   "PartnersPage": {
     "title": "الشركاء",

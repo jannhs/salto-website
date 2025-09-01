@@ -4,7 +4,8 @@
     "HeroSection": {
       "firstLineTitle": "SALTO",
       "secondLineTitle": "Salute senza confini",
-      "description": "SALTO è un’iniziativa dell’Università di Torino che ha l’obiettivo di avvicinare cittadini stranieri e operatori sanitari facilitando informazioni sulla salute e favorendo l’inclusione e l’accesso ai servizi."
+      "description": "SALTO è un’iniziativa dell’Università di Torino che ha l’obiettivo di avvicinare cittadini stranieri e operatori sanitari facilitando informazioni sulla salute e favorendo l’inclusione e l’accesso ai servizi.",
+      "exploreButton": "Esplora"
     }
   },
   "LanguageSwitch": {
@@ -21,7 +22,8 @@
     "skin-conditions": "Problemi della pelle",
     "lifestyle-and-prevention": "Stili di vita e prevenzione",
     "womens-health": "Salute femminile",
-    "resources-for-professionals": "Link utili per operatori"
+    "resources-for-professionals": "Link utili per operatori",
+    "About": "Chi siamo"
   },
   "ResourceHighlights": {
     "title": "Materiale informativo",
@@ -64,6 +66,7 @@
     "description": "Resta aggiornato sui nostri ultimi eventi e attività.",
     "allButton": "Tutti",
     "allButtonExtra": "Vedi eventi",
+    "September": "Settembre",
     "events": {
       "event1": {
         "title": "Workshop sulla salute",
@@ -78,7 +81,9 @@
         "description": "Partecipa alla nostra giornata dedicata alla salute e all'informazione."
       }
     },
-    "noEvents": "Nessun evento in programma"
+    "noEvents": "Nessun evento in programma",
+    "Friday": "Venerdì",
+    "DiscoverMore": "Scopri il programma"
   },
   "Resources": {
     "faq": {
@@ -99,29 +104,30 @@
         }
       }
     },
+    "comingSoon": "Materiale in arrivo",
     "premiseThirdPartyResources": "In questa sezione è possibile visionare materiali creati al di fuori del progetto SALTO per aiutare i cittadini di origine non italiana a vivere in salute.",
     "titleVideos": "Video",
     "titleBrochures": "Opuscoli",
     "titlePosters": "Poster",
     "sectionLifestyle": {
-      "behaviour": "COMPORTAMENTI PER UNO STILE DI VITA SANO",
-      "antiSmoking": "CAMPAGNE ANTIFUMO",
-      "vaccine": "VACCINAZIONI",
-      "teeth": "SALUTE DEI DENTI"
+      "behaviour": "Comportamento per uno stile di vita sano",
+      "antiSmoking": "Campagne antifumo",
+      "vaccine": "Vaccinazioni",
+      "teeth": "Salute dei denti"
     },
     "sectionWomensHealth": {
-      "contraception": "CONTRACCEZIONE",
-      "pregnancy": "GRAVIDANZA E CURA DEL NEONATO",
-      "breastfeeding": "ALLATTAMENTO"
+      "contraception": "Contraccezione",
+      "pregnancy": "Gravidanza e cura del neonato",
+      "breastfeeding": "Allattamento"
     },
     "childrensHealth": {
-      "LIFESTYLE": "ALIMENTAZIONE E STILE DI VITA SANO NEI BAMBINI",
-      "SLEEP": "SONNO NEI BAMBINI",
+      "LIFESTYLE": "Alimentazione e stile di vita sano nei bambini",
+      "SLEEP": "Sonno nei bambini",
       "COMING_SOON": "Materiale in arrivo"
     },
     "correctUseOfMeds": {
-      "CORRECT_USE": "USO CORRETTO DEI MEDICINALI",
-      "ANTIBIOTICS": "ANTIBIOTICI",
+      "CORRECT_USE": "Uso corretto dei medicinali",
+      "ANTIBIOTICS": "Antibiotici",
       "COMING_SOON": "Materiale in arrivo"
     },
     "skinConditions": {
@@ -132,25 +138,74 @@
   "SearchBar": {
     "nothingFound": "Nessun risultato trovato",
     "placeholder": "Cerca",
-    "actions": {
+    "results": {
+      "project": {
+        "group": "Chi siamo",
+        "actions": {
+          "project": {
+            "label": "Progetto",
+            "description": "",
+            "href": "project"
+          },
+          "partners": {
+            "label": "Partners",
+            "description": "",
+            "href": "partners"
+          }
+        }
+      },
       "resources": {
-        "label": "Materiale informativo",
-        "description": "Descrizione sui materiali informativi"
+        "group": "Materiale informativo",
+        "actions": {
+          "childrens-health": {
+            "label": "Salute dei bambini",
+            "description": "",
+            "href": "resources/childrens-health"
+          },
+          "correct-use-of-meds": {
+            "label": "Uso corretto dei farmaci",
+            "description": "",
+            "href": "resources/correct-use-of-meds"
+          },
+          "healthy-diet": {
+            "label": "Alimentazione sana",
+            "description": "",
+            "href": "resources/healthy-diet"
+          },
+          "lifestyle-and-prevention": {
+            "label": "Stile di vita e prevenzione",
+            "description": "",
+            "href": "resources/lifestyle-and-prevention"
+          },
+          "skin-conditions": {
+            "label": "Problemi della pelle",
+            "description": "",
+            "href": "resources/skin-conditions"
+          },
+          "womens-health": {
+            "label": "Salute femminile",
+            "description": "",
+            "href": "resources/womens-health"
+          }
+        }
       },
-      "about": {
-        "label": "Progetto",
-        "description": "Descrizione sul progetto"
-      },
-      "partners": {
-        "label": "Partners",
-        "description": "Descrizione sui partners"
+      "resources-for-professionals": {
+        "group": "Per operatori sanitari",
+        "actions": {
+          "resources-for-professionals": {
+            "label": "Link utili per operatori",
+            "description": "",
+            "href": "resources-for-professionals"
+          }
+        }
       }
-    }
+    },
+    "searchPlaceholder": "Cerca"
   },
   "Footer": {
     "fundingDescription": "SALTO è stato finanziato dal Bando 2023 per progetti di Public Engagement dell'Università di Torino (Decreto rettorale n.5404/2023 Prot.n. 0564338 del 10/10/2023).",
     "coordinator": "Referente Scientifico: Marta Giorgis",
-    "bottomText": "© 2025 SALTO. \nTutti i diritti riservati."
+    "bottomText": "© 2025 SALTO"
   },
   "PartnersPage": {
     "title": "Partners",

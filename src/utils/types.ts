@@ -7,3 +7,15 @@ export type Resource = {
   imagePreview?: string;
   altPreview?: string;
 };
+
+export type Event = {
+  id: string;
+  date: string;
+  day?: string;
+  month?: string;
+  time?: string;
+  title: string;
+  description: string;
+  previewImage?: string;
+  url?: string;
+};

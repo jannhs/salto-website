@@ -3,7 +3,8 @@
     "HeroSection": {
       "firstLineTitle": "SALTO",
       "secondLineTitle": "Health without borders",
-      "description": "SALTO is a project launched by the University of Turin with the goal of connecting foreign citizens and healthcare professionals by improving access to health information, fostering inclusion, and facilitating access to services."
+      "description": "SALTO is a project launched by the University of Turin with the goal of connecting foreign citizens and healthcare professionals by improving access to health information, fostering inclusion, and facilitating access to services.",
+      "exploreButton": "Explore"
     }
   },
   "LanguageSwitch": {
@@ -20,7 +21,8 @@
     "childrens-health": "Children's health",
     "correct-use-of-meds": "Proper use of medications",
     "skin-conditions": "Skin conditions",
-    "resources-for-professionals": "Useful links for operators"
+    "resources-for-professionals": "Useful links for professionals",
+    "About": "About"
   },
   "ResourceHighlights": {
     "title": "Resources",
@@ -63,6 +65,8 @@
     "description": "Stay updated with our latest events and activities.",
     "allButton": "All",
     "allButtonExtra": "All Events",
+    "September": "September",
+    "Friday": "Friday",
     "events": {
       "event1": {
         "title": "Health Workshop",
@@ -77,7 +81,8 @@
         "description": "A meeting to discuss community health initiatives."
       }
     },
-    "noEvents": "No events scheduled"
+    "noEvents": "No events scheduled",
+    "DiscoverMore": "Learn more about it"
   },
   "Resources": {
     "faq": {
@@ -98,58 +103,108 @@
         }
       }
     },
+    "comingSoon": "Coming soon",
     "premiseThirdPartyResources": "In this section, you’ll find helpful materials created outside the SALTO project to support people of non-Italian origin in staying healthy.",
     "titleBrochures": "Brochures",
     "titleVideos": "Videos",
     "titlePosters": "Posters",
     "sectionLifestyle": {
-      "behaviour": "HEALTHY HABITS",
-      "antiSmoking": "ANTI-SMSOKING CAMPAIGNS",
-      "vaccine": "VACCINATIONS",
-      "teeth": "DENTAL HEALTH"
+      "behaviour": "Healthy habits",
+      "antiSmoking": "Anti-smoking campaigns",
+      "vaccine": "Vaccinations",
+      "teeth": "Dental health"
     },
     "sectionWomensHealth": {
-      "contraception": "CONTRACEPTION",
-      "pregnancy": "PREGNANCY AND NEWBORN CARE",
-      "breastfeeding": "BREASTFEEDING"
+      "contraception": "Contraception",
+      "pregnancy": "Pregnancy and newborn care",
+      "breastfeeding": "Breastfeeding"
     },
     "childrensHealth": {
-      "LIFESTYLE": "HEALTHY DIET AND LIFESTYLE IN CHILDREN",
-      "SLEEP": "SLEEP IN CHILDREN",
+      "LIFESTYLE": "Healthy diet and lifestyle in children",
+      "SLEEP": "Sleep in children",
       "COMING_SOON": "Coming soon"
     },
     "correctUseOfMeds": {
-      "CORRECT_USE": "CORRECT USE OF MEDICINES",
-      "ANTIBIOTICS": "ANTIBIOTICS",
+      "CORRECT_USE": "Correct use of medications",
+      "ANTIBIOTICS": "Antibiotics",
       "COMING_SOON": "Coming soon"
     },
     "skinConditions": {
-      "SCABIES": "SCABIES",
+      "SCABIES": "Scabies",
       "COMING_SOON": "Coming soon"
     }
   },
   "SearchBar": {
     "nothingFound": "No results found",
     "placeholder": "Search",
-    "actions": {
-      "resources": {
-        "label": "Resources",
-        "description": "Some description about the resources"
-      },
+    "results": {
       "project": {
-        "label": "Project",
-        "description": "Some description about the project"
+        "group": "About",
+        "actions": {
+          "project": {
+            "label": "Project",
+            "description": "",
+            "href": "project"
+          },
+          "partners": {
+            "label": "Partners",
+            "description": "",
+            "href": "partners"
+          }
+        }
       },
-      "partners": {
-        "label": "Partners",
-        "description": "Some description about the partners"
+      "resources": {
+        "group": "Resources",
+        "actions": {
+          "childrens-health": {
+            "label": "Children's health",
+            "description": "",
+            "href": "resources/childrens-health"
+          },
+          "correct-use-of-meds": {
+            "label": "Proper use of medications",
+            "description": "",
+            "href": "resources/correct-use-of-meds"
+          },
+          "healthy-diet": {
+            "label": "Healthy diet",
+            "description": "",
+            "href": "resources/healthy-diet"
+          },
+          "lifestyle-and-prevention": {
+            "label": "Lifestyle and prevention",
+            "description": "",
+            "href": "resources/lifestyle-and-prevention"
+          },
+          "skin-conditions": {
+            "label": "Skin conditions",
+            "description": "",
+            "href": "resources/skin-conditions"
+          },
+          "womens-health": {
+            "label": "Women's health",
+            "description": "",
+            "href": "resources/womens-health"
+          }
+        }
+      },
+      "resources-for-professionals": {
+        "group": "For healthcare professionals",
+        "actions": {
+          "resources-for-professionals": {
+            "label": "Useful links for professionals",
+            "description": "",
+            "href": "resources-for-professionals"
+          }
+        }
       }
-    }
+    },
+    "searchPlaceholder": "Search"
   },
   "Footer": {
     "fundingDescription": "SALTO received funding through the University of Turin’s 2023 Call for Public Engagement Projects (Rectoral Decree No. 5404/2023, Prot. No. 0564338, dated October 10, 2023).",
     "coordinator": "Scientific Coordinator: Marta Giorgis",
-    "bottomText": "© 2025 SALTO. All rights reserved."
+    "bottomText": "© 2025 SALTO"
   },
   "ScrollToTopAffix": {
     "scrollToTop": "Back to top"
