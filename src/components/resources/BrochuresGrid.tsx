@@ -15,15 +15,7 @@ export function BrochuresGrid({ resources }: BrochuresGridProps) {
         <Grid gutter="lg">
           {resources.map((item: Resource) => (
             <GridCol span={{ base: 12, sm: 6, md: 4, lg: 4 }} key={item.url}>
-              <BrochureCard
-                type={item.type}
-                title={item.title}
-                imagePreview={item.imagePreview ?? ""}
-                url={item.url}
-                source={item.source}
-                sourceHref={item.sourceHref}
-                altPreview={item.altPreview ?? ""}
-              />
+              <BrochureCard {...item} />
             </GridCol>
           ))}
         </Grid>
