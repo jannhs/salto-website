@@ -1,12 +1,11 @@
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import { Text } from "@mantine/core";
 import ThirdPartyResourcesSection from "@/components/resources/ThirdPartyResourcesSection";
-import { lifestyleResourcesByLocale } from "@/data/lifestyleResources";
+import { lifestyleResources } from "@/data/lifestyleResources";
 
 export default function LifestylePage() {
-  const locale = useLocale();
   const t = useTranslations("Resources");
-  const resources = lifestyleResourcesByLocale[locale] ?? {
+  const resources = lifestyleResources ?? {
     behaviour: { brochures: [], videos: [] },
     antiSmoking: { brochures: [] },
     vaccine: { brochures: [] },
@@ -17,7 +16,7 @@ export default function LifestylePage() {
     <>
       {resources.behaviour.brochures.length > 0 && (
         <>
-          <Text pt="xs" size="18px" fw="bolder" c="#4a4a49">
+          <Text pt="xs" size="18px" fw="bolder" c="#4a4a49" className="uppercase">
             {t("sectionLifestyle.behaviour")}
           </Text>
           <div className="p-5">
@@ -28,7 +27,7 @@ export default function LifestylePage() {
 
       {resources.antiSmoking.brochures.length > 0 && (
         <>
-          <Text pt="xs" size="18px" fw="bolder" c="#4a4a49">
+          <Text pt="xs" size="18px" fw="bolder" c="#4a4a49" className="uppercase">
             {t("sectionLifestyle.antiSmoking")}
           </Text>
           <div className="p-5">
@@ -39,7 +38,7 @@ export default function LifestylePage() {
 
       {resources.vaccine.brochures.length > 0 && (
         <>
-          <Text pt="xs" size="18px" fw="bolder" c="#4a4a49">
+          <Text pt="xs" size="18px" fw="bolder" c="#4a4a49" className="uppercase">
             {t("sectionLifestyle.vaccine")}
           </Text>
           <div className="p-5">
@@ -50,7 +49,7 @@ export default function LifestylePage() {
 
       {resources.teeth.brochures.length > 0 && (
         <>
-          <Text pt="xs" size="18px" fw="bolder" c="#4a4a49">
+          <Text pt="xs" size="18px" fw="bolder" c="#4a4a49" className="uppercase">
             {t("sectionLifestyle.teeth")}
           </Text>
           <div className="p-5">

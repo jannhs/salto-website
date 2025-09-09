@@ -3,14 +3,12 @@
 import { useLocale, useTranslations } from "next-intl";
 import { Text } from "@mantine/core";
 import ThirdPartyResourcesSection from "@/components/resources/ThirdPartyResourcesSection";
-import { womensHealthResourcesByLocale } from "@/data/womensHealthResources";
+import { womensHealthResources } from "@/data/womensHealthResources";
 
 export default function WomensHealthPage() {
-  const locale = useLocale();
   const t = useTranslations("Resources.sectionWomensHealth");
 
-  const { contraception, pregnancy, breastfeeding } =
-    womensHealthResourcesByLocale[locale] || womensHealthResourcesByLocale["en"];
+  const { contraception, pregnancy, breastfeeding } = womensHealthResources;
 
   return (
     <>

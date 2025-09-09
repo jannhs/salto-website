@@ -4,16 +4,13 @@ import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
 import { Text } from "@mantine/core";
 import ThirdPartyResourcesSection from "@/components/resources/ThirdPartyResourcesSection";
-import { correctUseResourcesByLocale } from "@/data/correctUseResources";
+import { correctUseResources } from "@/data/correctUseResources";
 
 export default function CorrectUseOfMedsPage() {
   const locale = useLocale();
   const t = useTranslations("Resources.correctUseOfMeds");
 
-  const { correctUse, antibiotics } = correctUseResourcesByLocale[locale] || {
-    correctUse: { brochures: [] },
-    antibiotics: { brochures: [] },
-  };
+  const { correctUse, antibiotics } = correctUseResources;
 
   return (
     <>

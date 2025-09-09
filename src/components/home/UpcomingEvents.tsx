@@ -44,7 +44,7 @@ export default function UpcomingEvents() {
           {t("DiscoverMore")}
         </Button>
       </div>
-      <Image src="/images/unight-2024.jpg" alt="UNIGHT 2024" width="400" height="300" className="hidden md:inline" />
+      <Image src="/images/unight-2024.jpg" alt="UNIGHT 2024" width="400" height="300" />
     </div>
   ));
 
@@ -52,7 +52,7 @@ export default function UpcomingEvents() {
     <div className="bg-white pt-5 pb-15">
       <div className="w-full max-w-7xl m-auto px-5">
         <Group justify="space-between" mt="lg">
-          <Title size={35} c="#0F4C5C">
+          <Title size={35} c="#0F4C5C" mb="sm">
             {t("title")}
           </Title>
         </Group>

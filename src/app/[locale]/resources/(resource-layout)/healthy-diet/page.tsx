@@ -1,11 +1,8 @@
-import { useLocale } from "next-intl";
 import ThirdPartyResourcesSection from "@/components/resources/ThirdPartyResourcesSection";
-import { healthyDietExtraResourcesByLocale } from "@/data/healthyDietResources";
+import { healthyDietExtraResources } from "@/data/healthyDietResources";
 
 export default function HealthyDietPage() {
-  const locale = useLocale();
-
-  const { videos, brochures } = healthyDietExtraResourcesByLocale[locale] ?? {
+  const { videos, brochures } = healthyDietExtraResources ?? {
     videos: [],
     brochures: [],
   };
