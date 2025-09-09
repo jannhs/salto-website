@@ -2,11 +2,11 @@
 
 import { AppShell } from "@mantine/core";
 import { useDisclosure, useHeadroom } from "@mantine/hooks";
-import { Header } from "./header/header";
-import { Footer } from "./footer/footer";
+import { Header } from "./header/Header";
+import { Footer } from "./footer/Footer";
 import { Sidebar } from "./sidebar/Sidebar";
 import { useTranslations } from "next-intl";
-import ScrollToTopAffix from "./footer/scroll-to-top-affix";
+import ScrollToTopAffix from "./footer/ScrollToTopAffix";
 import { usePathname } from "@/i18n/navigation";
 
 export default function Shell({ children, locale }: { children: React.ReactNode; locale: string }) {
@@ -29,9 +29,14 @@ export default function Shell({ children, locale }: { children: React.ReactNode;
       ],
     },
     { link: "/resources-for-professionals", label: t("resources-for-professionals"), dropdown: [] },
-
-    { link: "/project", label: t("about"), dropdown: [{ link: "/partners", label: t("partners") }] },
-    // { link: "/partners", label: t("partners"), dropdown: [] },
+    {
+      link: "/about",
+      label: t("About"),
+      dropdown: [
+        { link: "/about/project", label: t("about") },
+        { link: "/about/partners", label: t("partners") },
+      ],
+    },
   ];
 
   return (

@@ -36,18 +36,12 @@
   color: var(--mantine-color-black);
   font-size: 17px;
   font-weight: 550;
-
-  /* @mixin hover {
-    /* background-color: var(--mantine-color-gray-0);
-    transition: transform 0.2s ease-out;
-    transform-origin: bottom-right;
-  } */
 }
 & .active {
   text-decoration: underline;
   text-underline-offset: 8px;
   text-decoration-thickness: 3px;
-  text-decoration-color: var(--mantine-color-darkSlateGreen-7);
+  text-decoration-color: #ffaa00;
 }
 
 .link::after {
@@ -58,30 +52,47 @@
   height: 3px;
   bottom: 0;
   left: 0;
-  background-color: var(--mantine-color-darkSlateGreen-7);
+  background-color: #ffaa00;
   transition: transform 0.25s ease-out;
 }
 
-.link:hover::after {
+.link:not(.active):hover::after {
   transform: scaleX(1);
   transform-origin: bottom center;
 }
 
-.sublink {
-  display: flex;
-  height: 100%;
+.dropdown {
+  max-width: 230px;
+  color: rgb(66, 64, 64);
+}
+
+.item {
+  display: inline-block;
+  position: relative;
   align-items: center;
-  padding-left: var(--mantine-spacing-md);
-  padding-right: var(--mantine-spacing-md);
+  padding-left: var(--mantine-spacing-lg);
+  padding-right: var(--mantine-spacing-lg);
   border-radius: var(--mantine-radius-sm);
   text-decoration: none;
   color: var(--mantine-color-black);
   font-size: var(--mantine-font-size-md);
-  font-weight: 500;
+  font-weight: 600;
   background-color: none;
-  @mixin hover {
-    background-color: var(--mantine-color-gray-0);
+  &:hover {
+    color: #005350;
   }
+}
+
+.item:hover::before {
+  content: ">";
+  color: #005350;
+  position: absolute;
+  left: 3px;
+  top: 6px;
+  font-size: 16px;
+  opacity: 1;
+  font-weight: 800;
+  transition: opacity 0.25s ease-out;
 }
 
 .logo {
@@ -90,4 +101,6 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--mantine-color-gray-8);
+  margin-top: 2px;
+  cursor: pointer;
 }

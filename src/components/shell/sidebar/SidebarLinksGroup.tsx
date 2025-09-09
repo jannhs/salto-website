@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { IconChevronUp } from "@tabler/icons-react";
+import { IconChevronDown } from "@tabler/icons-react";
 import { Box, Collapse, Group, UnstyledButton, Text } from "@mantine/core";
 import classes from "./SidebarLinksGroup.module.css";
 import Link from "next/link";
@@ -14,9 +14,10 @@ export function LinksGroup({ item, pathname }: LinksGroupProps) {
   const [opened, setOpened] = useState(false);
   const items = (hasSublinks ? item.dropdown : []).map((sublink) => (
     <Link
-      className={`${classes.link} ${pathname == sublink.link ? classes.active : ""}`}
+      className={`${classes.link} ${pathname.split("/")[1] == sublink.link.split("/")[1] ? classes.active : ""}`}
       href={sublink.link}
       key={sublink.label}
+      target="_blank"
     >
       {sublink.label}
     </Link>
@@ -27,7 +28,7 @@ export function LinksGroup({ item, pathname }: LinksGroupProps) {
       {hasSublinks ? (
         <UnstyledButton
           onClick={() => setOpened((o) => !o)}
-          className={`${classes.control} ${pathname == item.link ? classes.active : ""}`}
+          className={`${classes.control} ${pathname.split("/")[1] == item.link.split("/")[1] ? classes.active : ""}`}
         >
           <Group justify="space-between" gap={0}>
             <Box className={classes["wrapper-link"]}>
@@ -38,12 +39,7 @@ export function LinksGroup({ item, pathname }: LinksGroupProps) {
               </Box>
             </Box>
             {hasSublinks && (
-              <IconChevronUp
-                className={classes.chevron}
-                stroke={3}
-                size={25}
-                style={{ transform: opened ? "rotate(-180deg)" : "none" }}
-              />
+              <IconChevronDown stroke={3} size={25} style={{ transform: opened ? "rotate(-180deg)" : "none" }} />
             )}
           </Group>
         </UnstyledButton>
@@ -62,12 +58,7 @@ export function LinksGroup({ item, pathname }: LinksGroupProps) {
               </Box>
             </Box>
             {hasSublinks && (
-              <IconChevronUp
-                className={classes.chevron}
-                stroke={1.5}
-                size={16}
-                style={{ transform: opened ? "rotate(-180deg)" : "none" }}
-              />
+              <IconChevronDown stroke={1.5} size={16} style={{ transform: opened ? "rotate(-180deg)" : "none" }} />
             )}
           </Group>
         </UnstyledButton>

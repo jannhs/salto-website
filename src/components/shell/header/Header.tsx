@@ -2,8 +2,8 @@ import classes from "./Header.module.css";
 import { Menu, Container, Group, Title, Burger } from "@mantine/core";
 import logo_salto from "@/public/logo_salto.png";
 import Image from "next/image";
-import { LanguageSwitch } from "./language-switch";
-import { SearchBar } from "./search-bar";
+import { LanguageSwitch } from "./LanguageSwitch";
+import { SearchBar } from "./SearchBar";
 import Link from "next/link";
 
 interface HeaderProps {
@@ -19,22 +19,16 @@ export function Header({ links, opened, toggle, locale, pathname }: HeaderProps)
     link.dropdown.length > 0 ? (
       <Menu key={link.label} trigger="hover" withinPortal>
         <Menu.Target>
-          <a
+          <button
             key={link.label}
-            href={link.link}
-            className={`${classes.link} ${pathname == link.link ? classes.active : ""}`}
+            className={`${classes.link} ${pathname.split("/")[1] == link.link.split("/")[1] ? classes.active : ""}`}
           >
             {link.label}
-          </a>
+          </button>
         </Menu.Target>
-        <Menu.Dropdown mt="11px">
+        <Menu.Dropdown mt="11px" className={classes.dropdown}>
           {link.dropdown.map((sublink) => (
-            <Menu.Item
-              key={sublink.link}
-              component={Link}
-              href={sublink.link}
-              className={`${classes.sublink} ${pathname == sublink.link ? classes.active : ""}`}
-            >
+            <Menu.Item key={sublink.link} component={Link} href={sublink.link} classNames={classes}>
               {sublink.label}
             </Menu.Item>
           ))}
@@ -59,18 +53,8 @@ export function Header({ links, opened, toggle, locale, pathname }: HeaderProps)
           window.location.href = "/";
         }}
       >
-        <Image
-          src={logo_salto}
-          alt="SALTO Logo"
-          width={60}
-          height={60}
-          className={classes.logo}
-          priority
-          style={{
-            marginTop: "2px",
-          }}
-        />
-        <Title order={2} visibleFrom="md" className="text-[#005350]">
+        <Image src={logo_salto} alt="SALTO Logo" width={60} height={60} className={classes.logo} priority />
+        <Title order={2} visibleFrom="md" className="text-[#0F4C5C] cursor-pointer">
           SALTO
         </Title>
       </Group>
