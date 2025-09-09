@@ -132,7 +132,19 @@
     "skinConditions": {
       "SCABIES": "Scabies",
       "COMING_SOON": "Coming soon"
-    }
+    },
+    "SALTOTab": "SALTO",
+    "3rdParty": "Other resources",
+    "ShareOnWhatsapp": "Share on WhatsApp",
+    "ShareOnFacebook": "Share on Facebook ",
+    "ItalianTag": "Italian",
+    "EnglishTag": "English",
+    "ArabTag": "Arab",
+    "FrenchTag": "French",
+    "SpanishTag": "Spanish",
+    "CopyLink": "Copy link",
+    "Languages": "Language",
+    "Source": "Source"
   },
   "SearchBar": {
     "nothingFound": "No results found",

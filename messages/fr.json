@@ -133,7 +133,19 @@
     "skinConditions": {
       "SCABIES": "GALE",
       "COMING_SOON": "Matériel à venir"
-    }
+    },
+    "SALTOTab": "SALTO",
+    "3rdParty": "Autres ressources",
+    "ShareOnWhatsapp": "Partager sur WhatsApp",
+    "ShareOnFacebook": "Partager sur Facebook",
+    "CopyLink": "Copier le lien",
+    "Languages": "Langue",
+    "Source": "Source",
+    "FrenchTag": "Français",
+    "EnglishTag": "Anglais",
+    "SpanishTag": "Espagnol",
+    "ArabTag": "Arabe",
+    "ItalianTag": "Italien"
   },
   "SearchBar": {
     "nothingFound": "Aucun résultat trouvé",

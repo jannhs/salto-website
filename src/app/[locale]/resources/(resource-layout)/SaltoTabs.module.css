@@ -8,7 +8,7 @@
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
   background-color: none;
-
+  color: #0f4c5c;
   &[data-active] {
     z-index: 1;
     background-color: #ffaa00;

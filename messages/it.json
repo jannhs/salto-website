@@ -133,7 +133,19 @@
     "skinConditions": {
       "SCABIES": "Scabbia",
       "COMING_SOON": "Materiale in arrivo"
-    }
+    },
+    "SALTOTab": "SALTO",
+    "3rdParty": "Altre risorse",
+    "ShareOnWhatsapp": "Condividi su WhatsApp",
+    "ShareOnFacebook": "Condividi su Facebook",
+    "ItalianTag": "Italiano",
+    "EnglishTag": "Inglese",
+    "ArabTag": "Arabo",
+    "FrenchTag": "Francese",
+    "SpanishTag": "Spagnolo",
+    "CopyLink": "Copia collegamento",
+    "Languages": "Lingua",
+    "Source": "Fonte"
   },
   "SearchBar": {
     "nothingFound": "Nessun risultato trovato",

@@ -133,7 +133,19 @@
     "skinConditions": {
       "SCABIES": "Sarna",
       "COMING_SOON": "Material disponible próximamente"
-    }
+    },
+    "SALTOTab": "SALTO",
+    "3rdParty": "Otros recursos",
+    "ShareOnWhatsapp": "Comparte en WhatsApp",
+    "ShareOnFacebook": "Comparte en Facebook",
+    "CopyLink": "Copia el enlace",
+    "Languages": "Lenguaje",
+    "Source": "Fuente",
+    "SpanishTag": "Español",
+    "EnglishTag": "Inglés",
+    "ArabTag": "Árabe",
+    "ItalianTag": "Italiano",
+    "FrenchTag": "Francés"
   },
   "SearchBar": {
     "nothingFound": "No se encontraron resultados",

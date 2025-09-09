@@ -133,7 +133,19 @@
     "skinConditions": {
       "SCABIES": "الجرب",
       "COMING_SOON": "المحتوى قادم قريبًا"
-    }
+    },
+    "SALTOTab": "SALTO",
+    "3rdParty": "موارد أخرى",
+    "ShareOnWhatsapp": "شارك على واتساب",
+    "ShareOnFacebook": "شارك على فيسبوك",
+    "CopyLink": "نسخ الرابط",
+    "Languages": "اللغة",
+    "Source": "المصدر",
+    "ItalianTag": "الإيطالية",
+    "EnglishTag": "الإنجليزية",
+    "ArabTag": "العربية",
+    "FrenchTag": "الفرنسية",
+    "SpanishTag": "الإسبانية"
   },
   "SearchBar": {
     "nothingFound": "لم يتم العثور على نتائج",
