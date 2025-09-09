@@ -1,6 +1,6 @@
 "use client";
 
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import { Text } from "@mantine/core";
 import ThirdPartyResourcesSection from "@/components/resources/ThirdPartyResourcesSection";
 import { womensHealthResources } from "@/data/womensHealthResources";
@@ -12,14 +12,14 @@ export default function WomensHealthPage() {
 
   return (
     <>
-      <Text pt="xl" size="18px" fw="bolder" c="#4a4a49">
+      <Text pt="xl" size="18px" fw="bolder" c="#4a4a49" className="uppercase">
         {t("contraception")}
       </Text>
       <div className="p-5">
         <ThirdPartyResourcesSection videos={contraception.videos} />
       </div>
 
-      <Text pt="xs" size="18px" fw="bolder" c="#4a4a49">
+      <Text pt="xs" size="18px" fw="bolder" c="#4a4a49" className="uppercase">
         {t("pregnancy")}
       </Text>
       <div className="p-5">
@@ -27,7 +27,7 @@ export default function WomensHealthPage() {
       </div>
 
       {breastfeeding.brochures.length > 0 && (
-        <Text pt="xs" size="18px" fw="bolder" c="#4a4a49">
+        <Text pt="xs" size="18px" fw="bolder" c="#4a4a49" className="uppercase">
           {t("breastfeeding")}
         </Text>
       )}
