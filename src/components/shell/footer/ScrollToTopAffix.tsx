@@ -19,7 +19,7 @@ export default function ScrollToTopAffix() {
               radius="xl"
               style={{
                 ...transitionStyles,
-                backgroundColor: "#1c4b2a",
+                backgroundColor: "#2e8297",
                 color: "white",
                 boxShadow: "0 4px 20px rgba(0, 0, 0, 0.2)",
               }}

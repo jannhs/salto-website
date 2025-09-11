@@ -10,7 +10,7 @@ import { routing } from "@/i18n/routing";
 import React from "react";
 import { Metadata } from "next";
 import siteMetadata from "@/data/siteMetadata";
-import Shell from "@/components/shell/shell";
+import Shell from "@/components/shell/Shell";
 import { ColorSchemeScript, MantineProvider, mantineHtmlProps } from "@mantine/core";
 import { Notifications } from "@mantine/notifications";
 import { theme } from "../theme";
