@@ -1,6 +1,5 @@
 "use client";
 
-import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
 import { Text } from "@mantine/core";
 import ThirdPartyResourcesSection from "@/components/resources/ThirdPartyResourcesSection";
