@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { List } from "@mantine/core";
+import { Space, Title } from "@mantine/core";
 
 export default function ResourcesPage() {
   const t = useTranslations("Navigation");
@@ -17,23 +18,32 @@ export default function ResourcesPage() {
   ];
 
   return (
-    <div className="py-20 m-auto max-w-100">
-      {/* <Text pt="xl" pb="sm" size="18px" fw="bolder" c="#4a4a49">
-        RISORSE ESTERNE A SALTO:
-      </Text> */}
-      <List pt="xl" spacing="md" size="lg" withPadding>
-        {sublinks.map((item) => (
-          <List.Item key={item.link}>
-            <Link
-              href={item.link}
-              className="transition-all duration-200 border-b-2 border-transparent hover:border-current"
-              style={{ textUnderlineOffset: 4 }}
-            >
-              {item.label}
-            </Link>
-          </List.Item>
-        ))}
-      </List>
-    </div>
+    <>
+      <div className="relative m-auto w-full pb-10 overflow-hidden">
+        <div className="absolute inset-0 z-10 bg-[#ffaa00]" />
+
+        <div className="relative z-20">
+          <Space className="h-60 lg:h-95" />
+          <Title size="3.4rem" ta="center" c="white">
+            Indice delle risorse
+          </Title>
+        </div>
+      </div>
+      <div className="py-20 m-auto max-w-100">
+        <List spacing="md" size="lg" withPadding>
+          {sublinks.map((item) => (
+            <List.Item key={item.link}>
+              <Link
+                href={item.link}
+                className="transition-all duration-200 border-b-2 border-transparent hover:border-current"
+                style={{ textUnderlineOffset: 4 }}
+              >
+                {item.label}
+              </Link>
+            </List.Item>
+          ))}
+        </List>
+      </div>
+    </>
   );
 }

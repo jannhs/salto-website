@@ -74,6 +74,7 @@ export const lifestyleResources: {
         source: "Farmacie Comunali Riunite",
         sourceHref: "https://fcrinforma.fcr.re.it",
         imagePreview: "/previews/lifestyle-and-prevention/smoking-woman.png",
+        altPreview: "",
         languages: ["it"],
       },
     ],
@@ -87,6 +88,7 @@ export const lifestyleResources: {
         source: "ICARE Project",
         sourceHref: "https://www.progettoicare.it/",
         imagePreview: "/previews/lifestyle-and-prevention/vaccines-en.png",
+        altPreview: "",
         languages: ["en"],
       },
       {
@@ -96,6 +98,7 @@ export const lifestyleResources: {
         source: "Projet ICARE",
         sourceHref: "https://www.progettoicare.it/",
         imagePreview: "/previews/lifestyle-and-prevention/vaccines-fr.png",
+        altPreview: "",
         languages: ["fr"],
       },
       {
@@ -105,6 +108,7 @@ export const lifestyleResources: {
         source: "Proyecto ICARE",
         sourceHref: "https://www.progettoicare.it/",
         imagePreview: "/previews/lifestyle-and-prevention/vaccines-es.png",
+        altPreview: "",
         languages: ["es"],
       },
 
@@ -115,6 +119,7 @@ export const lifestyleResources: {
         source: "Progetto ICARE",
         sourceHref: "https://www.progettoicare.it/",
         imagePreview: "/previews/lifestyle-and-prevention/vaccines-it.png",
+        altPreview: "",
         languages: ["it"],
       },
     ],
