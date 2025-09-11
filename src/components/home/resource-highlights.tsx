@@ -17,6 +17,7 @@ export default function ResourceHighlights() {
   const locale = useLocale();
   const direction = getLangDir(locale);
 
+  // Color icons in rgb(202, 94, 70)
   const resources = [
     {
       title: t("Female reproductive health.title"),
@@ -29,10 +30,10 @@ export default function ResourceHighlights() {
     {
       title: t("Healthy diet.title"),
       description: t("Healthy diet.description"),
-      image: "/icons/healthy-plate3.jpg",
+      image: "/icons/healthy-plate.jpg",
       url: "/resources/healthy-diet",
-      width: 100,
-      height: 100,
+      width: 120,
+      height: 120,
     },
     {
       title: t("Correct use of medicines.title"),
@@ -92,20 +93,19 @@ export default function ResourceHighlights() {
         p={mobile ? "xs" : "lg"}
         h="100%"
         w={mobile ? "100%" : "350px"}
-        withBorder
         radius="md"
         shadow="sm"
       >
         <Card.Section m="auto" pt="md">
           <Image src={resource.image} height={resource.height} alt={resource.title} width={resource.width} />
         </Card.Section>
-        <Text fw="600" pt="sm" c="#3C776B" size="xl" ta="center">
+        <Text fw="600" pt="sm" c="#e3932c" size="xl" ta="center">
           {resource.title}
         </Text>
         <Text size="lg" mb="xs" ta="center">
           {resource.description}
         </Text>
-        <Button variant="filled" w="130px" m="auto" color="#2e6940" component="a" href={resource.url}>
+        <Button variant="filled" w="130px" m="auto" color="#d76d34" component="a" href={resource.url}>
           {t("learnMore")}
         </Button>
       </Card>
@@ -113,37 +113,39 @@ export default function ResourceHighlights() {
   ));
 
   return (
-    <div className={classes.wrapper}>
-      <Title size={35} ta="center" mb="xs" c="#2D5A51">
-        {t("title")}
-      </Title>
-      <Carousel
-        withIndicators
-        height={400}
-        withControls
-        controlsOffset="xs"
-        controlSize={50}
-        nextControlIcon={
-          direction === "ltr" ? (
-            <IconChevronRight color={theme.colors.darkSlateGreen[8]} className={classes.controlIcon} />
-          ) : (
-            <IconChevronLeft color={theme.colors.darkSlateGreen[8]} className={classes.controlIcon} />
-          )
-        }
-        previousControlIcon={
-          direction === "rtl" ? (
-            <IconChevronRight color={theme.colors.darkSlateGreen[8]} className={classes.controlIcon} />
-          ) : (
-            <IconChevronLeft color={theme.colors.darkSlateGreen[8]} className={classes.controlIcon} />
-          )
-        }
-        slideSize={{ base: "100%", xs: "50%", sm: "50%", md: "33%", lg: "33%" }}
-        slideGap={{ base: "md", sm: "md", md: "md", lg: "md", xl: "md" }}
-        emblaOptions={{ dragFree: true, align: "center", direction: direction }}
-        classNames={classes}
-      >
-        {slides}
-      </Carousel>
+    <div className="bg-[#ffebcd]  py-15">
+      <div className="w-full max-w-7xl m-auto ">
+        <Title size={35} ta={direction === "rtl" ? "right" : "left"} mb="sm" c="#8f5f56" px="20px">
+          {t("title")}
+        </Title>
+        <Carousel
+          withIndicators
+          height={400}
+          withControls
+          controlsOffset="xs"
+          controlSize={50}
+          nextControlIcon={
+            direction === "ltr" ? (
+              <IconChevronRight color="#8f5f56" className={classes.controlIcon} />
+            ) : (
+              <IconChevronLeft color="#8f5f56" className={classes.controlIcon} />
+            )
+          }
+          previousControlIcon={
+            direction === "rtl" ? (
+              <IconChevronRight color="#8f5f56" className={classes.controlIcon} />
+            ) : (
+              <IconChevronLeft color="#8f5f56" className={classes.controlIcon} />
+            )
+          }
+          slideSize={{ base: "100%", xs: "50%", sm: "50%", md: "33%", lg: "33%" }}
+          slideGap={{ base: "md", sm: "md", md: "md", lg: "md", xl: "md" }}
+          emblaOptions={{ dragFree: true, align: "center", direction: direction }}
+          classNames={classes}
+        >
+          {slides}
+        </Carousel>
+      </div>
     </div>
   );
 }

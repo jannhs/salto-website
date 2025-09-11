@@ -1,20 +1,16 @@
 "use client";
 
 import "@mantine/core/styles/Timeline.css";
-import { Divider, Title, Group, useMantineTheme, Button } from "@mantine/core";
-import { useMediaQuery } from "@mantine/hooks";
+import { Divider, Title, Group, Button } from "@mantine/core";
 import React from "react";
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { useTranslations, useLocale } from "next-intl";
-import type { Event } from "@/utils/types";
 import { getLangDir } from "rtl-detect";
 import classes from "./UpcomingEvents.module.css";
 import { eventsByLocale } from "@/data/upcomingEvents";
 import Image from "next/image";
 
 export default function UpcomingEvents() {
-  const theme = useMantineTheme();
-  const isMobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm})`);
   const t = useTranslations("UpcomingEvents");
   const locale = useLocale();
   const direction = getLangDir(locale);
@@ -27,7 +23,7 @@ export default function UpcomingEvents() {
         <div className="text-4xl md:text-5xl font-bold text-amber-700">{event.day}</div>
       </div>
       <div></div>
-      <div className="content-center">
+      <div className="content-center text-center sm:text-start">
         <div className="text-xl font-semibold grow">{event.title}</div>
         <div className="text-gray-700">{event.description}</div>
         <Button
@@ -44,7 +40,7 @@ export default function UpcomingEvents() {
           {t("DiscoverMore")}
         </Button>
       </div>
-      <Image src="/images/unight-2024.jpg" alt="UNIGHT 2024" width="400" height="300" />
+      <Image src="/images/unight-2024.jpg" alt="UNIGHT 2024" width="400" height="300" className="hidden lg:inline" />
     </div>
   ));
 

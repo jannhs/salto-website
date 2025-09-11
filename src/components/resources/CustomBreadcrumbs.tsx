@@ -23,7 +23,7 @@ export default function CustomBreadcrumbs() {
       href: pathName,
     },
   ].map((item, index) => (
-    <Anchor href={item.href} key={index} fw="600">
+    <Anchor href={item.href} key={index} fw="600" size="lg" c="#2e8297">
       {item.title}
     </Anchor>
   ));

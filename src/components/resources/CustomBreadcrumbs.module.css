@@ -1,3 +1,7 @@
+.root {
+  gap: 0.5rem;
+}
+
 .separator {
   font-weight: 600;
   color: var(--mantine-color-gray-6);

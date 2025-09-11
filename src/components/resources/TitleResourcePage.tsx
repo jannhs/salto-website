@@ -19,7 +19,7 @@ export default function TitleResourcePage() {
 
       <div className="relative z-20">
         <Space className="h-60 lg:h-95" />
-        <Title size="53px" ta="center" c="white">
+        <Title size="3.4rem" ta="center" c="white">
           {t(`${topic}`)}
         </Title>
       </div>

@@ -53,13 +53,10 @@ export function PartnersPanel({ isMobile, type, grouped }: PartnersPanelProps) {
             // className="transition-all duration-200 ease-in-out hover:scale-103 hover:shadow-lg bg-[#31465a]"
           >
             <Grid key={p.key}>
-              <Grid.Col
-                span={isMobile ? 12 : 3}
-                style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
-              >
+              <Grid.Col span={isMobile ? 12 : 3} className="flex items-center justify-center mb-4">
                 <Image src={p.logo} alt={`${p.name}`} width={Number(p.logoWidth)} height={Number(p.logoHeight)} />
               </Grid.Col>
-              <Grid.Col span={isMobile ? 12 : 9} className="align-items-center" ta={isMobile ? "center" : "left"}>
+              <Grid.Col span={isMobile ? 12 : 9} className="flex align-center" ta={isMobile ? "center" : "left"}>
                 <Box key={p.key}>
                   <Title order={4}>{p.name}</Title>
                   {p.description && <Text size="sm">{p.description}</Text>}

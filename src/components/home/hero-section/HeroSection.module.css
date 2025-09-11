@@ -1,25 +1,25 @@
 .root {
-  /* background-color: #11284b; */
+  /* background-color: #11284b; #bf9f9a; #70917f*/
   min-height: 100vh;
   background-color: #9f9b9a;
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
   background-image:
-    linear-gradient(250deg, rgba(130, 201, 30, 0) 0%, #bf9f9a 62%), url("/images/hs-muslim-woman-and-child.jpg");
-  padding-top: calc(var(--mantine-spacing-xl) * 5);
+    linear-gradient(250deg, rgba(130, 201, 30, 0) 0%, #0f4c5c 62%), url("/images/hs-muslim-woman-and-child.jpg");
+  padding-top: calc(var(--mantine-spacing-xl) * 3);
   padding-bottom: calc(var(--mantine-spacing-xl) * 5);
   &.rtl {
     /* transform: scaleX(-1); */
     background-image:
-      linear-gradient(85deg, rgba(130, 201, 30, 0) 0%, #bf9f9a 75%), url("/images/hs-muslim-woman-and-child.jpg");
+      linear-gradient(85deg, rgba(130, 201, 30, 0) 0%, #0f4c5c 75%), url("/images/hs-muslim-woman-and-child.jpg");
     background-position: left;
   }
 
   @media (max-width: $mantine-breakpoint-md) {
     text-align: center;
     background-image:
-      linear-gradient(0deg, rgba(130, 201, 30, 0) 0%, #bf9f9a 50%), url("/images/hs-muslim-woman-and-child.jpg");
+      linear-gradient(0deg, rgba(130, 201, 30, 0) 0%, #0f4c5c 50%), url("/images/hs-muslim-woman-and-child.jpg");
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image:
-      linear-gradient(0deg, rgba(130, 201, 30, 0) 0%, #bf9f9a 39%), url("/images/hs-muslim-woman-and-child.jpg");
+      linear-gradient(0deg, rgba(130, 201, 30, 0) 0%, #0f4c5c 24%), url("/images/hs-muslim-woman-and-child.jpg");
 
     padding-bottom: calc(var(--mantine-spacing-xl) * 9);
   }
@@ -59,8 +59,10 @@
   padding-top: 15vh;
   padding-bottom: 10vh;
   margin-right: calc(var(--mantine-spacing-xl) * 2);
+  animation: 1s fadeInLeft ease-in-out;
 
   @media (max-width: $mantine-breakpoint-md) {
+    animation: 1s fadeInUp ease-in-out;
     margin-right: 0;
   }
   &.rtl {
@@ -68,8 +70,30 @@
   }
 }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .title {
-  color: var(--mantine-color-black);
+  color: rgba(255, 253, 253, 1);
   /* font-family: Outfit, var(--mantine-font-family); */
   font-weight: 600;
   line-height: 1.05;
@@ -84,13 +108,16 @@
 }
 
 .description {
-  color: var(--mantine-color-black);
-  opacity: 0.75;
-  font-size: 23px;
+  color: var(--mantine-color-white);
+  opacity: 0.85;
+  font-size: 24px;
   font-weight: 500;
   max-width: 500px;
+  line-height: 1.7;
 
   @media (max-width: $mantine-breakpoint-md) {
+    font-size: 20px;
+    line-height: 1.5;
     max-width: 100%;
   }
 }
