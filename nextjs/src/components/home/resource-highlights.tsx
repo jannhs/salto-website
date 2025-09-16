@@ -66,14 +66,14 @@ export default function ResourceHighlights() {
       width: 100,
       height: 100,
     },
-    {
-      title: t("Access to healthcare.title"),
-      description: t("Access to healthcare.description"),
-      url: "/resources",
-      image: "/icons/access-to-healthcare.png",
-      width: 100,
-      height: 100,
-    },
+    // {
+    //   title: t("Access to healthcare.title"),
+    //   description: t("Access to healthcare.description"),
+    //   url: "/resources",
+    //   image: "/icons/access-to-healthcare.png",
+    //   width: 100,
+    //   height: 100,
+    // },
     {
       title: t("Prevention.title"),
       description: t("Prevention.description"),

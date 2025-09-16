@@ -157,12 +157,12 @@
           "project": {
             "label": "Projet",
             "description": "",
-            "href": "project"
+            "href": "/project"
           },
           "partners": {
             "label": "Partenaires",
             "description": "",
-            "href": "partners"
+            "href": "/partners"
           }
         }
       },
@@ -172,32 +172,32 @@
           "childrens-health": {
             "label": "Santé des enfants",
             "description": "",
-            "href": "resources/childrens-health"
+            "href": "/resources/childrens-health"
           },
           "correct-use-of-meds": {
             "label": "Utilisation correcte des médicaments",
             "description": "",
-            "href": "resources/correct-use-of-meds"
+            "href": "/resources/correct-use-of-meds"
           },
           "healthy-diet": {
             "label": "Alimentation saine",
             "description": "",
-            "href": "resources/healthy-diet"
+            "href": "/resources/healthy-diet"
           },
           "lifestyle-and-prevention": {
             "label": "Modes de vie et prévention",
             "description": "",
-            "href": "resources/lifestyle-and-prevention"
+            "href": "/resources/lifestyle-and-prevention"
           },
           "skin-conditions": {
             "label": "Problèmes de peau",
             "description": "",
-            "href": "resources/skin-conditions"
+            "href": "/resources/skin-conditions"
           },
           "womens-health": {
             "label": "Santé des femmes",
             "description": "",
-            "href": "resources/womens-health"
+            "href": "/resources/womens-health"
           }
         }
       },
@@ -207,7 +207,7 @@
           "resources-for-professionals": {
             "label": "Liens utiles aux opérateurs",
             "description": "",
-            "href": "resources-for-professionals"
+            "href": "/resources-for-professionals"
           }
         }
       }

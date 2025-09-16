@@ -1,12 +1,16 @@
+"use client";
+
 import { Spotlight, spotlight, SpotlightActionData, SpotlightActionGroupData } from "@mantine/spotlight";
 import { IconSearch } from "@tabler/icons-react";
 import { Button } from "@mantine/core";
 import { useTranslations, useMessages } from "next-intl";
+import { useRouter } from "@/i18n/navigation";
 
 export function SearchBar() {
   const t = useTranslations("SearchBar");
   const messages = useMessages();
   const groupKeys = Object.keys(messages.SearchBar.results);
+  const router = useRouter();
   const actions: (SpotlightActionData | SpotlightActionGroupData)[] = groupKeys.map((groupKey) => {
     const groupLabel = t(`results.${groupKey}.group`);
     const actionsKeys = Object.keys(messages.SearchBar.results[groupKey].actions);
@@ -20,7 +24,9 @@ export function SearchBar() {
           label: t(`results.${groupKey}.actions.${actionKey}.label`),
           description: t(`results.${groupKey}.actions.${actionKey}.description`),
           onClick: () => {
-            window.location.href = `./${actionHref}`;
+            router.push({
+              pathname: actionHref,
+            });
           },
         };
       }),

@@ -172,32 +172,32 @@
           "childrens-health": {
             "label": "Salud infantil",
             "description": "",
-            "href": "resources/childrens-health"
+            "href": "/resources/childrens-health"
           },
           "correct-use-of-meds": {
             "label": "Uso correcto de los medicamentos",
             "description": "",
-            "href": "resources/correct-use-of-meds"
+            "href": "/resources/correct-use-of-meds"
           },
           "healthy-diet": {
             "label": "Alimentación saludable",
             "description": "",
-            "href": "resources/healthy-diet"
+            "href": "/resources/healthy-diet"
           },
           "lifestyle-and-prevention": {
             "label": "Estilos de vida y prevención",
             "description": "",
-            "href": "resources/lifestyle-and-prevention"
+            "href": "/resources/lifestyle-and-prevention"
           },
           "skin-conditions": {
             "label": "Problemas de la piel",
             "description": "",
-            "href": "resources/skin-conditions"
+            "href": "/resources/skin-conditions"
           },
           "womens-health": {
             "label": "Salud feminina",
             "description": "",
-            "href": "resources/womens-health"
+            "href": "/resources/womens-health"
           }
         }
       },
@@ -207,7 +207,7 @@
           "resources-for-professionals": {
             "label": "Enlaces útiles para profesionales",
             "description": "",
-            "href": "resources-for-professionals"
+            "href": "/resources-for-professionals"
           }
         }
       }

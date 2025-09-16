@@ -2,7 +2,7 @@ import { useState } from "react";
 import { IconChevronDown } from "@tabler/icons-react";
 import { Box, Collapse, Group, UnstyledButton, Text } from "@mantine/core";
 import classes from "./SidebarLinksGroup.module.css";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 interface LinksGroupProps {
   item: { label: string; link: string; dropdown: { link: string; label: string }[] };

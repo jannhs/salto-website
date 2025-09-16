@@ -4,7 +4,7 @@ import logo_salto from "@/public/logo_salto.png";
 import Image from "next/image";
 import { LanguageSwitch } from "./LanguageSwitch";
 import { SearchBar } from "./SearchBar";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 interface HeaderProps {
   links: { link: string; label: string; dropdown: { link: string; label: string }[] }[];

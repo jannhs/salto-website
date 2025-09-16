@@ -157,12 +157,12 @@
           "project": {
             "label": "المشروع",
             "description": "",
-            "href": "project"
+            "href": "/project"
           },
           "partners": {
             "label": "الشركاء",
             "description": "",
-            "href": "partners"
+            "href": "/partners"
           }
         }
       },
@@ -172,32 +172,32 @@
           "childrens-health": {
             "label": "صحة الأطفال",
             "description": "",
-            "href": "resources/childrens-health"
+            "href": "/resources/childrens-health"
           },
           "correct-use-of-meds": {
             "label": "الاستخدام الصحيح للأدوية",
             "description": "",
-            "href": "resources/correct-use-of-meds"
+            "href": "/resources/correct-use-of-meds"
           },
           "healthy-diet": {
             "label": "نظام غذائي صحي",
             "description": "",
-            "href": "resources/healthy-diet"
+            "href": "/resources/healthy-diet"
           },
           "lifestyle-and-prevention": {
             "label": "أنماط الحياة والوقاية",
             "description": "",
-            "href": "resources/lifestyle-and-prevention"
+            "href": "/resources/lifestyle-and-prevention"
           },
           "skin-conditions": {
             "label": "مشاكل الجلد",
             "description": "",
-            "href": "resources/skin-conditions"
+            "href": "/resources/skin-conditions"
           },
           "womens-health": {
             "label": "صحة المرأة",
             "description": "",
-            "href": "resources/womens-health"
+            "href": "/resources/womens-health"
           }
         }
       },
