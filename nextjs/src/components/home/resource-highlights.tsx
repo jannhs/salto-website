@@ -92,7 +92,7 @@ export default function ResourceHighlights() {
         m={mobile ? "xs" : "md"}
         p={mobile ? "xs" : "lg"}
         h="100%"
-        w={mobile ? "100%" : "350px"}
+        w={mobile ? "94%" : "350px"}
         radius="md"
         shadow="sm"
       >
