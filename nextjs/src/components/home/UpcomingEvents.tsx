@@ -19,7 +19,7 @@ export default function UpcomingEvents() {
   const septemberEvents = septemberEventsByLocale.map((event) => (
     <div key={event.id} className="flex flex-row gap-4 flex-wrap sm:flex-nowrap justify-center">
       <div className="flex flex-col items-center justify-center">
-        <div className="text-3xl md:text-4xl font-bold text-amber-700 uppercase">{t("Friday")}</div>
+        <div className="text-3xl md:text-4xl font-bold text-amber-700 uppercase">{t("Saturday")}</div>
         <div className="text-4xl md:text-5xl font-bold text-amber-700">{event.day}</div>
       </div>
       <div></div>

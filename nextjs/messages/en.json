@@ -67,6 +67,7 @@
     "allButtonExtra": "All Events",
     "September": "September",
     "Friday": "Friday",
+    "Saturday": "Saturday",
     "events": {
       "event1": {
         "title": "Health Workshop",
