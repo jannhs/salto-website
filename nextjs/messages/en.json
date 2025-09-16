@@ -142,6 +142,9 @@
     "ArabTag": "Arab",
     "FrenchTag": "French",
     "SpanishTag": "Spanish",
+    "RomanianTag": "Romanian",
+    "RussianTag": "Russian",
+    "ChineseTag": "Chinese",
     "CopyLink": "Copy link",
     "Languages": "Language",
     "Source": "Source"

@@ -48,7 +48,7 @@ export const professionalResources: {
         source: "Istituto Superiore di Sanità",
         sourceHref: "https://www.epicentro.iss.it",
         altPreview: "Preview del sito dell'Istituto Superiore di Sanità",
-        languages: ["it"],
+        languages: ["it", "en", "fr", "ar", "es", "rum", "run", "cn"],
       },
     ],
   },

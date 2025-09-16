@@ -145,7 +145,10 @@
     "EnglishTag": "Inglés",
     "ArabTag": "Árabe",
     "ItalianTag": "Italiano",
-    "FrenchTag": "Francés"
+    "FrenchTag": "Francés",
+    "RomanianTag": "Rumano",
+    "RussianTag": "Ruso",
+    "ChineseTag": "Chino"
   },
   "ResourcesForProfessionals": {
     "preamble": "En esta página es posible descargar documentos creados fuera del proyecto SALTO sobre temas relacionados con migrantes y salud, destinados a los profesionales que trabajan en estrecho contacto con ciudadanos de origen no italiano.",

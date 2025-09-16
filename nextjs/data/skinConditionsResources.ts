@@ -36,6 +36,26 @@ export const skinConditionsResources: {
     },
     {
       type: "pdf",
+      title: "что такое чесотка",
+      url: "https://www.progettoicare.it/flex/Extensions/AppModules/AppIcareDoc/pages/serveFileIcare.php?P=248&ID=de42664cf7bb96c94f6f4feb841c22bf&LNG=RU",
+      source: "Проект ICARE",
+      sourceHref: "https://www.progettoicare.it/",
+      imagePreview: "/previews/skin-conditions/scabies-ru.png",
+      altPreview: "",
+      languages: ["ru"],
+    },
+    {
+      type: "pdf",
+      title: "ما هو الجرب",
+      url: "https://www.progettoicare.it/flex/Extensions/AppModules/AppIcareDoc/pages/serveFileIcare.php?P=248&ID=de42664cf7bb96c94f6f4feb841c22bf&LNG=AR",
+      source: "مشروع ICARE",
+      sourceHref: "https://www.progettoicare.it/",
+      imagePreview: "/previews/skin-conditions/scabies-ar.png",
+      altPreview: "",
+      languages: ["ar"],
+    },
+    {
+      type: "pdf",
       title: "Che cos'è la scabbia",
       url: "https://www.progettoicare.it/flex/Extensions/AppModules/AppIcareDoc/pages/serveFileIcare.php?P=248&ID=de42664cf7bb96c94f6f4feb841c22bf&LNG=IT",
       source: "Progetto ICARE",
@@ -44,6 +64,7 @@ export const skinConditionsResources: {
       altPreview: "",
       languages: ["it"],
     },
+
     {
       type: "pdf",
       title: "Scabbia nei bambini",

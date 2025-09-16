@@ -122,6 +122,16 @@ export const lifestyleResources: {
         altPreview: "",
         languages: ["it"],
       },
+      {
+        type: "pdf",
+        title: "التطعيمات الموصى بها للبالغين",
+        url: "https://www.progettoicare.it/flex/Extensions/AppModules/AppIcareDoc/pages/serveFileIcare.php?P=248&ID=b8df6e9f40fef5fa0fe35ec76a3774c9&LNG=AR",
+        source: "مشروع ICARE",
+        sourceHref: "https://www.progettoicare.it/",
+        imagePreview: "/previews/lifestyle-and-prevention/vaccines-ar.png",
+        altPreview: "",
+        languages: ["ar"],
+      },
     ],
   },
   teeth: {

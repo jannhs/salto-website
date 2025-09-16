@@ -13,14 +13,14 @@ export default function CorrectUseOfMedsPage() {
   return (
     <>
       {correctUse.brochures.length == 0 && antibiotics.brochures.length == 0 && (
-        <Text pt="xl" size="18px" c="dimmed">
+        <Text pt="xl" size="18px" c="dimmed" className="uppercase">
           {">> "}
           {t("COMING_SOON")}
         </Text>
       )}
       {correctUse.brochures.length > 0 && (
         <>
-          <Text pt="xl" size="18px" fw="bolder" c="#4a4a49">
+          <Text pt="xl" size="18px" fw="bolder" c="#4a4a49" className="uppercase">
             {t("CORRECT_USE")}
           </Text>
           <div className="p-5">
@@ -31,7 +31,7 @@ export default function CorrectUseOfMedsPage() {
 
       {antibiotics.brochures.length > 0 && (
         <>
-          <Text pt="xs" size="18px" fw="bolder" c="#4a4a49">
+          <Text pt="xs" size="18px" fw="bolder" c="#4a4a49" className="uppercase">
             {t("ANTIBIOTICS")}
           </Text>
           <div className="p-5">

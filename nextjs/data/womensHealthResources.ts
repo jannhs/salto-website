@@ -31,6 +31,14 @@ export const womensHealthResources: {
         imagePreview: "/previews/default.png",
         languages: ["en"],
       },
+      {
+        type: "video",
+        title: "Projet 'G-Start",
+        url: "https://youtube.com/embed/mC2U1HBKOAs",
+        source: "Projet G-Start",
+        sourceHref: "https://www.epicentro.iss.it/migranti/g-start",
+        languages: ["fr"],
+      },
     ],
   },
   pregnancy: {
@@ -56,6 +64,14 @@ export const womensHealthResources: {
         imagePreview: "/previews/default.png",
         altPreview: "",
         languages: ["it"],
+      },
+      {
+        type: "video",
+        title: "Projet 'G-Start",
+        url: "https://youtube.com/embed/lSgn5XeLg8c",
+        source: "Projet G-Start",
+        sourceHref: "https://www.epicentro.iss.it/migranti/g-start",
+        languages: ["fr"],
       },
       {
         type: "video",

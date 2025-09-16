@@ -20,6 +20,16 @@ export const correctUseResources: {
         altPreview: "",
         languages: ["it"],
       },
+      {
+        type: "pdf",
+        title: "Guida all'uso consapevole dei farmaci",
+        url: "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ordinefarmacistitreviso.it/vfm/Documenti/Green-Health-opuscolo-def-1.pdf&ved=2ahUKEwiO5LHZgM2MAxWCgf0HHZ4yPfMQFnoECBUQAQ&usg=AOvVaw16sr1LM8B2Wi4s9ElF6VgJ",
+        source: "Ordine dei Farmacisti di Treviso",
+        sourceHref: "https://ordinefarmacistitreviso.it/",
+        imagePreview: "/previews/correct-use-of-meds/guida-uso-consapevole.png",
+        altPreview: "",
+        languages: ["it"],
+      },
     ],
   },
   antibiotics: {

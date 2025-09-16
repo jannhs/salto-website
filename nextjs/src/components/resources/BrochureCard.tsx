@@ -89,47 +89,6 @@ export function BrochureCard(resource: Resource) {
               </a>
             </Title>
           </GridCol>
-          {/* <GridCol span={2}>
-            <Menu withinPortal position="bottom-end" shadow="sm">
-              <Menu.Target>
-                <ActionIcon variant="subtle" color="gray" radius="xl">
-                  <IconShare size={18} />
-                </ActionIcon>
-              </Menu.Target>
-
-              <Menu.Dropdown>
-                <Menu.Item
-                  leftSection={<IconCopy size={14} />}
-                  onClick={() => {
-                    clipboard.copy(`${resource.url}`);
-                    notifications.show({
-                      position: "bottom-center",
-                      title: "Copiato!",
-                      message: "",
-                    });
-                  }}
-                >
-                  {t("CopyLink")}
-                </Menu.Item>
-                <Menu.Item
-                  leftSection={<IconBrandWhatsapp size={14} />}
-                  component="a"
-                  href={shareUrlOnWhatsapp}
-                  target="_blank"
-                >
-                  {t("ShareOnWhatsapp")}
-                </Menu.Item>
-                <Menu.Item
-                  leftSection={<IconBrandFacebook size={14} />}
-                  component="a"
-                  href={shareUrlOnFacebook}
-                  target="_blank"
-                >
-                  {t("ShareOnFacebook")}
-                </Menu.Item>
-              </Menu.Dropdown>
-            </Menu>
-          </GridCol> */}
         </Grid>
       </Card.Section>
       <div className="mt-3 flex flex-col-2 gap-1">
@@ -145,6 +104,9 @@ export function BrochureCard(resource: Resource) {
           {resource.languages.includes("ar") && <Pill classNames={classes}>{t("ArabTag")}</Pill>}
           {resource.languages.includes("fr") && <Pill classNames={classes}>{t("FrenchTag")}</Pill>}
           {resource.languages.includes("es") && <Pill classNames={classes}>{t("SpanishTag")}</Pill>}
+          {resource.languages.includes("rum") && <Pill classNames={classes}>{t("RomanianTag")}</Pill>}
+          {resource.languages.includes("ru") && <Pill classNames={classes}>{t("RussianTag")}</Pill>}
+          {resource.languages.includes("cn") && <Pill classNames={classes}>{t("ChineseTag")}</Pill>}
         </div>
       </div>
       <div className="mt-2 flex flex-col-2 gap-3">

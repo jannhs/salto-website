@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     description: siteMetadata.description,
     url: "./",
     siteName: siteMetadata.title,
-    // images: [siteMetadata.socialBanner],
+    images: [siteMetadata.socialBanner],
     type: "website",
   },
   // alternates: {
   //   canonical: './',
   //   types: {
   //     'application/rss+xml': `${siteMetadata.siteUrl}/feed.xml`,
-  //   },w
+  //   },
   // },
   // robots: {
   //   index: true,
