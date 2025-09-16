@@ -1,6 +1,6 @@
 import { IconArrowUp } from "@tabler/icons-react";
 import { useWindowScroll, useMediaQuery } from "@mantine/hooks";
-import { Affix, Button, Transition, Tooltip, useMantineTheme, ActionIcon } from "@mantine/core";
+import { Affix, Button, Transition, Tooltip, useMantineTheme } from "@mantine/core";
 import { useTranslations } from "next-intl";
 
 export default function ScrollToTopAffix() {
