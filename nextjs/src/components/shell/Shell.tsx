@@ -8,6 +8,7 @@ import { Sidebar } from "./sidebar/Sidebar";
 import { useTranslations } from "next-intl";
 import ScrollToTopAffix from "./footer/ScrollToTopAffix";
 import { usePathname } from "@/i18n/navigation";
+import { useEffect } from "react";
 
 export default function Shell({ children, locale }: { children: React.ReactNode; locale: string }) {
   const [opened, { toggle }] = useDisclosure();
@@ -38,6 +39,12 @@ export default function Shell({ children, locale }: { children: React.ReactNode;
       ],
     },
   ];
+
+  useEffect(() => {
+    if (opened) {
+      toggle();
+    }
+  }, [pathname]);
 
   return (
     <AppShell

@@ -3,7 +3,7 @@ const siteMetadata = {
   author: "Janneth Estefania Hoyos Rea",
   headerTitle: "SALTO",
   description: "A platform to promote public health initiatives and resources both by SALTO and third parties.",
-  siteUrl: "http://localhost:3000",
+  siteUrl: "https://salto.di.unito.it/",
   theme: "light",
   siteRepo: "https://github.com/jannhs/salto-website",
 };
