@@ -6,6 +6,7 @@ const siteMetadata = {
   siteUrl: "https://salto.di.unito.it/",
   theme: "light",
   siteRepo: "https://github.com/jannhs/salto-website",
+  socialBanner: "/images/social-banner.png",
 };
 
 export default siteMetadata;
