@@ -2,6 +2,7 @@
 
 import { usePathname } from "@/i18n/navigation";
 import { Space, Title } from "@mantine/core";
+import { useMediaQuery } from "@mantine/hooks";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
@@ -9,6 +10,7 @@ export default function TitleResourcePage() {
   const pathname = usePathname();
   const topic = pathname.split("/").pop();
   const imageUrl = "/images/resources-bgs/" + topic + ".jpeg";
+  const isMobile = useMediaQuery("(max-width: 468px)");
 
   const t = useTranslations("Navigation");
   return (
@@ -19,7 +21,7 @@ export default function TitleResourcePage() {
 
       <div className="relative z-20">
         <Space className="h-60 lg:h-95" />
-        <Title size="3.4rem" ta="center" c="white">
+        <Title size={isMobile ? "2.4rem" : "3.4rem"} ta="center" c="white">
           {t(`${topic}`)}
         </Title>
       </div>

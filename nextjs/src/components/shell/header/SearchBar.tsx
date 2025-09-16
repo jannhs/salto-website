@@ -50,6 +50,7 @@ export function SearchBar() {
       </Button>
       <Spotlight
         size="lg"
+        scrollable
         actions={actions}
         nothingFound={t("nothingFound")}
         highlightQuery

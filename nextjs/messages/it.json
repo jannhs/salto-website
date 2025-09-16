@@ -147,6 +147,12 @@
     "Languages": "Lingua",
     "Source": "Fonte"
   },
+  "ResourcesForProfessionals": {
+    "preamble": "In questa pagina è possibile scaricare documenti creati al di fuori del progetto SALTO su temi riguardanti migranti e salute destinati agli operatori che lavorano a stretto contatto con i cittadini di origine non italiana.",
+    "statistics": "Statistiche sui migranti",
+    "guides": "Guida ai servizi destinati ai migranti",
+    "guidelines": "Linee guida per la salute dei migranti"
+  },
   "SearchBar": {
     "nothingFound": "Nessun risultato trovato",
     "placeholder": "Cerca",
@@ -157,12 +163,12 @@
           "project": {
             "label": "Progetto",
             "description": "",
-            "href": "/project"
+            "href": "/about/project"
           },
           "partners": {
             "label": "Partners",
             "description": "",
-            "href": "/partners"
+            "href": "/about/partners"
           }
         }
       },

@@ -147,6 +147,12 @@
     "FrenchTag": "الفرنسية",
     "SpanishTag": "الإسبانية"
   },
+  "ResourcesForProfessionals": {
+    "preamble": "في هذه الصفحة يمكن تنزيل وثائق تم إنشاؤها خارج مشروع SALTO حول مواضيع تتعلق بالمهاجرين والصحة، موجهة للعاملين الذين يعملون بشكل مباشر مع المواطنين من أصل غير إيطالي.",
+    "statistics": "إحصائيات عن المهاجرين",
+    "guides": "دليل الخدمات المخصصة للمهاجرين",
+    "guidelines": "إرشادات لصحة المهاجرين"
+  },
   "SearchBar": {
     "nothingFound": "لم يتم العثور على نتائج",
     "placeholder": "ابحث",
@@ -157,12 +163,12 @@
           "project": {
             "label": "المشروع",
             "description": "",
-            "href": "/project"
+            "href": "/about/project"
           },
           "partners": {
             "label": "الشركاء",
             "description": "",
-            "href": "/partners"
+            "href": "/about/partners"
           }
         }
       },

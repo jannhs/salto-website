@@ -147,6 +147,12 @@
     "ItalianTag": "Italiano",
     "FrenchTag": "Francés"
   },
+  "ResourcesForProfessionals": {
+    "preamble": "En esta página es posible descargar documentos creados fuera del proyecto SALTO sobre temas relacionados con migrantes y salud, destinados a los profesionales que trabajan en estrecho contacto con ciudadanos de origen no italiano.",
+    "statistics": "Estadísticas sobre migrantes",
+    "guides": "Guía de servicios para migrantes",
+    "guidelines": "Directrices para la salud de los migrantes"
+  },
   "SearchBar": {
     "nothingFound": "No se encontraron resultados",
     "placeholder": "Buscar",
@@ -157,12 +163,12 @@
           "project": {
             "label": "Proyecto",
             "description": "",
-            "href": "project"
+            "href": "about/project"
           },
           "partners": {
             "label": "Socios",
             "description": "",
-            "href": "partners"
+            "href": "about/partners"
           }
         }
       },
