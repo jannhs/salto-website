@@ -1,11 +1,13 @@
 import { IconArrowUp } from "@tabler/icons-react";
-import { useWindowScroll } from "@mantine/hooks";
-import { Affix, Button, Transition, Tooltip } from "@mantine/core";
+import { useWindowScroll, useMediaQuery } from "@mantine/hooks";
+import { Affix, Button, Transition, Tooltip, useMantineTheme, ActionIcon } from "@mantine/core";
 import { useTranslations } from "next-intl";
 
 export default function ScrollToTopAffix() {
   const [scroll, scrollTo] = useWindowScroll();
   const t = useTranslations("ScrollToTopAffix");
+  const theme = useMantineTheme();
+  const isMobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm})`);
   return (
     <Affix position={{ bottom: 20, right: 20 }} zIndex={999}>
       <Tooltip label={t("scrollToTop")} withArrow>
@@ -15,7 +17,9 @@ export default function ScrollToTopAffix() {
               leftSection={<IconArrowUp size={23} stroke="2" />}
               variant="filled"
               color="darkSlateGreen"
-              size="lg"
+              size={isMobile ? "md" : "lg"}
+              pl={isMobile ? 10 : 15}
+              pr={isMobile ? 0 : 20}
               radius="xl"
               style={{
                 ...transitionStyles,
@@ -25,7 +29,7 @@ export default function ScrollToTopAffix() {
               }}
               onClick={() => scrollTo({ y: 0 })}
             >
-              {t("scrollToTop")}
+              {!isMobile && t("scrollToTop")}
             </Button>
           )}
         </Transition>
