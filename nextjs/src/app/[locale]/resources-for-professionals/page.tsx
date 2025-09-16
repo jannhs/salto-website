@@ -21,11 +21,11 @@ export default function ResourcesForProfessionalsPage() {
         <Text>{t2("preamble")}</Text>
       </div>
 
-      <div className="m-auto w-full  pt-7">
-        <Title ta="center" order={2} c="#">
+      <div className="m-auto w-full  pt-7 py-5 ">
+        <Title ta="center" order={2} c="#" py="xs">
           {t2("statistics")}
         </Title>
-        <div className="px-5 py-5 m-auto max-w-240 ">
+        <div className="px-5 m-auto max-w-240 ">
           <Grid gutter="lg">
             {statistics.resources.map((item) => (
               <GridCol span={{ base: 12, sm: 6, md: 6, lg: 6 }} key={item.title}>
@@ -34,7 +34,7 @@ export default function ResourcesForProfessionalsPage() {
             ))}
           </Grid>
         </div>
-        <Title ta="center" order={2} mt="sm">
+        <Title ta="center" order={2} mt="lg">
           {t2("guides")}
         </Title>
         <div className="px-5 py-5 m-auto max-w-240">

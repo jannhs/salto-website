@@ -19,7 +19,7 @@ export default function LifestylePage() {
           <Text pt="xs" size="18px" fw="bolder" c="#4a4a49" className="uppercase">
             {t("sectionLifestyle.behaviour")}
           </Text>
-          <div className="p-5">
+          <div className="pt-5">
             <ThirdPartyResourcesSection brochures={resources.behaviour.brochures} videos={resources.behaviour.videos} />
           </div>
         </>
@@ -30,7 +30,7 @@ export default function LifestylePage() {
           <Text pt="xs" size="18px" fw="bolder" c="#4a4a49" className="uppercase">
             {t("sectionLifestyle.antiSmoking")}
           </Text>
-          <div className="p-5">
+          <div className="pt-5">
             <ThirdPartyResourcesSection brochures={resources.antiSmoking.brochures} />
           </div>
         </>
@@ -41,7 +41,7 @@ export default function LifestylePage() {
           <Text pt="xs" size="18px" fw="bolder" c="#4a4a49" className="uppercase">
             {t("sectionLifestyle.vaccine")}
           </Text>
-          <div className="p-5">
+          <div className="pt-5">
             <ThirdPartyResourcesSection brochures={resources.vaccine.brochures} />
           </div>
         </>
@@ -52,7 +52,7 @@ export default function LifestylePage() {
           <Text pt="xs" size="18px" fw="bolder" c="#4a4a49" className="uppercase">
             {t("sectionLifestyle.teeth")}
           </Text>
-          <div className="p-5">
+          <div className="pt-5">
             <ThirdPartyResourcesSection brochures={resources.teeth.brochures} />
           </div>
         </>

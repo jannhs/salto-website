@@ -12,20 +12,12 @@ export default function SkinConditionsPage() {
 
   return (
     <>
-      {brochures.length > 0 ? (
-        <>
-          <Text pt="xl" size="18px" fw="bolder" c="#4a4a49" className="uppercase">
-            {t("SCABIES")}
-          </Text>
-          <div className="p-5">
-            <ThirdPartyResourcesSection brochures={brochures} />
-          </div>
-        </>
-      ) : (
-        <Text pt="xl" size="18px" c="dimmed">
-          {t("COMING_SOON")}
-        </Text>
-      )}
+      <Text pt="xl" size="18px" fw="bolder" c="#4a4a49" className="uppercase">
+        {t("SCABIES")}
+      </Text>
+      <div className="pt-5">
+        <ThirdPartyResourcesSection brochures={brochures} />
+      </div>
     </>
   );
 }

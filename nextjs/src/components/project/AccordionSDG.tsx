@@ -16,7 +16,7 @@ function AccordionLabel({ label, image, description }: AccordionLabelProps) {
   return (
     <Group wrap="nowrap">
       <Image src={image} width="90" height="90" alt={label} />
-      <div className={classes.InnerLabel}>
+      <div className="p-3">
         <Text>{label}</Text>
         <Text size="sm" c="dimmed" fw={400}>
           {description}
@@ -38,7 +38,7 @@ function ColumnsObjectives(m: Messages, nGoal: number) {
     const label = t(`objectives.${keys[i]}.title`);
     objectives.push([label, description]);
   }
-  console.log(objectives);
+
   return objectives.map((item) => (
     <Fragment key={item[0]}>
       <GridCol span={1}>
