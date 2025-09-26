@@ -67,6 +67,7 @@
     "allButton": "Tutti",
     "allButtonExtra": "Vedi eventi",
     "September": "Settembre",
+
     "events": {
       "event1": {
         "title": "Workshop sulla salute",
@@ -84,6 +85,7 @@
     "noEvents": "Nessun evento in programma",
     "Friday": "Venerdì",
     "Saturday": "Sabato",
+    "QuizIntro": "Metti alla prova le tue conoscenze sui medicinali e sui servizi sanitari con il nostro quiz!",
     "DiscoverMore": "Scopri il programma"
   },
   "Resources": {
