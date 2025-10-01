@@ -1,16 +1,12 @@
 .root {
-  /* background-color: #11284b; #bf9f9a; #70917f*/
-  min-height: 100vh;
+  min-height: 800px;
   background-color: #9f9b9a;
-  background-position: right;
-  background-size: contain;
+  background-position: top right;
   background-repeat: no-repeat;
   background-image:
     linear-gradient(250deg, rgba(130, 201, 30, 0) 0%, #0f4c5c 62%), url("/images/hs-muslim-woman-and-child.jpg");
   padding-top: calc(var(--mantine-spacing-xl) * 3);
-  padding-bottom: calc(var(--mantine-spacing-xl) * 5);
   &.rtl {
-    /* transform: scaleX(-1); */
     background-image:
       linear-gradient(85deg, rgba(130, 201, 30, 0) 0%, #0f4c5c 75%), url("/images/hs-muslim-woman-and-child.jpg");
     background-position: left;
@@ -18,22 +14,28 @@
 
   @media (max-width: $mantine-breakpoint-md) {
     text-align: center;
-    background-image:
-      linear-gradient(0deg, rgba(130, 201, 30, 0) 0%, #0f4c5c 50%), url("/images/hs-muslim-woman-and-child.jpg");
+    background-color: #0f4c5c;
+    background-image: none;
+    min-height: 200px;
+    padding-top: 0px;
+    /* background-image:
+      linear-gradient(0deg, rgba(130, 201, 30, 0) 0%, #0f4c5c 40%), url("/images/hs-muslim-woman-and-child.jpg"); 
     background-position: bottom;
     background-size: contain;
-    background-repeat: no-repeat;
-    padding-top: calc(var(--mantine-spacing-xl) * 1);
-    padding-bottom: calc(var(--mantine-spacing-xl) * 14);
+    background-repeat: no-repeat;*/
   }
 
   @media (max-width: $mantine-breakpoint-xs) {
-    background-size: contain;
+    background-image: none;
+    min-height: 200px;
+    padding-top: 0px;
+    /*  background-size: contain;
     background-repeat: no-repeat;
     background-image:
-      linear-gradient(0deg, rgba(130, 201, 30, 0) 0%, #0f4c5c 24%), url("/images/hs-muslim-woman-and-child.jpg");
+      linear-gradient(0deg, rgba(130, 201, 30, 0) 0%, #0f4c5c 34%), url("/images/hs-muslim-woman-and-child.jpg");
 
     padding-bottom: calc(var(--mantine-spacing-xl) * 9);
+    */
   }
 }
 
@@ -64,6 +66,7 @@
   @media (max-width: $mantine-breakpoint-md) {
     animation: 1s fadeInUp ease-in-out;
     margin-right: 0;
+    padding-top: 9vh;
   }
   &.rtl {
     margin-right: calc(var(--mantine-spacing-xl) * 1);
@@ -129,6 +132,10 @@
   font-size: 22px;
 
   @media (max-width: $mantine-breakpoint-md) {
-    width: 100%;
+    width: 90%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 15px;
+    margin-left: 15px;
   }
 }
