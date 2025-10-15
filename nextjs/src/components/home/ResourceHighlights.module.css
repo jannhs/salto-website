@@ -1,3 +1,14 @@
+.title {
+  text-align: start;
+  font-size: 35px;
+  margin-bottom: 12px;
+  color: #8f5f56;
+  padding-inline: 20px;
+  @media (max-width: 1024px) {
+    text-align: center;
+  }
+}
+
 .control {
   border: 0;
   box-shadow: none;

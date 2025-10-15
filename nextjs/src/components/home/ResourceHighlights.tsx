@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useMediaQuery } from "@mantine/hooks";
 import { Carousel } from "@mantine/carousel";
 import { useMantineTheme } from "@mantine/core";
-import classes from "./resource-highlights.module.css";
+import classes from "./ResourceHighlights.module.css";
 import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
 import { useTranslations, useLocale } from "next-intl";
 import { getLangDir } from "rtl-detect";
@@ -115,9 +115,7 @@ export default function ResourceHighlights() {
   return (
     <div className="bg-[#ffebcd]  py-15">
       <div className="w-full max-w-7xl m-auto ">
-        <Title size={35} ta={direction === "rtl" ? "right" : "left"} mb="sm" c="#8f5f56" px="20px">
-          {t("title")}
-        </Title>
+        <Title className={classes.title}>{t("title")}</Title>
         <Carousel
           withIndicators
           height={400}

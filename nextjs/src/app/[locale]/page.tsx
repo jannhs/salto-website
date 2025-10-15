@@ -1,5 +1,5 @@
 import HeroSection from "@/components/home/hero-section/HeroSection";
-import ResourceHighlights from "@/components/home/resource-highlights";
+import ResourceHighlights from "@/components/home/ResourceHighlights";
 import UpcomingEvents from "@/components/home/UpcomingEvents";
 
 export default function HomePage() {

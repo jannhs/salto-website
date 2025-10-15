@@ -15,10 +15,10 @@ interface AccordionLabelProps {
 function AccordionLabel({ label, image, description }: AccordionLabelProps) {
   return (
     <Group wrap="nowrap">
-      <Image src={image} width="90" height="90" alt={label} />
+      <Image src={image} width="120" height="120" alt={label} />
       <div className="p-3">
-        <Text>{label}</Text>
-        <Text size="sm" c="dimmed" fw={400}>
+        <Text size="lg">{label}</Text>
+        <Text size="md" c="dimmed" fw={400}>
           {description}
         </Text>
       </div>
@@ -41,12 +41,12 @@ function ColumnsObjectives(m: Messages, nGoal: number) {
 
   return objectives.map((item) => (
     <Fragment key={item[0]}>
-      <GridCol span={1}>
+      <GridCol span={{base:2, lg:1}}>
         <Text size="lg" fw="800" ta="right">
           {item[0]}
         </Text>
       </GridCol>
-      <GridCol span={11}>
+      <GridCol span={{base:10, lg: 11}}>
         <Text>{item[1]}</Text>
       </GridCol>
     </Fragment>
@@ -91,19 +91,6 @@ export function AccordionSDG({ language }: { language: string }) {
         <AccordionLabel {...item} />
       </Accordion.Control>
       <Accordion.Panel className="pt-1 mt-5">
-        {/* <Image
-          src="/images/3_SDG_MakeEveryDayCount_Gifs_GDU.gif"
-          alt="Gif 3rd objective of the SDGs"
-          width={300}
-          height={300}
-        />
-
-        <Image
-          src="/images/10_SDG_MakeEveryDayCount_Gifs_GDU.gif"
-          alt="Gif 10th objective of the SDGs"
-          width={300}
-          height={300}
-        /> */}
         <Grid>{item.objectives}</Grid>
       </Accordion.Panel>
     </Accordion.Item>

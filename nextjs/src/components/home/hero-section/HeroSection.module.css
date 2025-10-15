@@ -1,41 +1,25 @@
 .root {
-  min-height: 800px;
+  min-height: 50rem;
   background-color: #9f9b9a;
   background-position: top right;
   background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
   background-image:
     linear-gradient(250deg, rgba(130, 201, 30, 0) 0%, #0f4c5c 62%), url("/images/hs-muslim-woman-and-child.jpg");
-  padding-top: calc(var(--mantine-spacing-xl) * 3);
+  padding-top: var(--mantine-spacing-lg);
   &.rtl {
     background-image:
       linear-gradient(85deg, rgba(130, 201, 30, 0) 0%, #0f4c5c 75%), url("/images/hs-muslim-woman-and-child.jpg");
     background-position: left;
   }
 
-  @media (max-width: $mantine-breakpoint-md) {
+  @media (max-width: 1024px) {
     text-align: center;
     background-color: #0f4c5c;
     background-image: none;
     min-height: 200px;
     padding-top: 0px;
-    /* background-image:
-      linear-gradient(0deg, rgba(130, 201, 30, 0) 0%, #0f4c5c 40%), url("/images/hs-muslim-woman-and-child.jpg"); 
-    background-position: bottom;
-    background-size: contain;
-    background-repeat: no-repeat;*/
-  }
-
-  @media (max-width: $mantine-breakpoint-xs) {
-    background-image: none;
-    min-height: 200px;
-    padding-top: 0px;
-    /*  background-size: contain;
-    background-repeat: no-repeat;
-    background-image:
-      linear-gradient(0deg, rgba(130, 201, 30, 0) 0%, #0f4c5c 34%), url("/images/hs-muslim-woman-and-child.jpg");
-
-    padding-bottom: calc(var(--mantine-spacing-xl) * 9);
-    */
   }
 }
 
@@ -43,7 +27,7 @@
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: $mantine-breakpoint-md) {
+  @media (max-width: 1024px) {
     flex-direction: column;
   }
 }
@@ -110,6 +94,18 @@
   }
 }
 
+.subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 7px;
+  font-size: 50px;
+  line-height: 1.05;
+
+  @media (max-width $mantine-breakpoint-md) {
+    margin-inline: 5px;
+    font-size: 34px;
+  }
+}
+
 .description {
   color: var(--mantine-color-white);
   opacity: 0.85;
@@ -122,6 +118,7 @@
     font-size: 20px;
     line-height: 1.5;
     max-width: 100%;
+    padding-inline: 5px;
   }
 }
 

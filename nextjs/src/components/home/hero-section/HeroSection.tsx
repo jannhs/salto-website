@@ -19,15 +19,13 @@ export default function NewHeroSection() {
             alt="Muslim woman and child attended by doctor"
             width="0"
             height="0"
-            sizes="100vw"
-            className="w-full h-auto visible md:hidden"
+            sizes="50vw"
+            className="w-full h-auto visible lg:hidden"
           />
           <div className={`${classes.content} ${direction === "rtl" ? classes.rtl : ""}`}>
             <Title className={classes.title}>
               {t("firstLineTitle")}
-              <Text size="50px" mt="7px" c="rgba(255, 255, 255, 0.9)">
-                {t("secondLineTitle")}
-              </Text>
+              <Text className={classes.subtitle}>{t("secondLineTitle")}</Text>
             </Title>
 
             <Text className={classes.description} mt={30}>
