@@ -1,11 +1,11 @@
-# SALTO - Salute senza confini [Website] 
+# SALTO - Salute senza confini 
 <p align="center"> 
    <a target="_blank" href="https://salto.di.unito.it/en">
       <img src="https://github.com/jannhs/salto-website/blob/88af7cc1120efabcf60d6a3d070c69f4cf3530f2/public/logo_salto.png" width="200"/>
    </a>
 </p>
 
-This repository contains the source code for the [SALTO website](ttps://salto.di.unito.it/en), built using the [Next.js](https://nextjs.org) framework and Tailwind CSS.
+This repository contains the source code for the [SALTO website](https://salto.di.unito.it/en), built using the [Next.js](https://nextjs.org) framework and Tailwind CSS.
 It is designed to be multilingual: in the current version the website supports English, French, Italian, Spanish and Arab translations.
 
 
